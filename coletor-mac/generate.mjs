@@ -119,7 +119,7 @@ const snapshot = {
   pcId: pcCfg.pcId,
   pessoa: pcCfg.pessoa,
   sistemaOperacional: 'macOS',
-  geradoEm: new Date().toISOString().slice(0,19),
+  geradoEm: fmtLocalIso(new Date()),
   automacoes,
 };
 
