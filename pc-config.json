@@ -1,4 +1,9 @@
 {
   "pcId": "ana-giulia-paccola",
-  "pessoa": "Ana Giulia Paccola"
+  "pessoa": "Ana Giulia Paccola",
+  "nomes": {
+    "AsaasSheets": "Planilha Financeira - automatização Asaas",
+    "CRM Novos Clientes": "CRM 2026",
+    "Relatorio Semanal KPI CRM": "Relatorio Comercial Semanal"
+  }
 }

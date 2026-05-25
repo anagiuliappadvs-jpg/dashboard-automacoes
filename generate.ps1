@@ -546,8 +546,14 @@ $snapshot = [pscustomobject]@{
     geradoEm = (Get-Date).ToString('yyyy-MM-ddTHH:mm:ssK')
     automacoes = @($dados | ForEach-Object {
         $d = $_
+        # Aplica alias de nome se configurado em pc-config.json (campo "nomes")
+        $nomeFinal = $d.Nome
+        if ($pcCfg.PSObject.Properties.Name -contains 'nomes' -and $pcCfg.nomes) {
+            $alias = $pcCfg.nomes.PSObject.Properties[$d.Nome]
+            if ($alias) { $nomeFinal = $alias.Value }
+        }
         [pscustomobject]@{
-            nome = $d.Nome
+            nome = $nomeFinal
             descricao = $d.Descricao
             agendamento = $d.Agendamento
             proximaExecucao = if ($d.ProximaExecucao -and $d.ProximaExecucao.Year -gt 2000) { $d.ProximaExecucao.ToString('yyyy-MM-ddTHH:mm:ss') } else { $null }
