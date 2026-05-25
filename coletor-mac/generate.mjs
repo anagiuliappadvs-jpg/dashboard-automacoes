@@ -82,13 +82,20 @@ function parseLogFile(path) {
       }
     }
     return {
-      start: e.start.toISOString().slice(0,19),
-      end: e.end.toISOString().slice(0,19),
+      // Mesma convenção do coletor Windows: timestamp em LOCAL time, sem 'Z',
+      // pra render.mjs exibir como veio (sem conversão BRT→UTC).
+      start: fmtLocalIso(e.start),
+      end: fmtLocalIso(e.end),
       status,
       duracaoSeg: Math.round((e.end - e.start) / 1000),
       urls,
     };
   }).sort((a, b) => b.start.localeCompare(a.start));
+}
+
+function fmtLocalIso(d) {
+  const pad = n => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
 }
 
 const automacoes = automacoesCfg.map(a => {
