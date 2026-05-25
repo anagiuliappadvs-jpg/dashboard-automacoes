@@ -153,12 +153,31 @@ function Parse-LogFile($path) {
         }
 
         $duracao = ($e.End - $e.Start).TotalSeconds
+
+        # Extrai URLs e classifica (Doc, Trello, Sheets, outros)
+        $urls = @()
+        foreach ($l in $e.Linhas) {
+            $matches = [regex]::Matches($l, 'https?://[^\s\)"]+')
+            foreach ($m in $matches) {
+                $u = $m.Value.TrimEnd('.,;:')
+                $tipo = 'link'
+                if ($u -match 'docs\.google\.com/document') { $tipo = 'doc' }
+                elseif ($u -match 'docs\.google\.com/spreadsheets') { $tipo = 'sheet' }
+                elseif ($u -match 'drive\.google\.com') { $tipo = 'drive' }
+                elseif ($u -match 'trello\.com') { $tipo = 'trello' }
+                $urls += [pscustomobject]@{ Url = $u; Tipo = $tipo }
+            }
+        }
+        # Dedupe por URL
+        $urls = $urls | Group-Object Url | ForEach-Object { $_.Group[0] }
+
         $bloco = [pscustomobject]@{
             Start = $e.Start
             End = $e.End
             Status = $status
             Mensagem = $msg
             DuracaoSeg = [int]$duracao
+            Urls = @($urls)
         }
         [void]$resultado.Add($bloco)
     }
@@ -462,10 +481,21 @@ foreach ($d in ($dados | Sort-Object Nome)) {
     }
     [void]$sb.AppendLine('</div>')
 
+    # Arquivos gerados na ultima execucao (Docs, Trello, Sheets)
+    if ($ultimo -and $ultimo.Urls -and $ultimo.Urls.Count -gt 0) {
+        [void]$sb.AppendLine('<div style="margin-top:8px"><div class="l" style="color:var(--mut);font-size:11px;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px">Arquivos da ultima execucao</div>')
+        foreach ($u in $ultimo.Urls) {
+            $icone = switch ($u.Tipo) { 'doc' { '[Doc]' } 'sheet' { '[Planilha]' } 'drive' { '[Drive]' } 'trello' { '[Trello]' } default { '[Link]' } }
+            $cor = switch ($u.Tipo) { 'doc' { '#60a5fa' } 'sheet' { '#22c55e' } 'trello' { '#3b82f6' } default { '#94a3b8' } }
+            [void]$sb.AppendLine("<a href=`"$(Encode-Html $u.Url)`" target=`"_blank`" style=`"display:inline-block;background:rgba(96,165,250,.15);color:$cor;padding:6px 12px;border-radius:6px;margin-right:8px;margin-bottom:6px;text-decoration:none;font-size:13px;font-weight:500`">$icone Abrir</a>")
+        }
+        [void]$sb.AppendLine('</div>')
+    }
+
     # Historico
     if ($hist.Count -gt 0) {
         [void]$sb.AppendLine("<details><summary>Historico completo ($($hist.Count) execucao(oes))</summary>")
-        [void]$sb.AppendLine('<table><thead><tr><th>Data</th><th>Hora</th><th>Duracao</th><th>Status</th><th>Detalhe</th></tr></thead><tbody>')
+        [void]$sb.AppendLine('<table><thead><tr><th>Data</th><th>Hora</th><th>Duracao</th><th>Status</th><th>Arquivos</th><th>Detalhe</th></tr></thead><tbody>')
         foreach ($h in $hist) {
             $dataTxt = $h.Start.ToString('dd/MM/yyyy')
             $horaTxt = $h.Start.ToString('HH:mm:ss')
@@ -473,7 +503,17 @@ foreach ($d in ($dados | Sort-Object Nome)) {
             $cls = switch ($h.Status) { 'OK' { 'ok' } 'ERRO' { 'err' } default { 'warn' } }
             $msg = Encode-Html $h.Mensagem
             if ($msg.Length -gt 200) { $msg = $msg.Substring(0,200) + '...' }
-            [void]$sb.AppendLine("<tr><td>$dataTxt</td><td>$horaTxt</td><td>$durTxt</td><td><span class=`"badge $cls`">$($h.Status)</span></td><td class=`"msg`">$msg</td></tr>")
+            # Coluna arquivos
+            $linksHtml = ''
+            if ($h.Urls -and $h.Urls.Count -gt 0) {
+                foreach ($u in $h.Urls) {
+                    $icone = switch ($u.Tipo) { 'doc' { 'Doc' } 'sheet' { 'Sheet' } 'drive' { 'Drive' } 'trello' { 'Trello' } default { 'Link' } }
+                    $linksHtml += "<a href=`"$(Encode-Html $u.Url)`" target=`"_blank`" style=`"display:inline-block;background:rgba(96,165,250,.15);color:var(--accent);padding:2px 8px;border-radius:4px;margin-right:4px;text-decoration:none;font-size:11px`">$icone</a>"
+                }
+            } else {
+                $linksHtml = '<span style="color:var(--mut);font-size:11px">&mdash;</span>'
+            }
+            [void]$sb.AppendLine("<tr><td>$dataTxt</td><td>$horaTxt</td><td>$durTxt</td><td><span class=`"badge $cls`">$($h.Status)</span></td><td>$linksHtml</td><td class=`"msg`">$msg</td></tr>")
         }
         [void]$sb.AppendLine('</tbody></table></details>')
     } else {
