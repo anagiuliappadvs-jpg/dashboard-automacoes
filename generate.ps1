@@ -530,46 +530,76 @@ $htmlCompleto = $sb.ToString()
 [System.IO.File]::WriteAllText($outFile, $htmlCompleto, [System.Text.UTF8Encoding]::new($false))
 Write-Host "Dashboard gerado: $outFile"
 
-# Gera versao publica sanitizada (sem dados de clientes) pro GitHub Pages
-$htmlPublico = $htmlCompleto
-# Remove conteudo da coluna "Detalhe" do historico
-$htmlPublico = [regex]::Replace($htmlPublico, '<td class="msg">[^<]*</td>', '<td class="msg" style="color:var(--mut)">&mdash;</td>')
-# Remove o card "Detalhe ultima exec." inteiro
-$htmlPublico = [regex]::Replace($htmlPublico, '<div class="cell"><div class="l">Detalhe ultima exec\.</div>.*?</div></div>', '', [System.Text.RegularExpressions.RegexOptions]::Singleline)
-# Sanitiza o banner de alertas (remove a parte do detalhe, mantem so o tipo)
-$htmlPublico = [regex]::Replace($htmlPublico, '<li><strong>([^<]+)</strong> - ([^:]+):[^<]*</li>', '<li><strong>$1</strong> &mdash; $2</li>')
-# Adiciona aviso de versao publica no topo
-$htmlPublico = $htmlPublico -replace '<div class="subt">Ultima atualizacao:', '<div class="subt"><span style="background:rgba(96,165,250,.2);padding:2px 8px;border-radius:4px;color:var(--accent);margin-right:8px">VERSAO PUBLICA</span>Ultima atualizacao:'
+# ---------- Snapshot JSON deste PC (publicado pro GitHub) ----------
+$pcConfigPath = Join-Path $scriptDir 'pc-config.json'
+if (-not (Test-Path $pcConfigPath)) {
+    Write-Host "AVISO: pc-config.json nao encontrado. Pulando publicacao."
+    exit 0
+}
+$pcCfg = Get-Content $pcConfigPath -Encoding UTF8 -Raw | ConvertFrom-Json
 
-$repoIndex = Join-Path $scriptDir 'index.html'
-[System.IO.File]::WriteAllText($repoIndex, $htmlPublico, [System.Text.UTF8Encoding]::new($false))
-Write-Host "index.html (publico) gerado em: $repoIndex"
+# Constroi objeto leve com tudo que o render Node precisa pra rederizar este PC
+$snapshot = [pscustomobject]@{
+    pcId = $pcCfg.pcId
+    pessoa = $pcCfg.pessoa
+    sistemaOperacional = 'Windows'
+    geradoEm = (Get-Date).ToString('yyyy-MM-ddTHH:mm:ssK')
+    automacoes = @($dados | ForEach-Object {
+        $d = $_
+        [pscustomobject]@{
+            nome = $d.Nome
+            descricao = $d.Descricao
+            agendamento = $d.Agendamento
+            proximaExecucao = if ($d.ProximaExecucao -and $d.ProximaExecucao.Year -gt 2000) { $d.ProximaExecucao.ToString('yyyy-MM-ddTHH:mm:ss') } else { $null }
+            ultimaExecucaoWindows = if ($d.UltimaExecucaoWindows -and $d.UltimaExecucaoWindows.Year -gt 2000) { $d.UltimaExecucaoWindows.ToString('yyyy-MM-ddTHH:mm:ss') } else { $null }
+            ultimoResultadoCodigo = $d.UltimoResultadoCodigo
+            ultimoResultadoTexto = $d.UltimoResultadoTexto
+            runsPerdidos = $d.RunsPerdidos
+            diasIntervalo = $d.DiasIntervalo
+            tipo = $d.Tipo
+            historico = @(@($d.Historico) | ForEach-Object {
+                [pscustomobject]@{
+                    start = $_.Start.ToString('yyyy-MM-ddTHH:mm:ss')
+                    end = $_.End.ToString('yyyy-MM-ddTHH:mm:ss')
+                    status = $_.Status
+                    duracaoSeg = $_.DuracaoSeg
+                    urls = @($_.Urls | ForEach-Object { @{ url = $_.Url; tipo = $_.Tipo } })
+                }
+            })
+        }
+    })
+}
 
-# Tenta fazer push pro GitHub (silencioso se ainda nao configurado)
+$dataDir = Join-Path $scriptDir 'data'
+if (-not (Test-Path $dataDir)) { New-Item -ItemType Directory -Path $dataDir | Out-Null }
+$jsonPath = Join-Path $dataDir "$($pcCfg.pcId).json"
+$jsonText = $snapshot | ConvertTo-Json -Depth 10
+[System.IO.File]::WriteAllText($jsonPath, $jsonText, [System.Text.UTF8Encoding]::new($false))
+Write-Host "Snapshot publicado em: $jsonPath"
+
+# ---------- Push pro GitHub (so do JSON deste PC) ----------
 Push-Location $scriptDir
 try {
-    $gitDir = Join-Path $scriptDir '.git'
-    if (Test-Path $gitDir) {
-        # Verifica se ha mudancas
-        $status = git status --porcelain 2>$null
+    if (Test-Path '.git') {
+        # Sincroniza com remote antes de push
+        git fetch origin 2>$null | Out-Null
+        git pull --rebase --autostash origin main 2>$null | Out-Null
+
+        $status = git status --porcelain "data/$($pcCfg.pcId).json" 2>$null
         if ($status) {
-            git add -A 2>$null | Out-Null
-            $msg = "Dashboard refresh - $(Get-Date -Format 'dd/MM/yyyy HH:mm')"
+            git add "data/$($pcCfg.pcId).json" 2>$null | Out-Null
+            $msg = "Snapshot $($pcCfg.pcId) - $(Get-Date -Format 'dd/MM/yyyy HH:mm')"
             git commit -m "$msg" 2>$null | Out-Null
-            # So tenta push se houver remote configurado
-            $hasRemote = git remote 2>$null
-            if ($hasRemote) {
+            if (git remote 2>$null) {
                 git push 2>$null | Out-Null
                 if ($LASTEXITCODE -eq 0) {
-                    Write-Host "Push pro GitHub: OK"
+                    Write-Host "Push pro GitHub: OK (Action vai re-renderizar o dashboard)"
                 } else {
                     Write-Host "Push falhou (provavel falta de auth - rode: gh auth login)"
                 }
-            } else {
-                Write-Host "Sem remote configurado ainda (rode setup do GitHub)"
             }
         } else {
-            Write-Host "Sem mudancas pra publicar"
+            Write-Host "Sem mudancas no snapshot deste PC"
         }
     }
 } catch {
