@@ -83,25 +83,39 @@ Write-Host ""
 # ---------- 4. Configurar identidade ----------
 Step '4/5' 'Configurando este PC no dashboard...'
 $cfgPath = Join-Path $repoDir 'pc-config.json'
-$skipCfg = $false
-if (Test-Path $cfgPath) {
-    $cur = Get-Content $cfgPath -Raw | ConvertFrom-Json
-    if ($cur.pcId -and $cur.pcId -ne 'MEU-NOME-AQUI') {
-        Info "Ja configurado como: $($cur.pessoa) (pcId: $($cur.pcId))"
-        $r = Read-Host "    Quer mudar? (s/N)"
-        if ($r -notmatch '^[sS]$') { $skipCfg = $true }
-    }
+
+# pc-config.json vem do repo (com pcId de quem fez o clone original) — SEMPRE pedimos pcId
+$dataDir = Join-Path $repoDir 'data'
+$existentes = @()
+if (Test-Path $dataDir) {
+    $existentes = Get-ChildItem $dataDir -Filter '*.json' | ForEach-Object { $_.BaseName }
 }
-if (-not $skipCfg) {
+if ($existentes.Count -gt 0) {
+    Info "PCs ja cadastrados: $($existentes -join ', ')"
+    Info "(Voce precisa escolher um pcId DIFERENTE desses)"
     Write-Host ""
-    $pessoa = Read-Host "    Qual e o seu nome completo?"
-    Write-Host ""
-    Info "Agora um identificador unico desse PC (so letras minusculas e hifens)"
-    Info "Exemplos: lucas-pc, maria-pelegrini-pc"
+}
+
+$pessoa = Read-Host "    Qual e o seu nome completo?"
+Write-Host ""
+Info "Agora um identificador unico desse PC (so letras minusculas e hifens)"
+Info "Exemplos: lucas-pc, maria-pelegrini-pc"
+
+while ($true) {
     $pcId = Read-Host "    pcId"
-    @{ pcId = $pcId; pessoa = $pessoa } | ConvertTo-Json | Out-File -FilePath $cfgPath -Encoding UTF8
-    OK "pc-config.json criado."
+    if ($pcId -notmatch '^[a-z0-9-]+$') {
+        Err "Use so letras minusculas, numeros e hifens."
+        continue
+    }
+    if (Test-Path (Join-Path $dataDir "$pcId.json")) {
+        Err "'$pcId' ja existe (e de outra pessoa). Escolha outro."
+        continue
+    }
+    break
 }
+
+@{ pcId = $pcId; pessoa = $pessoa } | ConvertTo-Json | Out-File -FilePath $cfgPath -Encoding UTF8
+OK "pc-config.json criado: $pessoa ($pcId)"
 Write-Host ""
 
 # ---------- 5. Testar geracao + agendar ----------

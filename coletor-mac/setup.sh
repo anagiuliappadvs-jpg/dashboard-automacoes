@@ -85,31 +85,45 @@ echo ""
 
 # ---------- 4. Configurar identidade deste Mac ----------
 echo -e "${YEL}[4/6]${RST} Configurando este Mac no dashboard..."
-if [ -f "pc-config.json" ] && ! grep -q "MEU-NOME-AQUI" pc-config.json; then
-  CURRENT_PCID=$(node -e "console.log(JSON.parse(require('fs').readFileSync('pc-config.json','utf8')).pcId)" 2>/dev/null || echo "?")
-  CURRENT_PESSOA=$(node -e "console.log(JSON.parse(require('fs').readFileSync('pc-config.json','utf8')).pessoa)" 2>/dev/null || echo "?")
-  echo "    Ja configurado como: $CURRENT_PESSOA (pcId: $CURRENT_PCID)"
-  read -p "    Quer mudar? (s/N) " MUDAR
-  if [[ "$MUDAR" != "s" && "$MUDAR" != "S" ]]; then
-    SKIP_CFG=1
-  fi
+
+# pc-config.json vem do repo (com o pcId de quem fez o clone original) — SEMPRE pedimos o pcId.
+# Isso evita que o coletor sobrescreva o data/<outra-pessoa>.json por engano.
+
+# Lista de pcIds ja existentes (do data/)
+EXISTENTES=$(ls data/*.json 2>/dev/null | xargs -n1 basename 2>/dev/null | sed 's/\.json$//' | tr '\n' ' ')
+if [ -n "$EXISTENTES" ]; then
+  echo "    PCs ja cadastrados: $EXISTENTES"
+  echo "    (Voce precisa escolher um pcId DIFERENTE desses)"
+  echo ""
 fi
 
-if [ -z "${SKIP_CFG:-}" ]; then
-  echo ""
-  read -p "    Qual e o seu nome completo? " PESSOA
-  echo ""
-  echo "    Agora um identificador unico desse Mac (so letras minusculas e hifens)"
-  echo "    Exemplos: lucas-mac, maria-pelegrini-mac"
+read -p "    Qual e o seu nome completo? " PESSOA
+echo ""
+echo "    Agora um identificador unico desse Mac (so letras minusculas e hifens)"
+echo "    Exemplos: lucas-mac, maria-pelegrini-mac"
+
+while true; do
   read -p "    pcId: " PCID
-  cat > pc-config.json <<EOF
+  # Valida formato
+  if [[ ! "$PCID" =~ ^[a-z0-9-]+$ ]]; then
+    echo -e "    ${RED}Use so letras minusculas, numeros e hifens.${RST}"
+    continue
+  fi
+  # Valida que nao colide
+  if [ -f "data/$PCID.json" ]; then
+    echo -e "    ${RED}'$PCID' ja existe (e de outra pessoa).${RST} Escolha outro."
+    continue
+  fi
+  break
+done
+
+cat > pc-config.json <<EOF
 {
   "pcId": "$PCID",
   "pessoa": "$PESSOA"
 }
 EOF
-  echo "    pc-config.json criado."
-fi
+echo "    pc-config.json criado: $PESSOA ($PCID)"
 echo ""
 
 # ---------- 5. Lista de automacoes ----------
