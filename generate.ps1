@@ -485,14 +485,25 @@ foreach ($d in ($dados | Sort-Object Nome)) {
 [void]$sb.AppendLine("<div class=`"foot`">Atualiza sozinho de hora em hora. Para forcar atualizacao agora: duplo-clique no atalho `"Atualizar Dashboard`" na area de trabalho.</div>")
 [void]$sb.AppendLine('</body></html>')
 
-# Salva versao local (area de trabalho)
-[System.IO.File]::WriteAllText($outFile, $sb.ToString(), [System.Text.UTF8Encoding]::new($false))
+# Salva versao local (area de trabalho) - completa, com nomes de clientes
+$htmlCompleto = $sb.ToString()
+[System.IO.File]::WriteAllText($outFile, $htmlCompleto, [System.Text.UTF8Encoding]::new($false))
 Write-Host "Dashboard gerado: $outFile"
 
-# Salva versao pro GitHub Pages (index.html no repo)
+# Gera versao publica sanitizada (sem dados de clientes) pro GitHub Pages
+$htmlPublico = $htmlCompleto
+# Remove conteudo da coluna "Detalhe" do historico
+$htmlPublico = [regex]::Replace($htmlPublico, '<td class="msg">[^<]*</td>', '<td class="msg" style="color:var(--mut)">&mdash;</td>')
+# Remove o card "Detalhe ultima exec." inteiro
+$htmlPublico = [regex]::Replace($htmlPublico, '<div class="cell"><div class="l">Detalhe ultima exec\.</div>.*?</div></div>', '', [System.Text.RegularExpressions.RegexOptions]::Singleline)
+# Sanitiza o banner de alertas (remove a parte do detalhe, mantem so o tipo)
+$htmlPublico = [regex]::Replace($htmlPublico, '<li><strong>([^<]+)</strong> - ([^:]+):[^<]*</li>', '<li><strong>$1</strong> &mdash; $2</li>')
+# Adiciona aviso de versao publica no topo
+$htmlPublico = $htmlPublico -replace '<div class="subt">Ultima atualizacao:', '<div class="subt"><span style="background:rgba(96,165,250,.2);padding:2px 8px;border-radius:4px;color:var(--accent);margin-right:8px">VERSAO PUBLICA</span>Ultima atualizacao:'
+
 $repoIndex = Join-Path $scriptDir 'index.html'
-[System.IO.File]::WriteAllText($repoIndex, $sb.ToString(), [System.Text.UTF8Encoding]::new($false))
-Write-Host "index.html gerado em: $repoIndex"
+[System.IO.File]::WriteAllText($repoIndex, $htmlPublico, [System.Text.UTF8Encoding]::new($false))
+Write-Host "index.html (publico) gerado em: $repoIndex"
 
 # Tenta fazer push pro GitHub (silencioso se ainda nao configurado)
 Push-Location $scriptDir
