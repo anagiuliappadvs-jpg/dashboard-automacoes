@@ -2,7 +2,7 @@
   "pcId": "emilia-pelegrini",
   "pessoa": "Emilia Pelegrini",
   "sistemaOperacional": "macOS",
-  "geradoEm": "2026-05-25T15:58:51",
+  "geradoEm": "2026-05-25T16:06:35",
   "automacoes": [
     {
       "nome": "Relatório Diário SDR",
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "nome": "Relatório Semanal Leads Kommo",
+      "nome": "Relatório Semanal Campanhas",
       "descricao": "Toda sábado às 10h gera CSV acumulado dos leads do Kommo da semana (dom→sex) com telefone, tags e status atual (Pipeline / Coluna). Salva no Desktop e sobe pra pasta Tráfego do Drive como Google Sheets.",
       "agendamento": "Semanalmente — Sábados às 10:00 BRT",
       "proximaExecucao": null,
