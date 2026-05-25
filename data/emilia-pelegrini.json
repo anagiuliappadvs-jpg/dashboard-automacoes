@@ -2,10 +2,10 @@
   "pcId": "emilia-pelegrini",
   "pessoa": "Emilia Pelegrini",
   "sistemaOperacional": "macOS",
-  "geradoEm": "2026-05-25T18:29:36",
+  "geradoEm": "2026-05-25T18:34:25",
   "automacoes": [
     {
-      "nome": "Relatório Diário de Leads do Kommo",
+      "nome": "Relatório Diário SDR",
       "descricao": "Gera planilha XLSX com os leads do Kommo das últimas 24h agrupados por nicho, com cores próprias, subtotais e total geral. Salva no Desktop e sobe pra pasta SDR do Drive.",
       "agendamento": "Diariamente às 17:00 BRT",
       "proximaExecucao": null,
