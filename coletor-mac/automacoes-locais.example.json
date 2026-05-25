@@ -1,0 +1,17 @@
+[
+  {
+    "nome": "Nome da automacao",
+    "descricao": "O que ela faz",
+    "agendamento": "Diariamente as 09:00",
+    "logPath": "/Users/seunome/projetos/minha-rotina/logs.txt",
+    "tipo": "Agendada",
+    "diasIntervalo": 1
+  },
+  {
+    "nome": "Exemplo manual",
+    "descricao": "Rotina rodada quando preciso",
+    "agendamento": "Sob demanda",
+    "logPath": "/Users/seunome/projetos/outra/logs.txt",
+    "tipo": "Manual"
+  }
+]
