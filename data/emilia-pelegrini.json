@@ -2,7 +2,7 @@
   "pcId": "emilia-pelegrini",
   "pessoa": "Emilia Pelegrini",
   "sistemaOperacional": "macOS",
-  "geradoEm": "2026-05-25T18:27:35",
+  "geradoEm": "2026-05-25T18:29:36",
   "automacoes": [
     {
       "nome": "Relatório Diário de Leads do Kommo",
@@ -11,19 +11,19 @@
       "proximaExecucao": null,
       "ultimaExecucaoWindows": null,
       "ultimoResultadoCodigo": null,
-      "ultimoResultadoTexto": "Indeterminado",
+      "ultimoResultadoTexto": "OK",
       "runsPerdidos": 0,
       "diasIntervalo": 1,
       "tipo": "Agendada",
       "historico": [
         {
-          "start": "2026-05-25T18:27:12",
-          "end": "2026-05-25T18:27:34",
-          "status": "Indeterminado",
-          "duracaoSeg": 22,
+          "start": "2026-05-25T18:29:28",
+          "end": "2026-05-25T18:29:36",
+          "status": "OK",
+          "duracaoSeg": 8,
           "urls": [
             {
-              "url": "https://drive.google.com/file/d/1mND_F37HaNIP_jFXriUXC9phQsf1CLvg/view",
+              "url": "https://drive.google.com/file/d/1b1c1B8tNGUKjGAmZTpEMYLCbV7M_M8VG/view",
               "tipo": "drive"
             }
           ]
