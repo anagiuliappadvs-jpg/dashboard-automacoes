@@ -2,7 +2,7 @@
   "pcId": "emilia-pelegrini",
   "pessoa": "Emilia Pelegrini",
   "sistemaOperacional": "macOS",
-  "geradoEm": "2026-05-25T15:51:35",
+  "geradoEm": "2026-05-25T15:58:51",
   "automacoes": [
     {
       "nome": "Relatório Diário SDR",
@@ -25,6 +25,32 @@
             {
               "url": "https://drive.google.com/file/d/1ZjGCtW1MQWyXMZ7uWUbOO3-v8XxlDZ_J/view",
               "tipo": "drive"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Relatório Semanal Leads Kommo",
+      "descricao": "Toda sábado às 10h gera CSV acumulado dos leads do Kommo da semana (dom→sex) com telefone, tags e status atual (Pipeline / Coluna). Salva no Desktop e sobe pra pasta Tráfego do Drive como Google Sheets.",
+      "agendamento": "Semanalmente — Sábados às 10:00 BRT",
+      "proximaExecucao": null,
+      "ultimaExecucaoWindows": null,
+      "ultimoResultadoCodigo": null,
+      "ultimoResultadoTexto": "OK",
+      "runsPerdidos": 0,
+      "diasIntervalo": 7,
+      "tipo": "Agendada",
+      "historico": [
+        {
+          "start": "2026-05-25T13:24:48",
+          "end": "2026-05-25T13:25:04",
+          "status": "OK",
+          "duracaoSeg": 16,
+          "urls": [
+            {
+              "url": "https://docs.google.com/spreadsheets/d/13byzNh51L2RCh-e1zEzvy66NjzSKFeW_anN6dZ1sQgw/edit",
+              "tipo": "sheet"
             }
           ]
         }
