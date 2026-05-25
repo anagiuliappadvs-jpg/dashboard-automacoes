@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-05-25T15:35:27-03:00",
+    "geradoEm":  "2026-05-25T15:52:51-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -173,6 +173,29 @@
                                                  "end":  "2026-05-20T14:31:10",
                                                  "status":  "ERRO",
                                                  "duracaoSeg":  1316,
+                                                 "urls":  [
+
+                                                          ]
+                                             }
+                                         ]
+                       },
+                       {
+                           "nome":  "KpiStatusUpdater",
+                           "descricao":  "Atualiza status do KPI a partir dos Paineis do Kommo (Closer/Financeiro/Operacional)",
+                           "agendamento":  "Seg as 08:40",
+                           "proximaExecucao":  "2026-06-01T08:40:40",
+                           "ultimaExecucaoWindows":  null,
+                           "ultimoResultadoCodigo":  267011,
+                           "ultimoResultadoTexto":  "Ainda nao executou",
+                           "runsPerdidos":  0,
+                           "diasIntervalo":  7,
+                           "tipo":  "Agendada",
+                           "historico":  [
+                                             {
+                                                 "start":  "2026-05-25T15:43:43",
+                                                 "end":  "2026-05-25T15:51:15",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  452,
                                                  "urls":  [
 
                                                           ]
