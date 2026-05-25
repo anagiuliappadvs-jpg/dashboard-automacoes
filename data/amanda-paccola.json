@@ -1,0 +1,263 @@
+﻿{
+    "pcId":  "amanda-paccola",
+    "pessoa":  "Amanda Paccola",
+    "sistemaOperacional":  "Windows",
+    "geradoEm":  "2026-05-25T13:41:02-03:00",
+    "automacoes":  [
+                       {
+                           "nome":  "AsaasSheets",
+                           "descricao":  null,
+                           "agendamento":  "Diariamente as 15:30",
+                           "proximaExecucao":  "2026-05-25T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-05-25T08:31:31",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
+                           "runsPerdidos":  0,
+                           "diasIntervalo":  1,
+                           "tipo":  "Agendada",
+                           "historico":  [
+                                             {
+                                                 "start":  "2026-05-25T08:31:09",
+                                                 "end":  "2026-05-25T08:33:17",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  128,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-05-23T18:47:51",
+                                                 "end":  "2026-05-23T18:48:55",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  64,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-05-22T09:00:01",
+                                                 "end":  "2026-05-22T09:00:59",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  58,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-05-21T09:00:01",
+                                                 "end":  "2026-05-21T09:01:23",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  82,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-05-20T09:00:02",
+                                                 "end":  "2026-05-20T09:25:08",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  1506,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-05-19T14:50:58",
+                                                 "end":  "2026-05-19T14:51:56",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  58,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-05-19T10:24:36",
+                                                 "end":  "2026-05-19T10:24:36",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-05-18T11:21:32",
+                                                 "end":  "2026-05-18T11:22:07",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  35,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-05-18T09:32:41",
+                                                 "end":  "2026-05-18T09:33:41",
+                                                 "status":  "ERRO",
+                                                 "duracaoSeg":  60,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-05-14T09:11:14",
+                                                 "end":  "2026-05-14T09:11:57",
+                                                 "status":  "ERRO",
+                                                 "duracaoSeg":  43,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             }
+                                         ]
+                       },
+                       {
+                           "nome":  "CRM Novos Clientes",
+                           "descricao":  null,
+                           "agendamento":  "Seg as 08:30",
+                           "proximaExecucao":  "2026-06-01T08:30:30",
+                           "ultimaExecucaoWindows":  "2026-05-25T10:00:00",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
+                           "runsPerdidos":  0,
+                           "diasIntervalo":  7,
+                           "tipo":  "Agendada",
+                           "historico":  [
+                                             {
+                                                 "start":  "2026-05-25T10:01:38",
+                                                 "end":  "2026-05-25T10:03:57",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  139,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-05-20T14:09:14",
+                                                 "end":  "2026-05-20T14:31:10",
+                                                 "status":  "ERRO",
+                                                 "duracaoSeg":  1316,
+                                                 "urls":  [
+
+                                                          ]
+                                             }
+                                         ]
+                       },
+                       {
+                           "nome":  "Relatorio Financeiro Semanal",
+                           "descricao":  "Roda toda segunda 09:30 gerando relatorio financeiro semanal",
+                           "agendamento":  "Ter as 09:00",
+                           "proximaExecucao":  "2026-05-26T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-05-25T09:30:30",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
+                           "runsPerdidos":  0,
+                           "diasIntervalo":  7,
+                           "tipo":  "Agendada",
+                           "historico":  [
+                                             {
+                                                 "start":  "2026-05-25T09:31:03",
+                                                 "end":  "2026-05-25T09:31:26",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  23,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/176D-z18r8RG4rDEdy383PO7QPNW97jyoBzbz1ABBdmc/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/NAvhg8g3",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-05-22T13:50:26",
+                                                 "end":  "2026-05-22T14:59:22",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  4136,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1CO-VeQjmitIWl3TYGSUXbwUgbkzTjLIKdCxKxfBcKuM/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/FVrwrwi8",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1oPCcgfu9VUFOQNg226fZvzw7ybq3cZ4hIEXieTNEons/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/UerThzOP",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1DW_GGdZfkEZXtnBiU4SMGC8DIjO-pZzy-MfJW_If5vM/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/m3WwVdny",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             }
+                                         ]
+                       },
+                       {
+                           "nome":  "Relatorio Semanal KPI CRM",
+                           "descricao":  null,
+                           "agendamento":  "Seg as 09:00",
+                           "proximaExecucao":  "2026-06-01T09:00:00",
+                           "ultimaExecucaoWindows":  null,
+                           "ultimoResultadoCodigo":  267011,
+                           "ultimoResultadoTexto":  "Ainda nao executou",
+                           "runsPerdidos":  0,
+                           "diasIntervalo":  7,
+                           "tipo":  "Agendada",
+                           "historico":  [
+                                             {
+                                                 "start":  "2026-05-25T09:57:52",
+                                                 "end":  "2026-05-25T10:02:09",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  257,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1kPUQUzKGxka3LLXTsN_WpY1i5CQYxf4hwX14D0_JfOY/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/K7jxtjdl",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             }
+                                         ]
+                       }
+                   ]
+}
