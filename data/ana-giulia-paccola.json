@@ -2,10 +2,13 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-05-26T09:00:19-03:00",
+    "geradoEm":  "2026-05-26T09:20:26-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
+                           "linksFixos":  [
+
+                                          ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
                            "proximaExecucao":  "2026-05-26T15:30:30",
@@ -149,6 +152,9 @@
                        },
                        {
                            "nome":  "CRM 2026",
+                           "linksFixos":  [
+
+                                          ],
                            "descricao":  null,
                            "agendamento":  "Seg as 08:30",
                            "proximaExecucao":  "2026-06-01T08:30:30",
@@ -181,6 +187,9 @@
                        },
                        {
                            "nome":  "Planilha de KPI - automação",
+                           "linksFixos":  [
+
+                                          ],
                            "descricao":  "Atualiza status do KPI a partir dos Paineis do Kommo (Closer/Financeiro/Operacional). Roda 2x na sexta: 11h e 17h30.",
                            "agendamento":  "Sex as 17:30",
                            "proximaExecucao":  "2026-05-29T11:00:00",
@@ -204,16 +213,35 @@
                        },
                        {
                            "nome":  "Relatorio Financeiro Semanal",
+                           "linksFixos":  [
+
+                                          ],
                            "descricao":  "Roda toda segunda 09:30 gerando relatorio financeiro semanal",
                            "agendamento":  "Ter as 09:00",
                            "proximaExecucao":  "2026-06-02T09:00:00",
                            "ultimaExecucaoWindows":  "2026-05-26T09:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-05-26T09:00:25",
+                                                 "end":  "2026-05-26T09:00:57",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  32,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/13ln4dFc_vaq90cg-eqsUBaqEHBIzZ-Lywdz4y_yMo9U/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/NvFmYYt6",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-05-25T09:31:03",
                                                  "end":  "2026-05-25T09:31:26",
@@ -266,6 +294,9 @@
                        },
                        {
                            "nome":  "Relatorio Comercial Semanal",
+                           "linksFixos":  [
+
+                                          ],
                            "descricao":  null,
                            "agendamento":  "Seg as 09:00",
                            "proximaExecucao":  "2026-06-01T09:00:00",
