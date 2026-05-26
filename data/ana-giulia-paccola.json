@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-05-26T09:23:28-03:00",
+    "geradoEm":  "2026-05-26T09:24:34-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -153,7 +153,16 @@
                        {
                            "nome":  "CRM 2026",
                            "linksFixos":  [
-
+                                              {
+                                                  "label":  "Planilha Financeira (fonte)",
+                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                  "tipo":  "sheet"
+                                              },
+                                              {
+                                                  "label":  "CRM (destino - CLAUDE TEST)",
+                                                  "url":  "https://docs.google.com/spreadsheets/d/1lJqJfvIR2M0NaGxW67PcjsjQ2SygDbRkPInWu3cEAKc/edit",
+                                                  "tipo":  "sheet"
+                                              }
                                           ],
                            "descricao":  null,
                            "agendamento":  "Seg as 08:30",
@@ -188,7 +197,11 @@
                        {
                            "nome":  "Planilha de KPI - automação",
                            "linksFixos":  [
-
+                                              {
+                                                  "label":  "Planilha KPI 2026",
+                                                  "url":  "https://docs.google.com/spreadsheets/d/1AV9sJGgYmvChiDTrkE6lp1eHHpui1WNqXqBRW4U9kjI/edit",
+                                                  "tipo":  "sheet"
+                                              }
                                           ],
                            "descricao":  "Atualiza status do KPI a partir dos Paineis do Kommo (Closer/Financeiro/Operacional). Roda 2x na sexta: 11h e 17h30.",
                            "agendamento":  "Sex as 17:30",
@@ -295,7 +308,16 @@
                        {
                            "nome":  "Relatorio Comercial Semanal",
                            "linksFixos":  [
-
+                                              {
+                                                  "label":  "Planilha KPI 2026",
+                                                  "url":  "https://docs.google.com/spreadsheets/d/1AV9sJGgYmvChiDTrkE6lp1eHHpui1WNqXqBRW4U9kjI/edit",
+                                                  "tipo":  "sheet"
+                                              },
+                                              {
+                                                  "label":  "CRM 2026",
+                                                  "url":  "https://docs.google.com/spreadsheets/d/1FLUYjO7UtdRQBmZnVNQ-on0rmIKKEfSeGyFoPwW4NWY/edit",
+                                                  "tipo":  "sheet"
+                                              }
                                           ],
                            "descricao":  null,
                            "agendamento":  "Seg as 09:00",
