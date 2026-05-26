@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-05-26T15:36:15-03:00",
+    "geradoEm":  "2026-05-26T15:38:36-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -397,9 +397,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-05-26T15:33:25",
-                                                 "end":  "2026-05-26T15:35:44",
+                                                 "end":  "2026-05-26T15:38:12",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  139,
+                                                 "duracaoSeg":  287,
                                                  "urls":  [
                                                               {
                                                                   "url":  "https://docs.google.com/document/d/1LuriplVzftlCMTM-wxk4foyMIkTSVaLh8ED_fgqEK_g/edit?usp=drivesdk",
@@ -407,6 +407,10 @@
                                                               },
                                                               {
                                                                   "url":  "https://docs.google.com/document/d/1xzBUab_FemsIxOCQGxbtU3Jv_BHr56gqOJMxaMWJhNM/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1vFBcswib-ycLgo44nlLauSIuV_1HKrBwMJHK88OsIbY/edit?usp=drivesdk",
                                                                   "tipo":  "doc"
                                                               }
                                                           ]
