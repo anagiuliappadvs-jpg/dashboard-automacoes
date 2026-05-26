@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-05-26T15:21:03-03:00",
+    "geradoEm":  "2026-05-26T15:34:20-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -11,14 +11,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-05-26T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-05-25T15:30:30",
+                           "proximaExecucao":  "2026-05-27T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-05-26T15:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-05-26T15:30:01",
+                                                 "end":  "2026-05-26T15:30:26",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  25,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-05-26T09:52:04",
                                                  "end":  "2026-05-26T09:52:33",
@@ -383,7 +395,18 @@
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
-
+                                             {
+                                                 "start":  "2026-05-26T15:33:25",
+                                                 "end":  "2026-05-26T15:33:33",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  8,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1LuriplVzftlCMTM-wxk4foyMIkTSVaLh8ED_fgqEK_g/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              }
+                                                          ]
+                                             }
                                          ]
                        }
                    ]
