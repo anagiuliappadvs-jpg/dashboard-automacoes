@@ -221,8 +221,8 @@ body{
   margin-left:auto;
   margin-right:auto;
 }
-.header{background:#0A0A0A;border-radius:6px;padding:28px 32px;display:flex;justify-content:center;align-items:center;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.15)}
-.header img.logo{display:block;max-height:120px;width:auto;height:auto}
+.header{margin-bottom:20px}
+.header img.logo{display:block;height:48px;width:auto}
 h1{margin:24px 0 4px 0;font-size:28px;font-family:'Montserrat','Helvetica Neue',Arial,sans-serif;font-weight:400;color:var(--txt);letter-spacing:0.5px}
 .subt{color:var(--mut);font-size:13px;margin-bottom:24px;font-family:-apple-system,Helvetica,sans-serif;font-style:italic}
 .pessoa{margin:36px 0 24px;padding:12px 0;border-top:1px solid var(--border)}
