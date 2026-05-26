@@ -221,11 +221,8 @@ body{
   margin-left:auto;
   margin-right:auto;
 }
-.header{display:flex;align-items:center;gap:20px;margin-bottom:8px;padding-bottom:20px;border-bottom:2px solid var(--accent)}
-.header .logo{flex-shrink:0}
-.header .brand{display:flex;flex-direction:column;gap:2px}
-.header .brand-name{font-family:'Montserrat','Helvetica Neue',Arial,sans-serif;font-size:30px;font-weight:800;letter-spacing:0.5px;color:var(--txt);line-height:1.05}
-.header .brand-sub{font-family:'Montserrat','Helvetica Neue',Arial,sans-serif;font-size:14px;font-weight:300;color:var(--txt);letter-spacing:1.5px;margin-top:2px}
+.header{background:#0A0A0A;border-radius:6px;padding:28px 32px;display:flex;justify-content:center;align-items:center;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.15)}
+.header img.logo{display:block;max-height:120px;width:auto;height:auto}
 h1{margin:24px 0 4px 0;font-size:28px;font-family:'Montserrat','Helvetica Neue',Arial,sans-serif;font-weight:400;color:var(--txt);letter-spacing:0.5px}
 .subt{color:var(--mut);font-size:13px;margin-bottom:24px;font-family:-apple-system,Helvetica,sans-serif;font-style:italic}
 .pessoa{margin:36px 0 24px;padding:12px 0;border-top:1px solid var(--border)}
@@ -260,39 +257,9 @@ a:hover{color:var(--accent)}
 
 const banner = `<div style="background:rgba(168,137,92,.10);border:1px solid var(--accent);border-left:4px solid var(--accent);border-radius:4px;padding:12px 16px;margin-bottom:28px;color:var(--accent-dark);font-size:13px;font-family:-apple-system,Helvetica,sans-serif;font-style:italic">Esta &eacute; a vers&atilde;o p&uacute;blica do dashboard. Detalhes sens&iacute;veis (nomes de clientes etc.) ficam apenas na vers&atilde;o local de cada PC.</div>`;
 
-const logoSvg = `<svg viewBox="0 0 100 100" width="84" height="84" xmlns="http://www.w3.org/2000/svg" aria-label="Paccola e Pelegrini">
-  <defs>
-    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#C5A776"/>
-      <stop offset="50%" stop-color="#A8895C"/>
-      <stop offset="100%" stop-color="#8B6F3E"/>
-    </linearGradient>
-  </defs>
-  <!-- Losango duplo (externo + interno) -->
-  <g transform="rotate(45 50 50)" fill="none" stroke="url(#goldGrad)">
-    <rect x="14" y="14" width="72" height="72" stroke-width="3"/>
-    <rect x="22" y="22" width="56" height="56" stroke-width="2"/>
-  </g>
-  <!-- Monograma: padrao de greca/chave geometrica entrelacando dois P -->
-  <g fill="none" stroke="url(#goldGrad)" stroke-width="2.6" stroke-linecap="square" stroke-linejoin="miter">
-    <!-- P esquerdo: haste vertical + topo + curva interna em angulo reto -->
-    <path d="M 36,33 L 36,67"/>
-    <path d="M 36,33 L 52,33 L 52,49 L 42,49"/>
-    <!-- P direito (espelhado): haste vertical + topo + curva interna -->
-    <path d="M 64,33 L 64,67"/>
-    <path d="M 64,33 L 48,33 L 48,49 L 58,49"/>
-    <!-- Detalhe inferior conectando as bases (entrelacamento) -->
-    <path d="M 36,67 L 64,67"/>
-  </g>
-</svg>`;
-
-const header = `<div class="header">
-  <div class="logo">${logoSvg}</div>
-  <div class="brand">
-    <div class="brand-name">PACCOLA &amp; PELEGRINI</div>
-    <div class="brand-sub">Advogados Associados</div>
-  </div>
-</div>`;
+const header = `<header class="header">
+  <img class="logo" src="assets/logo-paccola.png" alt="Paccola &amp; Pelegrini Advogados Associados">
+</header>`;
 
 const html = `<!doctype html>
 <html lang="pt-BR"><head><meta charset="utf-8">
