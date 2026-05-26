@@ -231,6 +231,16 @@ Write-Host "Encontradas $($tarefas.Count) tarefa(s) do usuario"
 
 $dados = New-Object System.Collections.ArrayList
 
+# Carrega aliases de nome antes pra usar no $d.Nome (e não só no snapshot publicado)
+$nomeAliases = @{}
+$__pcCfgPath = Join-Path $scriptDir 'pc-config.json'
+if (Test-Path $__pcCfgPath) {
+    $__pcCfg = Get-Content $__pcCfgPath -Encoding UTF8 -Raw | ConvertFrom-Json
+    if ($__pcCfg.PSObject.Properties.Name -contains 'nomes' -and $__pcCfg.nomes) {
+        foreach ($p in $__pcCfg.nomes.PSObject.Properties) { $nomeAliases[$p.Name] = $p.Value }
+    }
+}
+
 foreach ($t in $tarefas) {
     $info = Get-ScheduledTaskInfo -TaskName $t.TaskName -TaskPath $t.TaskPath
     $projFolder = Find-ProjectFolder $t
@@ -266,8 +276,10 @@ foreach ($t in $tarefas) {
         }
     }
 
+    $nomeExibicao = if ($nomeAliases.ContainsKey($t.TaskName)) { $nomeAliases[$t.TaskName] } else { $t.TaskName }
     $row = [pscustomobject]@{
-        Nome = $t.TaskName
+        Nome = $nomeExibicao
+        NomeTecnico = $t.TaskName
         Descricao = $t.Description
         Agendamento = $sched
         ProximaExecucao = $info.NextRunTime
@@ -546,14 +558,21 @@ $snapshot = [pscustomobject]@{
     geradoEm = (Get-Date).ToString('yyyy-MM-ddTHH:mm:ssK')
     automacoes = @($dados | ForEach-Object {
         $d = $_
-        # Aplica alias de nome se configurado em pc-config.json (campo "nomes")
-        $nomeFinal = $d.Nome
-        if ($pcCfg.PSObject.Properties.Name -contains 'nomes' -and $pcCfg.nomes) {
-            $alias = $pcCfg.nomes.PSObject.Properties[$d.Nome]
-            if ($alias) { $nomeFinal = $alias.Value }
+        # Alias ja foi aplicado na coleta; aqui usamos $d.Nome direto.
+        # Pra linksFixos a chave eh sempre o nome TECNICO (pra n quebrar quando o alias muda)
+        $chaveLookup = if ($d.PSObject.Properties.Name -contains 'NomeTecnico' -and $d.NomeTecnico) { $d.NomeTecnico } else { $d.Nome }
+        $linksFixos = @()
+        if ($pcCfg.PSObject.Properties.Name -contains 'linksFixos' -and $pcCfg.linksFixos) {
+            $lf = $pcCfg.linksFixos.PSObject.Properties[$chaveLookup]
+            if ($lf) {
+                $linksFixos = @($lf.Value | ForEach-Object {
+                    @{ label = $_.label; url = $_.url; tipo = $_.tipo }
+                })
+            }
         }
         [pscustomobject]@{
-            nome = $nomeFinal
+            nome = $d.Nome
+            linksFixos = $linksFixos
             descricao = $d.Descricao
             agendamento = $d.Agendamento
             proximaExecucao = if ($d.ProximaExecucao -and $d.ProximaExecucao.Year -gt 2000) { $d.ProximaExecucao.ToString('yyyy-MM-ddTHH:mm:ss') } else { $null }

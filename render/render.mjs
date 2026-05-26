@@ -94,6 +94,16 @@ function bigLinksOfExec(exec) {
   return `<div style="margin-top:10px"><div style="color:var(--accent-dark);font-size:10px;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;font-family:-apple-system,Helvetica,sans-serif;font-weight:600">Arquivos da &uacute;ltima execu&ccedil;&atilde;o</div>${tags}</div>`;
 }
 
+function linksFixosOf(auto) {
+  const lf = auto.linksFixos || [];
+  if (lf.length === 0) return '';
+  const tags = lf.map(l => {
+    const icone = { doc: '[Doc]', sheet: '[Planilha]', drive: '[Drive]', trello: '[Trello]' }[l.tipo] || '[Link]';
+    return `<a href="${htmlEscape(l.url)}" target="_blank" rel="noopener" style="display:inline-block;background:var(--accent);color:#FFFEF8;padding:7px 14px;border-radius:3px;margin-right:8px;margin-bottom:6px;text-decoration:none;font-size:12px;font-weight:600;font-family:-apple-system,Helvetica,sans-serif;letter-spacing:0.5px;text-transform:uppercase">${icone} ${htmlEscape(l.label)}</a>`;
+  }).join('');
+  return `<div style="margin-top:10px"><div style="color:var(--accent-dark);font-size:10px;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;font-family:-apple-system,Helvetica,sans-serif;font-weight:600">Planilhas relacionadas</div>${tags}</div>`;
+}
+
 function renderAutomacao(a) {
   const hist = a.historico || [];
   const ultimo = hist[0];
@@ -126,6 +136,7 @@ function renderAutomacao(a) {
 <h2>${htmlEscape(a.nome)} ${statusBadge(a)}</h2>
 ${a.descricao ? `<div class="desc">${htmlEscape(a.descricao)}</div>` : ''}
 <div class="grid">${cellsCore.join('')}</div>
+${linksFixosOf(a)}
 ${bigLinksOfExec(ultimo)}
 ${histHtml}
 </div>`;
