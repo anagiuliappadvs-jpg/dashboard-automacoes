@@ -190,6 +190,7 @@ const agora = new Date();
 const agoraStr = `${String(agora.getDate()).padStart(2,'0')}/${String(agora.getMonth()+1).padStart(2,'0')}/${agora.getFullYear()} ${String(agora.getHours()).padStart(2,'0')}:${String(agora.getMinutes()).padStart(2,'0')}`;
 
 const css = `
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 :root{
   --bg:#F0EAE0;
   --bg-texture:radial-gradient(ellipse at top,#F5EFE5 0%,#EBE3D3 100%);
@@ -209,7 +210,7 @@ const css = `
 *{box-sizing:border-box}
 body{
   margin:0;
-  font-family:'Georgia','Times New Roman',serif;
+  font-family:'Montserrat','Helvetica Neue',Arial,sans-serif;
   background:var(--bg);
   background-image:var(--bg-texture);
   background-attachment:fixed;
@@ -223,16 +224,16 @@ body{
 .header{display:flex;align-items:center;gap:20px;margin-bottom:8px;padding-bottom:20px;border-bottom:2px solid var(--accent)}
 .header .logo{flex-shrink:0}
 .header .brand{display:flex;flex-direction:column;gap:2px}
-.header .brand-name{font-family:'Georgia',serif;font-size:26px;font-weight:700;letter-spacing:1.5px;color:var(--txt);line-height:1.1}
-.header .brand-sub{font-family:'Georgia',serif;font-size:13px;font-weight:400;color:var(--accent-dark);letter-spacing:2px;text-transform:uppercase}
-h1{margin:24px 0 4px 0;font-size:28px;font-family:'Georgia',serif;font-weight:400;color:var(--txt);letter-spacing:0.5px}
+.header .brand-name{font-family:'Montserrat','Helvetica Neue',Arial,sans-serif;font-size:30px;font-weight:800;letter-spacing:0.5px;color:var(--txt);line-height:1.05}
+.header .brand-sub{font-family:'Montserrat','Helvetica Neue',Arial,sans-serif;font-size:14px;font-weight:300;color:var(--txt);letter-spacing:1.5px;margin-top:2px}
+h1{margin:24px 0 4px 0;font-size:28px;font-family:'Montserrat','Helvetica Neue',Arial,sans-serif;font-weight:400;color:var(--txt);letter-spacing:0.5px}
 .subt{color:var(--mut);font-size:13px;margin-bottom:24px;font-family:-apple-system,Helvetica,sans-serif;font-style:italic}
 .pessoa{margin:36px 0 24px;padding:12px 0;border-top:1px solid var(--border)}
-.pessoa-title{margin:16px 0 4px 0;font-size:22px;display:flex;align-items:center;gap:14px;font-family:'Georgia',serif;font-weight:600;color:var(--txt)}
+.pessoa-title{margin:16px 0 4px 0;font-size:22px;display:flex;align-items:center;gap:14px;font-family:'Montserrat','Helvetica Neue',Arial,sans-serif;font-weight:600;color:var(--txt)}
 .os-badge{background:var(--accent);color:#FFFEF8;padding:3px 12px;border-radius:2px;font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:1px;font-family:-apple-system,Helvetica,sans-serif}
 .subt-mini{color:var(--mut);font-size:12px;margin-bottom:16px;font-family:-apple-system,Helvetica,sans-serif;font-style:italic}
 .auto{background:var(--card);border-radius:6px;padding:22px;margin-bottom:14px;border:1px solid var(--border);border-left:4px solid var(--accent);box-shadow:0 1px 3px rgba(168,137,92,.08)}
-.auto h2{margin:0 0 8px 0;font-size:19px;display:flex;align-items:center;gap:10px;font-family:'Georgia',serif;font-weight:600;color:var(--txt)}
+.auto h2{margin:0 0 8px 0;font-size:19px;display:flex;align-items:center;gap:10px;font-family:'Montserrat','Helvetica Neue',Arial,sans-serif;font-weight:600;color:var(--txt)}
 .badge{display:inline-block;padding:3px 11px;border-radius:2px;font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:1px;font-family:-apple-system,Helvetica,sans-serif}
 .badge.ok{background:rgba(107,142,78,.15);color:var(--ok);border:1px solid rgba(107,142,78,.3)}
 .badge.err{background:rgba(160,69,69,.15);color:var(--err);border:1px solid rgba(160,69,69,.3)}
@@ -259,7 +260,7 @@ a:hover{color:var(--accent)}
 
 const banner = `<div style="background:rgba(168,137,92,.10);border:1px solid var(--accent);border-left:4px solid var(--accent);border-radius:4px;padding:12px 16px;margin-bottom:28px;color:var(--accent-dark);font-size:13px;font-family:-apple-system,Helvetica,sans-serif;font-style:italic">Esta &eacute; a vers&atilde;o p&uacute;blica do dashboard. Detalhes sens&iacute;veis (nomes de clientes etc.) ficam apenas na vers&atilde;o local de cada PC.</div>`;
 
-const logoSvg = `<svg viewBox="0 0 100 100" width="68" height="68" xmlns="http://www.w3.org/2000/svg" aria-label="Paccola e Pelegrini">
+const logoSvg = `<svg viewBox="0 0 100 100" width="72" height="72" xmlns="http://www.w3.org/2000/svg" aria-label="Paccola e Pelegrini">
   <defs>
     <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#C5A776"/>
@@ -267,11 +268,19 @@ const logoSvg = `<svg viewBox="0 0 100 100" width="68" height="68" xmlns="http:/
       <stop offset="100%" stop-color="#8B6F3E"/>
     </linearGradient>
   </defs>
+  <!-- Losango exterior do logo -->
   <g transform="rotate(45 50 50)">
-    <rect x="14" y="14" width="72" height="72" fill="none" stroke="url(#goldGrad)" stroke-width="3.5"/>
-    <rect x="26" y="26" width="48" height="48" fill="none" stroke="url(#goldGrad)" stroke-width="2"/>
+    <rect x="12" y="12" width="76" height="76" fill="none" stroke="url(#goldGrad)" stroke-width="3"/>
   </g>
-  <text x="50" y="58" text-anchor="middle" font-family="Georgia,serif" font-size="19" font-weight="700" fill="url(#goldGrad)" letter-spacing="-1">P&amp;P</text>
+  <!-- Monograma: dois "P" geometricos espelhados, sugerindo a marca P&amp;P -->
+  <g stroke="url(#goldGrad)" stroke-width="3.2" fill="none" stroke-linecap="square" stroke-linejoin="miter">
+    <!-- P esquerdo (espelhado) -->
+    <path d="M 33,34 L 33,70"/>
+    <path d="M 33,34 L 49,34 L 49,52 L 38,52"/>
+    <!-- P direito -->
+    <path d="M 67,34 L 67,70"/>
+    <path d="M 67,34 L 51,34 L 51,52 L 62,52"/>
+  </g>
 </svg>`;
 
 const header = `<div class="header">
