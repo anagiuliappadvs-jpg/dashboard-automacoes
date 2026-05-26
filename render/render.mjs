@@ -265,6 +265,9 @@ const html = `<!doctype html>
 <html lang="pt-BR"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Paccola &amp; Pelegrini &middot; Dashboard de Automa&ccedil;&otilde;es</title>
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/favicon.png">
 <style>${css}</style></head><body>
 ${header}
 <h1>Dashboard de Automa&ccedil;&otilde;es</h1>
