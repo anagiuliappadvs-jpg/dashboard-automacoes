@@ -68,7 +68,12 @@ function parseLogFile(path) {
       const lastSubst = e.lines.filter(l => l.trim()).slice(-1)[0] || '';
       status = /fim|exit=0|\bok\b|criado/i.test(lastSubst) ? 'OK' : 'ERRO';
     }
-    const urls = [];
+    // Coleta URLs em ordem cronológica e mantém só a MAIS RECENTE de cada tipo.
+    // Motivo: uploads pra Drive/Sheets/etc apagam a versão anterior, então URLs
+    // intermediárias do mesmo tipo apontam pra arquivos que não existem mais.
+    // Múltiplas execuções fundidas num mesmo bloco (gap < 30min) iriam acumular
+    // URLs fantasma sem essa dedup.
+    const ultimaPorTipo = {};
     for (const l of e.lines) {
       const ms = l.matchAll(/https?:\/\/[^\s\)\"']+/g);
       for (const m of ms) {
@@ -78,9 +83,10 @@ function parseLogFile(path) {
         else if (/docs\.google\.com\/spreadsheets/.test(u)) tipo = 'sheet';
         else if (/drive\.google\.com/.test(u)) tipo = 'drive';
         else if (/trello\.com/.test(u)) tipo = 'trello';
-        if (!urls.find(x => x.url === u)) urls.push({ url: u, tipo });
+        ultimaPorTipo[tipo] = { url: u, tipo };  // sobrescreve — fica a última
       }
     }
+    const urls = Object.values(ultimaPorTipo);
     return {
       // Mesma convenção do coletor Windows: timestamp em LOCAL time, sem 'Z',
       // pra render.mjs exibir como veio (sem conversão BRT→UTC).
