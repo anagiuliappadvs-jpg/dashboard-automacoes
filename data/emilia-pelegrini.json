@@ -2,7 +2,7 @@
   "pcId": "emilia-pelegrini",
   "pessoa": "Emilia Pelegrini",
   "sistemaOperacional": "macOS",
-  "geradoEm": "2026-05-27T10:05:00",
+  "geradoEm": "2026-05-28T09:36:52",
   "automacoes": [
     {
       "nome": "Relatório Diário SDR",
@@ -16,6 +16,18 @@
       "diasIntervalo": 1,
       "tipo": "Agendada",
       "historico": [
+        {
+          "start": "2026-05-28T09:35:52",
+          "end": "2026-05-28T09:36:52",
+          "status": "OK",
+          "duracaoSeg": 60,
+          "urls": [
+            {
+              "url": "https://drive.google.com/file/d/1_JJ0h7zop0EiISMHgJrqJJ_IChgZM2gX/view",
+              "tipo": "drive"
+            }
+          ]
+        },
         {
           "start": "2026-05-27T09:57:47",
           "end": "2026-05-27T10:05:00",
