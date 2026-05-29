@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-05-29T16:00:03-03:00",
+    "geradoEm":  "2026-05-29T16:17:17-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -21,9 +21,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-05-29T15:30:01",
-                                                 "end":  "2026-05-29T15:52:16",
+                                                 "end":  "2026-05-29T16:09:17",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  1335,
+                                                 "duracaoSeg":  2356,
                                                  "urls":  [
                                                               {
                                                                   "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
@@ -476,6 +476,24 @@
                                                               }
                                                           ]
                                              }
+                                         ]
+                       },
+                       {
+                           "nome":  "Relatório Mensal - Produtividade (Astrea)",
+                           "linksFixos":  [
+
+                                          ],
+                           "descricao":  "No 1º dia útil de cada mês (lembrete no Trello às 10:00, lista Pendências) a Ana Giulia loga no Astrea e pede pro Claude rodar. O Claude lê a agenda do Astrea pelo navegador (prazos, tarefas e audiências do mês anterior), conta por colaborador como responsável (cumpridos e pendentes) e como revisor, e grava no Google Sheets \u0027Relatório Mensal - produtividade\u0027. NÃO roda 100% sozinho porque o Astrea não tem API: a leitura depende da sessão do navegador logado (execução agendada não tem acesso ao Chrome) e não se guarda a senha do Astrea por segurança.",
+                           "agendamento":  "1º dia útil do mês, 10:00 (assistido: lembrete Trello + 1 mensagem)",
+                           "proximaExecucao":  null,
+                           "ultimaExecucaoWindows":  null,
+                           "ultimoResultadoCodigo":  null,
+                           "ultimoResultadoTexto":  "Manual",
+                           "runsPerdidos":  0,
+                           "diasIntervalo":  null,
+                           "tipo":  "Manual",
+                           "historico":  [
+
                                          ]
                        }
                    ]
