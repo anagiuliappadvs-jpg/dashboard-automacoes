@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-05-28T12:00:11-03:00",
+    "geradoEm":  "2026-05-29T14:00:05-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -11,14 +11,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-05-28T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-05-27T15:30:30",
+                           "proximaExecucao":  "2026-05-29T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-05-28T15:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-05-28T15:30:01",
+                                                 "end":  "2026-05-28T15:30:59",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  58,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-05-27T15:30:01",
                                                  "end":  "2026-05-27T15:30:33",
@@ -241,14 +253,23 @@
                                           ],
                            "descricao":  "Atualiza status do KPI a partir dos Paineis do Kommo (Closer/Financeiro/Operacional). Roda 2x na sexta: 11h e 17h30.",
                            "agendamento":  "Sex as 17:30",
-                           "proximaExecucao":  "2026-05-29T11:00:00",
-                           "ultimaExecucaoWindows":  null,
-                           "ultimoResultadoCodigo":  267011,
-                           "ultimoResultadoTexto":  "Ainda nao executou",
+                           "proximaExecucao":  "2026-05-29T17:30:30",
+                           "ultimaExecucaoWindows":  "2026-05-29T11:00:00",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-05-29T11:00:22",
+                                                 "end":  "2026-05-29T11:05:19",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  297,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-05-25T15:43:43",
                                                  "end":  "2026-05-25T15:53:34",
@@ -415,8 +436,8 @@
                                           ],
                            "descricao":  "Relatorio mensal do tempo de reuniao-\u003efechamento e fechamento-\u003epagamento por vendedor (Julia, Felipe, Lindsey). Roda diariamente 09:00 mas so executa de verdade no 5o dia util do mes, gerando o relatorio do mes anterior. Publica Doc em Drive \u003e Gestao \u003e Relatorios semanais \u003e Comercial.",
                            "agendamento":  "Diariamente as 09:00",
-                           "proximaExecucao":  "2026-05-29T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-05-28T09:00:00",
+                           "proximaExecucao":  "2026-05-30T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-05-29T13:31:31",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
