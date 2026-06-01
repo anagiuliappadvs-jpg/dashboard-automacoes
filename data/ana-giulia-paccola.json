@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-06-01T11:00:09-03:00",
+    "geradoEm":  "2026-06-01T12:00:15-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -453,6 +453,30 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-01T11:44:59",
+                                                 "end":  "2026-06-01T11:52:44",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  465,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1iAZob9A01abor4vXFtsJCp-L5uFO1kIagkKzqinuQco/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/HKCI0V2f",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1VqfP260cqGrXyJKRlSh_BpcArny7tZx-U1gxJ_HH4CQ/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/mF3e60ty",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-01T09:00:15",
                                                  "end":  "2026-06-01T09:14:48",
