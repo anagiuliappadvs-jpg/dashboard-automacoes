@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-06-01T14:32:25-03:00",
+    "geradoEm":  "2026-06-01T21:05:38-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -11,14 +11,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-06-01T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-05-31T17:41:41",
+                           "proximaExecucao":  "2026-06-02T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-06-01T15:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-01T15:30:01",
+                                                 "end":  "2026-06-01T15:30:28",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  27,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-01T12:07:40",
                                                  "end":  "2026-06-01T12:08:26",
@@ -243,7 +255,7 @@
                                                   "tipo":  "sheet"
                                               },
                                               {
-                                                  "label":  "CRM (destino - CLAUDE TEST)",
+                                                  "label":  "CRM (destino)",
                                                   "url":  "https://docs.google.com/spreadsheets/d/1lJqJfvIR2M0NaGxW67PcjsjQ2SygDbRkPInWu3cEAKc/edit",
                                                   "tipo":  "sheet"
                                               }
@@ -466,6 +478,22 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-06-01T14:47:33",
+                                                 "end":  "2026-06-01T14:48:22",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  49,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1w-G_Au221zCNdzB6MUZsAPNXcnXzdswDyfQt9HjoKF8/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/1e8HLxXy",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-06-01T11:44:59",
                                                  "end":  "2026-06-01T11:52:44",
                                                  "status":  "OK",
@@ -572,6 +600,36 @@
                                                                   "url":  "https://docs.google.com/document/d/1vFBcswib-ycLgo44nlLauSIuV_1HKrBwMJHK88OsIbY/edit?usp=drivesdk",
                                                                   "tipo":  "doc"
                                                               }
+                                                          ]
+                                             }
+                                         ]
+                       },
+                       {
+                           "nome":  "Relatório Diário de Leads (SDR)",
+                           "linksFixos":  [
+                                              {
+                                                  "label":  "Pasta SDR no Drive (relatório)",
+                                                  "url":  "https://drive.google.com/drive/folders/18UG-a9_eZJN457-wyzVJyaD0A_GDKGOv",
+                                                  "tipo":  "drive"
+                                              }
+                                          ],
+                           "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
+                           "agendamento":  "Diariamente as 17:00",
+                           "proximaExecucao":  "2026-06-02T17:00:00",
+                           "ultimaExecucaoWindows":  null,
+                           "ultimoResultadoCodigo":  267011,
+                           "ultimoResultadoTexto":  "Ainda nao executou",
+                           "runsPerdidos":  0,
+                           "diasIntervalo":  1,
+                           "tipo":  "Agendada",
+                           "historico":  [
+                                             {
+                                                 "start":  "2026-06-01T17:40:52",
+                                                 "end":  "2026-06-01T17:47:27",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  395,
+                                                 "urls":  [
+
                                                           ]
                                              }
                                          ]
