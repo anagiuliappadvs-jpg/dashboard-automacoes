@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-06-02T12:00:49-03:00",
+    "geradoEm":  "2026-06-02T17:53:08-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -11,14 +11,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-06-02T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-06-01T15:30:30",
+                           "proximaExecucao":  "2026-06-03T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-06-02T15:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-02T15:30:02",
+                                                 "end":  "2026-06-02T15:30:50",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  48,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-01T15:30:01",
                                                  "end":  "2026-06-01T15:30:28",
@@ -354,14 +366,30 @@
                                           ],
                            "descricao":  "Roda toda segunda 09:30 gerando relatorio financeiro semanal",
                            "agendamento":  "Ter as 16:00",
-                           "proximaExecucao":  "2026-06-02T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-05-26T16:00:00",
+                           "proximaExecucao":  "2026-06-09T16:00:00",
+                           "ultimaExecucaoWindows":  "2026-06-02T16:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-02T16:00:08",
+                                                 "end":  "2026-06-02T16:00:40",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  32,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1AsFtS17GeDD3lWQG6hKh1Eff57S6YKSMrKAmeZByxo4/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/NUMal4Uy",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-05-26T16:00:09",
                                                  "end":  "2026-05-26T16:00:31",
@@ -477,6 +505,22 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-02T12:04:33",
+                                                 "end":  "2026-06-02T12:04:42",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  9,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1iH-VPmlFXfBfYm_nGuRctNxfBOwhre4ANsQCkU0W108/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/cYGQUF2N",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-01T14:47:33",
                                                  "end":  "2026-06-01T14:48:22",
@@ -615,14 +659,23 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-06-02T17:00:00",
-                           "ultimaExecucaoWindows":  null,
-                           "ultimoResultadoCodigo":  267011,
-                           "ultimoResultadoTexto":  "Ainda nao executou",
+                           "proximaExecucao":  "2026-06-03T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-06-02T17:00:00",
+                           "ultimoResultadoCodigo":  1,
+                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-02T17:00:02",
+                                                 "end":  "2026-06-02T17:04:14",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  252,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-01T21:05:17",
                                                  "end":  "2026-06-01T21:05:48",
