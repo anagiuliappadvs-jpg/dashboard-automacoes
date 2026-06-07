@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-06-03T18:00:07-03:00",
+    "geradoEm":  "2026-06-07T19:03:54-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -11,14 +11,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-06-04T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-06-03T15:30:30",
+                           "proximaExecucao":  "2026-06-08T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-06-07T18:28:28",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-07T18:28:17",
+                                                 "end":  "2026-06-07T18:30:32",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  135,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-03T15:30:01",
                                                  "end":  "2026-06-03T15:31:02",
@@ -343,14 +355,23 @@
                                           ],
                            "descricao":  "Atualiza status do KPI a partir dos Paineis do Kommo (Closer/Financeiro/Operacional). Roda 2x na sexta: 11h e 17h30.",
                            "agendamento":  "Sex as 17:30",
-                           "proximaExecucao":  "2026-06-05T11:00:00",
-                           "ultimaExecucaoWindows":  "2026-05-29T17:30:30",
+                           "proximaExecucao":  "2026-06-12T11:00:00",
+                           "ultimaExecucaoWindows":  "2026-06-07T18:28:28",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-07T18:29:28",
+                                                 "end":  "2026-06-07T18:36:56",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  448,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-05-29T17:30:06",
                                                  "end":  "2026-05-29T17:32:35",
@@ -639,11 +660,11 @@
                                           ],
                            "descricao":  "Relatorio mensal do tempo de reuniao-\u003efechamento e fechamento-\u003epagamento por vendedor (Julia, Felipe, Lindsey). Roda diariamente 09:00 mas so executa de verdade no 5o dia util do mes, gerando o relatorio do mes anterior. Publica Doc em Drive \u003e Gestao \u003e Relatorios semanais \u003e Comercial.",
                            "agendamento":  "Diariamente as 09:00",
-                           "proximaExecucao":  "2026-06-04T09:00:00",
+                           "proximaExecucao":  "2026-06-08T09:00:00",
                            "ultimaExecucaoWindows":  "2026-06-03T11:11:11",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
-                           "runsPerdidos":  0,
+                           "runsPerdidos":  4,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
@@ -680,14 +701,23 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-06-04T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-06-03T17:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-06-08T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-06-07T18:28:28",
+                           "ultimoResultadoCodigo":  267014,
+                           "ultimoResultadoTexto":  "Cancelada pelo usuario",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-07T18:55:26",
+                                                 "end":  "2026-06-07T19:03:49",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  503,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-02T17:56:54",
                                                  "end":  "2026-06-02T17:57:30",
