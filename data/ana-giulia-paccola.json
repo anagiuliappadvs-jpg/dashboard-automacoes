@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-06-08T16:00:05-03:00",
+    "geradoEm":  "2026-06-08T17:06:38-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -746,14 +746,23 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-06-08T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-06-07T18:28:28",
-                           "ultimoResultadoCodigo":  267014,
-                           "ultimoResultadoTexto":  "Cancelada pelo usuario",
+                           "proximaExecucao":  "2026-06-09T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-06-08T17:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-08T17:00:02",
+                                                 "end":  "2026-06-08T17:06:30",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  388,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-07T18:55:26",
                                                  "end":  "2026-06-07T19:05:04",
