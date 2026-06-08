@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-06-07T19:05:08-03:00",
+    "geradoEm":  "2026-06-08T09:35:05-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -298,14 +298,23 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Seg as 08:30",
-                           "proximaExecucao":  "2026-06-08T08:30:30",
-                           "ultimaExecucaoWindows":  "2026-06-03T17:05:05",
+                           "proximaExecucao":  "2026-06-15T08:30:30",
+                           "ultimaExecucaoWindows":  "2026-06-08T08:39:39",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-08T08:39:26",
+                                                 "end":  "2026-06-08T08:39:54",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  28,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-03T17:05:13",
                                                  "end":  "2026-06-03T17:05:55",
@@ -539,14 +548,38 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Seg as 09:00",
-                           "proximaExecucao":  "2026-06-08T09:00:00",
+                           "proximaExecucao":  "2026-06-15T09:00:00",
                            "ultimaExecucaoWindows":  "2026-06-01T09:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
-                           "runsPerdidos":  0,
+                           "runsPerdidos":  1,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-08T09:18:12",
+                                                 "end":  "2026-06-08T09:29:00",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  648,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1zizg6bzXlApvZLyDF0knlDsLcbO9yso-ML_-LtcLvv4/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/043gX9O0",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1RQldFWR_9vd477wRTHtVnWmyQWexbiWqOqH212yZPVs/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/ifodVjbX",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-02T12:04:33",
                                                  "end":  "2026-06-02T12:04:42",
@@ -660,11 +693,11 @@
                                           ],
                            "descricao":  "Relatorio mensal do tempo de reuniao-\u003efechamento e fechamento-\u003epagamento por vendedor (Julia, Felipe, Lindsey). Roda diariamente 09:00 mas so executa de verdade no 5o dia util do mes, gerando o relatorio do mes anterior. Publica Doc em Drive \u003e Gestao \u003e Relatorios semanais \u003e Comercial.",
                            "agendamento":  "Diariamente as 09:00",
-                           "proximaExecucao":  "2026-06-08T09:00:00",
+                           "proximaExecucao":  "2026-06-09T09:00:00",
                            "ultimaExecucaoWindows":  "2026-06-03T11:11:11",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
-                           "runsPerdidos":  4,
+                           "runsPerdidos":  5,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
