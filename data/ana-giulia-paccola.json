@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-06-10T14:00:05-03:00",
+    "geradoEm":  "2026-06-10T14:27:16-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -371,6 +371,58 @@
                                                  "end":  "2026-05-20T14:31:10",
                                                  "status":  "ERRO",
                                                  "duracaoSeg":  1316,
+                                                 "urls":  [
+
+                                                          ]
+                                             }
+                                         ]
+                       },
+                       {
+                           "nome":  "Dashboard Instagram - Coletor",
+                           "linksFixos":  [
+
+                                          ],
+                           "descricao":  "Puxa metricas do Instagram e atualiza o snapshot do dashboard (diario 11h, recupera se PC estava desligado).",
+                           "agendamento":  "Diariamente as 11:00",
+                           "proximaExecucao":  "2026-06-11T11:00:00",
+                           "ultimaExecucaoWindows":  "2026-06-10T14:18:18",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
+                           "runsPerdidos":  0,
+                           "diasIntervalo":  1,
+                           "tipo":  "Agendada",
+                           "historico":  [
+                                             {
+                                                 "start":  "2026-06-10T14:25:08",
+                                                 "end":  "2026-06-10T14:26:28",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  80,
+                                                 "urls":  [
+
+                                                          ]
+                                             }
+                                         ]
+                       },
+                       {
+                           "nome":  "Dashboard Instagram - Renovar Token",
+                           "linksFixos":  [
+
+                                          ],
+                           "descricao":  "Renova o token de longa duracao do Instagram (mantem os ~60 dias sempre cheios).",
+                           "agendamento":  "Dom as 10:30",
+                           "proximaExecucao":  "2026-06-14T10:30:30",
+                           "ultimaExecucaoWindows":  null,
+                           "ultimoResultadoCodigo":  267011,
+                           "ultimoResultadoTexto":  "Ainda nao executou",
+                           "runsPerdidos":  0,
+                           "diasIntervalo":  7,
+                           "tipo":  "Agendada",
+                           "historico":  [
+                                             {
+                                                 "start":  "2026-06-10T14:25:08",
+                                                 "end":  "2026-06-10T14:26:28",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  80,
                                                  "urls":  [
 
                                                           ]
