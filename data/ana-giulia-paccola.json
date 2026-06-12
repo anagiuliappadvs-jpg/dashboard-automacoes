@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-06-12T10:00:06-03:00",
+    "geradoEm":  "2026-06-12T11:00:25-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -408,14 +408,23 @@
                                           ],
                            "descricao":  "Coleta as metricas do Instagram e publica o snapshot no GitHub Pages (diario 11h, recupera se PC estava desligado, roda na bateria).",
                            "agendamento":  "Diariamente as 11:00",
-                           "proximaExecucao":  "2026-06-12T11:00:00",
-                           "ultimaExecucaoWindows":  "2026-06-11T11:00:00",
+                           "proximaExecucao":  "2026-06-13T11:00:00",
+                           "ultimaExecucaoWindows":  "2026-06-12T11:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-12T11:00:04",
+                                                 "end":  "2026-06-12T11:00:05",
+                                                 "status":  "ERRO",
+                                                 "duracaoSeg":  1,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-11T11:00:04",
                                                  "end":  "2026-06-11T11:01:53",
@@ -452,6 +461,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-06-12T11:00:04",
+                                                 "end":  "2026-06-12T11:00:05",
+                                                 "status":  "ERRO",
+                                                 "duracaoSeg":  1,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-06-11T11:00:04",
                                                  "end":  "2026-06-11T11:01:53",
                                                  "status":  "OK",
@@ -482,10 +500,10 @@
                                           ],
                            "descricao":  "Atualiza status do KPI a partir dos Paineis do Kommo (Closer/Financeiro/Operacional). Roda 2x na sexta: 11h e 17h30.",
                            "agendamento":  "Sex as 17:30",
-                           "proximaExecucao":  "2026-06-12T11:00:00",
-                           "ultimaExecucaoWindows":  "2026-06-07T18:28:28",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-06-12T17:30:30",
+                           "ultimaExecucaoWindows":  "2026-06-12T11:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
