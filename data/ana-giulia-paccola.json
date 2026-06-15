@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-06-15T12:00:04-03:00",
+    "geradoEm":  "2026-06-15T15:11:10-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -641,6 +641,35 @@
                                                  "duracaoSeg":  591,
                                                  "urls":  [
 
+                                                          ]
+                                             }
+                                         ]
+                       },
+                       {
+                           "nome":  "Lembrete Analise TLDV",
+                           "linksFixos":  [
+
+                                          ],
+                           "descricao":  "Cria card no Trello (board Agenda Emilia e Amanda, lista Pendencias) toda segunda 09:00 lembrando a Ana Giulia de pedir a analise semanal de reunioes dos vendedores ao Claude.",
+                           "agendamento":  "Seg as 09:00",
+                           "proximaExecucao":  "2026-06-22T09:00:00",
+                           "ultimaExecucaoWindows":  null,
+                           "ultimoResultadoCodigo":  267011,
+                           "ultimoResultadoTexto":  "Ainda nao executou",
+                           "runsPerdidos":  0,
+                           "diasIntervalo":  7,
+                           "tipo":  "Agendada",
+                           "historico":  [
+                                             {
+                                                 "start":  "2026-06-15T15:10:14",
+                                                 "end":  "2026-06-15T15:10:15",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  1,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://trello.com/c/yYZGlErG",
+                                                                  "tipo":  "trello"
+                                                              }
                                                           ]
                                              }
                                          ]
