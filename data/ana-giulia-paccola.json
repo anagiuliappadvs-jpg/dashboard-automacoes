@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-06-12T17:03:37-03:00",
+    "geradoEm":  "2026-06-15T08:49:07-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -11,14 +11,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-06-13T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-06-12T15:30:30",
+                           "proximaExecucao":  "2026-06-15T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-06-15T08:43:43",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-15T08:43:18",
+                                                 "end":  "2026-06-15T08:48:03",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  285,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-12T15:30:04",
                                                  "end":  "2026-06-12T15:31:28",
@@ -370,14 +382,23 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Seg as 08:30",
-                           "proximaExecucao":  "2026-06-15T08:30:30",
-                           "ultimaExecucaoWindows":  "2026-06-08T08:39:39",
+                           "proximaExecucao":  "2026-06-22T08:30:30",
+                           "ultimaExecucaoWindows":  "2026-06-15T08:43:43",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-15T08:43:19",
+                                                 "end":  "2026-06-15T08:45:38",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  139,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-08T08:39:26",
                                                  "end":  "2026-06-08T08:39:54",
@@ -432,14 +453,23 @@
                                           ],
                            "descricao":  "Coleta as metricas do Instagram e publica o snapshot no GitHub Pages (diario 11h, recupera se PC estava desligado, roda na bateria).",
                            "agendamento":  "Diariamente as 11:00",
-                           "proximaExecucao":  "2026-06-13T11:00:00",
-                           "ultimaExecucaoWindows":  "2026-06-12T11:00:00",
+                           "proximaExecucao":  "2026-06-15T11:00:00",
+                           "ultimaExecucaoWindows":  "2026-06-15T08:43:43",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-15T08:43:22",
+                                                 "end":  "2026-06-15T08:46:10",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  168,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-12T11:00:04",
                                                  "end":  "2026-06-12T11:00:05",
@@ -476,14 +506,23 @@
                                           ],
                            "descricao":  "Renova o token de longa duracao do Instagram (mantem os ~60 dias sempre cheios).",
                            "agendamento":  "Dom as 10:30",
-                           "proximaExecucao":  "2026-06-14T10:30:30",
-                           "ultimaExecucaoWindows":  null,
-                           "ultimoResultadoCodigo":  267011,
-                           "ultimoResultadoTexto":  "Ainda nao executou",
+                           "proximaExecucao":  "2026-06-21T10:30:30",
+                           "ultimaExecucaoWindows":  "2026-06-15T08:43:43",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-15T08:43:22",
+                                                 "end":  "2026-06-15T08:46:10",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  168,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-12T11:00:04",
                                                  "end":  "2026-06-12T11:00:05",
@@ -524,14 +563,23 @@
                                           ],
                            "descricao":  "Atualiza status do KPI a partir dos Paineis do Kommo (Closer/Financeiro/Operacional). Roda 2x na sexta: 11h e 17h30.",
                            "agendamento":  "Sex as 17:30",
-                           "proximaExecucao":  "2026-06-12T17:30:30",
-                           "ultimaExecucaoWindows":  "2026-06-12T11:00:00",
+                           "proximaExecucao":  "2026-06-19T11:00:00",
+                           "ultimaExecucaoWindows":  "2026-06-12T17:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-12T17:30:06",
+                                                 "end":  "2026-06-12T17:32:23",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  137,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-12T11:00:31",
                                                  "end":  "2026-06-12T11:02:53",
@@ -886,8 +934,8 @@
                                           ],
                            "descricao":  "Relatorio mensal do tempo de reuniao-\u003efechamento e fechamento-\u003epagamento por vendedor (Julia, Felipe, Lindsey). Roda diariamente 09:00 mas so executa de verdade no 5o dia util do mes, gerando o relatorio do mes anterior. Publica Doc em Drive \u003e Gestao \u003e Relatorios semanais \u003e Comercial.",
                            "agendamento":  "Diariamente as 09:00",
-                           "proximaExecucao":  "2026-06-13T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-06-12T09:00:00",
+                           "proximaExecucao":  "2026-06-15T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-06-15T08:43:43",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -927,14 +975,23 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-06-13T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-06-12T17:00:00",
+                           "proximaExecucao":  "2026-06-15T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-06-15T08:43:43",
                            "ultimoResultadoCodigo":  267009,
                            "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-15T08:43:33",
+                                                 "end":  "2026-06-15T08:48:44",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  311,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-12T17:00:03",
                                                  "end":  "2026-06-12T17:03:32",
