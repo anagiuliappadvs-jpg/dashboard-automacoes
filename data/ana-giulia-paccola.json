@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-06-16T16:00:16-03:00",
+    "geradoEm":  "2026-06-16T17:09:00-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -725,12 +725,28 @@
                            "agendamento":  "Ter as 16:00",
                            "proximaExecucao":  "2026-06-23T16:00:00",
                            "ultimaExecucaoWindows":  "2026-06-16T16:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-16T16:00:28",
+                                                 "end":  "2026-06-16T16:00:57",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  29,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1m6FZfDQGsYiK_SGH5Umfaq2QA1P1hkGqhyvaBbYAjdI/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/4Op9smD6",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-09T16:00:10",
                                                  "end":  "2026-06-09T16:13:02",
@@ -1080,14 +1096,23 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-06-16T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-06-15T17:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-06-17T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-06-16T17:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-16T17:00:03",
+                                                 "end":  "2026-06-16T17:08:35",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  512,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-15T17:00:03",
                                                  "end":  "2026-06-15T17:09:28",
