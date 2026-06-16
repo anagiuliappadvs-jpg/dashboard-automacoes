@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-06-16T17:40:25-03:00",
+    "geradoEm":  "2026-06-16T18:00:03-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -712,6 +712,140 @@
                                                                   "url":  "https://trello.com/c/yYZGlErG",
                                                                   "tipo":  "trello"
                                                               }
+                                                          ]
+                                             }
+                                         ]
+                       },
+                       {
+                           "nome":  "PaccolaPelegrini-RelatorioSemanal",
+                           "linksFixos":  [
+
+                                          ],
+                           "descricao":  "Relatorio semanal Kommo - segundas 09:00 BRT (janela domingo 00:00 -\u003e execucao)",
+                           "agendamento":  "Seg as 09:00",
+                           "proximaExecucao":  "2026-06-22T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-06-16T17:52:52",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
+                           "runsPerdidos":  0,
+                           "diasIntervalo":  7,
+                           "tipo":  "Agendada",
+                           "historico":  [
+                                             {
+                                                 "start":  "2026-06-16T17:00:03",
+                                                 "end":  "2026-06-16T17:08:35",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  512,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-06-15T17:00:03",
+                                                 "end":  "2026-06-15T17:09:28",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  565,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-06-15T08:43:33",
+                                                 "end":  "2026-06-15T08:48:44",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  311,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-06-12T17:00:03",
+                                                 "end":  "2026-06-12T17:03:32",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  209,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-06-11T17:00:02",
+                                                 "end":  "2026-06-11T17:05:58",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  356,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-06-10T17:00:02",
+                                                 "end":  "2026-06-10T17:06:55",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  413,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-06-10T08:44:49",
+                                                 "end":  "2026-06-10T08:46:37",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  108,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-06-09T17:00:02",
+                                                 "end":  "2026-06-09T17:00:02",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-06-08T17:00:02",
+                                                 "end":  "2026-06-08T17:06:30",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  388,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-06-07T18:55:26",
+                                                 "end":  "2026-06-07T19:05:04",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  578,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-06-02T17:56:54",
+                                                 "end":  "2026-06-02T17:57:30",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  36,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-06-02T17:00:02",
+                                                 "end":  "2026-06-02T17:04:14",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  252,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-06-01T21:05:17",
+                                                 "end":  "2026-06-01T21:05:48",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  31,
+                                                 "urls":  [
+
                                                           ]
                                              }
                                          ]
