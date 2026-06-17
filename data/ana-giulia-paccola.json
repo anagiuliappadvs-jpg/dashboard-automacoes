@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-06-17T15:10:26-03:00",
+    "geradoEm":  "2026-06-17T17:04:57-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -11,14 +11,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-06-17T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-06-16T15:30:30",
+                           "proximaExecucao":  "2026-06-18T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-06-17T15:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-17T15:30:01",
+                                                 "end":  "2026-06-17T15:31:30",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  89,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-16T15:30:01",
                                                  "end":  "2026-06-16T15:32:26",
@@ -754,6 +766,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-06-17T17:00:02",
+                                                 "end":  "2026-06-17T17:04:45",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  283,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-06-16T17:00:03",
                                                  "end":  "2026-06-16T17:08:35",
                                                  "status":  "OK",
@@ -1252,14 +1273,23 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-06-17T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-06-16T17:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-06-18T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-06-17T17:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-17T17:00:02",
+                                                 "end":  "2026-06-17T17:04:45",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  283,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-16T17:00:03",
                                                  "end":  "2026-06-16T17:08:35",
