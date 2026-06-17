@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-06-17T11:00:06-03:00",
+    "geradoEm":  "2026-06-17T12:00:06-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -479,17 +479,17 @@
                            "agendamento":  "Diariamente as 11:00",
                            "proximaExecucao":  "2026-06-18T11:00:00",
                            "ultimaExecucaoWindows":  "2026-06-17T11:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-06-17T11:00:03",
-                                                 "end":  "2026-06-17T11:00:03",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  0,
+                                                 "end":  "2026-06-17T11:01:52",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  109,
                                                  "urls":  [
 
                                                           ]
@@ -567,9 +567,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-06-17T11:00:03",
-                                                 "end":  "2026-06-17T11:00:03",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  0,
+                                                 "end":  "2026-06-17T11:01:52",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  109,
                                                  "urls":  [
 
                                                           ]
