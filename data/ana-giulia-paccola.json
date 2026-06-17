@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-06-17T15:00:07-03:00",
+    "geradoEm":  "2026-06-17T15:10:26-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -738,8 +738,8 @@
                            "nome":  "Relatório de campanha semanal",
                            "linksFixos":  [
                                               {
-                                                  "label":  "Pasta no Drive (relatório semanal)",
-                                                  "url":  "https://drive.google.com/drive/folders/18UG-a9_eZJN457-wyzVJyaD0A_GDKGOv",
+                                                  "label":  "Pasta Tráfego no Drive (relatório)",
+                                                  "url":  "https://drive.google.com/drive/folders/1xGfvAa6h2CZfgLsLp1fimBQeZm5IBO8N",
                                                   "tipo":  "drive"
                                               }
                                           ],
