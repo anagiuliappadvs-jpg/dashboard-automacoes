@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "nome": "Relatório Mensal - Produtividade (Astrea)",
+    "descricao": "No 1º dia útil de cada mês (lembrete no Trello às 10:00, lista Pendências) a Ana Giulia loga no Astrea e pede pro Claude rodar. O Claude lê a agenda do Astrea pelo navegador (prazos, tarefas e audiências do mês anterior), conta por colaborador como responsável (cumpridos e pendentes) e como revisor, e grava no Google Sheets 'Relatório Mensal - produtividade'. NÃO roda 100% sozinho porque o Astrea não tem API: a leitura depende da sessão do navegador logado (execução agendada não tem acesso ao Chrome) e não se guarda a senha do Astrea por segurança.",
+    "agendamento": "1º dia útil do mês, 10:00 (assistido: lembrete Trello + 1 mensagem)"
+  }
+]

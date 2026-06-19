@@ -142,11 +142,29 @@ ${histHtml}
 </div>`;
 }
 
-function renderPessoa(snap) {
-  const automacoes = (snap.automacoes || []).sort((a,b) => a.nome.localeCompare(b.nome));
-  const total = automacoes.length;
-  const hoje = new Date(); hoje.setHours(0,0,0,0);
+// Organizacao em abas/setores. Cada automacao e mapeada por nome.
+// Automacao nova (sem mapeamento) cai no SETOR_PADRAO e avisa no log.
+const ORDEM_SETORES = ['Comercial', 'Operacional', 'Financeiro', 'Marketing'];
+const SETOR_POR_NOME = {
+  'CRM 2026': 'Comercial',
+  'Planilha de KPI - automação': 'Comercial',
+  'Relatório de campanha semanal': 'Comercial',
+  'Relatorio Comercial Semanal': 'Comercial',
+  'Relatorio Tempo Fechamento Pagamento': 'Comercial',
+  'Relatório Diário de Leads (SDR)': 'Comercial',
+  'Lembrete Analise TLDV': 'Comercial',
+  'Planilha Financeira - automatização Asaas': 'Financeiro',
+  'Relatorio Financeiro Semanal': 'Financeiro',
+  'Relatório Mensal - Produtividade (Astrea)': 'Operacional',
+  'Dashboard Instagram - Coletor': 'Marketing',
+  'Dashboard Instagram - Renovar Token': 'Marketing',
+};
+const SETOR_PADRAO = 'Operacional';
+const IGNORAR_SNAPSHOTS = new Set(['emilia-pelegrini.json']);
+const INSTAGRAM_URL = 'https://anagiuliappadvs-jpg.github.io/paccolaepelegrini/';
 
+function statsHoje(automacoes) {
+  const hoje = new Date(); hoje.setHours(0,0,0,0);
   let okHoje = 0, falhasHoje = 0;
   for (const a of automacoes) {
     const rodHoje = (a.historico || []).filter(h => {
@@ -156,12 +174,7 @@ function renderPessoa(snap) {
     if (rodHoje.some(h => h.status === 'ERRO')) falhasHoje++;
     else if (rodHoje.some(h => h.status === 'OK')) okHoje++;
   }
-
-  return `<section class="pessoa">
-<h2 class="pessoa-title">${htmlEscape(snap.pessoa)} <span class="os-badge">${htmlEscape(snap.sistemaOperacional || '?')}</span></h2>
-<div class="subt-mini">Snapshot: ${fmtDt(snap.geradoEm)} &middot; ${total} automacao(oes) &middot; ${okHoje} OK hoje &middot; ${falhasHoje} falha(s) hoje</div>
-${automacoes.map(renderAutomacao).join('\n')}
-</section>`;
+  return { okHoje, falhasHoje };
 }
 
 // ---------- Main ----------
@@ -170,7 +183,7 @@ if (!existsSync(dataDir)) {
   mkdirSync(dataDir, { recursive: true });
 }
 
-const files = readdirSync(dataDir).filter(f => f.endsWith('.json')).sort();
+const files = readdirSync(dataDir).filter(f => f.endsWith('.json') && !IGNORAR_SNAPSHOTS.has(f)).sort();
 console.log(`Snapshots encontrados: ${files.length} (${files.join(', ')})`);
 
 const snapshots = [];
@@ -185,7 +198,19 @@ for (const f of files) {
 }
 snapshots.sort((a,b) => (a.pessoa || '').localeCompare(b.pessoa || ''));
 
-const totalGlobal = snapshots.reduce((acc, s) => acc + (s.automacoes || []).length, 0);
+// Agrupa todas as automacoes (de todos os PCs) por setor
+const porSetor = {};
+for (const s of ORDEM_SETORES) porSetor[s] = [];
+for (const snap of snapshots) {
+  for (const a of (snap.automacoes || [])) {
+    const setor = SETOR_POR_NOME[a.nome] || SETOR_PADRAO;
+    if (!SETOR_POR_NOME[a.nome]) console.warn(`Sem setor definido para "${a.nome}" -> ${SETOR_PADRAO}`);
+    porSetor[setor].push(a);
+  }
+}
+for (const s of ORDEM_SETORES) porSetor[s].sort((a,b) => a.nome.localeCompare(b.nome));
+
+const totalGlobal = ORDEM_SETORES.reduce((acc, s) => acc + porSetor[s].length, 0);
 const agora = new Date();
 const agoraStr = `${String(agora.getDate()).padStart(2,'0')}/${String(agora.getMonth()+1).padStart(2,'0')}/${agora.getFullYear()} ${String(agora.getHours()).padStart(2,'0')}:${String(agora.getMinutes()).padStart(2,'0')}`;
 
@@ -253,6 +278,19 @@ tr:last-child td{border-bottom:none}
 .foot{color:var(--mut);font-size:11px;text-align:center;margin-top:36px;padding-top:18px;border-top:1px solid var(--border);font-family:-apple-system,Helvetica,sans-serif;font-style:italic;letter-spacing:0.5px}
 a{color:var(--accent-dark)}
 a:hover{color:var(--accent)}
+.tabs{display:flex;flex-wrap:wrap;gap:2px;border-bottom:2px solid var(--border-strong);margin-bottom:24px}
+.tab{appearance:none;background:transparent;border:none;border-bottom:3px solid transparent;margin-bottom:-2px;padding:12px 18px;font-family:'Montserrat','Helvetica Neue',Arial,sans-serif;font-weight:600;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:var(--mut);cursor:pointer;display:flex;align-items:center;gap:8px;transition:color .15s}
+.tab:hover{color:var(--accent-dark)}
+.tab.active{color:var(--accent-dark);border-bottom-color:var(--accent)}
+.tab-count{background:var(--card2);border:1px solid var(--border);color:var(--mut);font-size:10px;padding:1px 7px;border-radius:10px;font-weight:600;font-family:-apple-system,Helvetica,sans-serif}
+.tab.active .tab-count{background:var(--accent);color:#FFFEF8;border-color:var(--accent)}
+.tab-dot{width:7px;height:7px;border-radius:50%;background:var(--err);display:inline-block}
+.panel{display:none;animation:fade .2s ease}
+.panel.active{display:block}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.ig-wrap{position:relative;width:100%;border:1px solid var(--border);border-radius:6px;overflow:hidden;background:var(--card);box-shadow:0 1px 3px rgba(168,137,92,.08)}
+.ig-wrap iframe{display:block;width:100%;height:1500px;border:0}
+.ig-note{color:var(--mut);font-size:12px;margin-top:10px;font-family:-apple-system,Helvetica,sans-serif;font-style:italic}
 `;
 
 const banner = `<div style="background:rgba(168,137,92,.10);border:1px solid var(--accent);border-left:4px solid var(--accent);border-radius:4px;padding:12px 16px;margin-bottom:28px;color:var(--accent-dark);font-size:13px;font-family:-apple-system,Helvetica,sans-serif;font-style:italic">Esta &eacute; a vers&atilde;o p&uacute;blica do dashboard. Detalhes sens&iacute;veis (nomes de clientes etc.) ficam apenas na vers&atilde;o local de cada PC.</div>`;
@@ -260,6 +298,54 @@ const banner = `<div style="background:rgba(168,137,92,.10);border:1px solid var
 const header = `<header class="header">
   <img class="logo" src="assets/logo-paccola.png" alt="Paccola &amp; Pelegrini Advogados Associados">
 </header>`;
+
+// Abas: um setor por aba + a aba do Instagram (iframe)
+const tabsMeta = [...ORDEM_SETORES.map(s => ({ id: s, label: s })), { id: 'Instagram', label: 'Instagram' }];
+
+const navHtml = tabsMeta.map((t, i) => {
+  let extra = '';
+  if (t.id !== 'Instagram') {
+    const list = porSetor[t.id] || [];
+    const { falhasHoje } = statsHoje(list);
+    extra = `<span class="tab-count">${list.length}</span>${falhasHoje > 0 ? '<span class="tab-dot" title="Falha hoje"></span>' : ''}`;
+  }
+  return `<button type="button" class="tab${i === 0 ? ' active' : ''}" data-tab="${t.id}">${htmlEscape(t.label)}${extra}</button>`;
+}).join('');
+
+const panelsHtml = tabsMeta.map((t, i) => {
+  const active = i === 0 ? ' active' : '';
+  if (t.id === 'Instagram') {
+    return `<div class="panel${active}" data-panel="Instagram">
+<div class="subt-mini">M&eacute;tricas do perfil @paccolaepelegrini &middot; atualizadas automaticamente todo dia</div>
+<div class="ig-wrap"><iframe src="${INSTAGRAM_URL}" title="Dashboard de Instagram" loading="lazy"></iframe></div>
+<div class="ig-note">N&atilde;o carregou? <a href="${INSTAGRAM_URL}" target="_blank" rel="noopener">Abrir o painel do Instagram em nova aba</a></div>
+</div>`;
+  }
+  const list = porSetor[t.id] || [];
+  const { okHoje, falhasHoje } = statsHoje(list);
+  const body = list.length
+    ? list.map(renderAutomacao).join('\n')
+    : '<div class="empty">Nenhuma automa&ccedil;&atilde;o neste setor.</div>';
+  return `<div class="panel${active}" data-panel="${t.id}">
+<div class="subt-mini">${list.length} automa&ccedil;&atilde;o(&otilde;es) &middot; ${okHoje} OK hoje &middot; ${falhasHoje} falha(s) hoje</div>
+${body}
+</div>`;
+}).join('\n');
+
+const tabScript = `<script>
+(function(){
+  var tabs=document.querySelectorAll('.tab');
+  var panels=document.querySelectorAll('.panel');
+  function activate(id){
+    tabs.forEach(function(t){t.classList.toggle('active', t.getAttribute('data-tab')===id);});
+    panels.forEach(function(p){p.classList.toggle('active', p.getAttribute('data-panel')===id);});
+    if(history.replaceState) history.replaceState(null,'','#'+id);
+  }
+  tabs.forEach(function(t){t.addEventListener('click',function(){activate(t.getAttribute('data-tab'));});});
+  var h=(location.hash||'').replace('#','');
+  if(h && document.querySelector('.tab[data-tab="'+h.replace(/[^A-Za-z]/g,'')+'"]')) activate(h.replace(/[^A-Za-z]/g,''));
+})();
+<\/script>`;
 
 const html = `<!doctype html>
 <html lang="pt-BR"><head><meta charset="utf-8">
@@ -273,10 +359,12 @@ const html = `<!doctype html>
 <style>${css}</style></head><body>
 ${header}
 <h1>Dashboard de Automa&ccedil;&otilde;es</h1>
-<div class="subt">Atualizado em ${agoraStr} &middot; ${snapshots.length} PC(s) &middot; ${totalGlobal} automa&ccedil;&atilde;o(&otilde;es) ativa(s)</div>
+<div class="subt">Atualizado em ${agoraStr} &middot; ${totalGlobal} automa&ccedil;&atilde;o(&otilde;es) ativa(s)</div>
 ${banner}
-${snapshots.length === 0 ? '<div class="empty">Nenhum snapshot publicado ainda.</div>' : snapshots.map(renderPessoa).join('\n')}
+<nav class="tabs">${navHtml}</nav>
+${panelsHtml}
 <div class="foot">Cada PC publica seu pr&oacute;prio snapshot automaticamente &middot; Re-renderizado pelo GitHub Actions a cada push</div>
+${tabScript}
 </body></html>`;
 
 writeFileSync(outFile, html, 'utf8');

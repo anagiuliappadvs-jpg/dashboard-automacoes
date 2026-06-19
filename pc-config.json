@@ -5,12 +5,14 @@
     "AsaasSheets": "Planilha Financeira - automatização Asaas",
     "CRM Novos Clientes": "CRM 2026",
     "Relatorio Semanal KPI CRM": "Relatorio Comercial Semanal",
-    "KpiStatusUpdater": "Planilha de KPI - automação"
+    "KpiStatusUpdater": "Planilha de KPI - automação",
+    "Relatório Diário SDR": "Relatório Diário de Leads (SDR)",
+    "PaccolaPelegrini-RelatorioSemanal": "Relatório de campanha semanal"
   },
   "linksFixos": {
     "CRM Novos Clientes": [
       { "label": "Planilha Financeira (fonte)", "url": "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit", "tipo": "sheet" },
-      { "label": "CRM (destino - CLAUDE TEST)", "url": "https://docs.google.com/spreadsheets/d/1lJqJfvIR2M0NaGxW67PcjsjQ2SygDbRkPInWu3cEAKc/edit", "tipo": "sheet" }
+      { "label": "CRM (destino)", "url": "https://docs.google.com/spreadsheets/d/1lJqJfvIR2M0NaGxW67PcjsjQ2SygDbRkPInWu3cEAKc/edit", "tipo": "sheet" }
     ],
     "Relatorio Semanal KPI CRM": [
       { "label": "Planilha KPI 2026", "url": "https://docs.google.com/spreadsheets/d/1AV9sJGgYmvChiDTrkE6lp1eHHpui1WNqXqBRW4U9kjI/edit", "tipo": "sheet" },
@@ -18,6 +20,12 @@
     ],
     "KpiStatusUpdater": [
       { "label": "Planilha KPI 2026", "url": "https://docs.google.com/spreadsheets/d/1AV9sJGgYmvChiDTrkE6lp1eHHpui1WNqXqBRW4U9kjI/edit", "tipo": "sheet" }
+    ],
+    "Relatório Diário SDR": [
+      { "label": "Pasta SDR no Drive (relatório)", "url": "https://drive.google.com/drive/folders/18UG-a9_eZJN457-wyzVJyaD0A_GDKGOv", "tipo": "drive" }
+    ],
+    "PaccolaPelegrini-RelatorioSemanal": [
+      { "label": "Pasta Tráfego no Drive (relatório)", "url": "https://drive.google.com/drive/folders/1xGfvAa6h2CZfgLsLp1fimBQeZm5IBO8N", "tipo": "drive" }
     ]
   }
 }
