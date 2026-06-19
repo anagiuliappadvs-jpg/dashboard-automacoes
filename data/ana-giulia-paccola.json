@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-06-19T15:00:29-03:00",
+    "geradoEm":  "2026-06-19T16:00:06-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -11,14 +11,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-06-19T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-06-18T15:30:30",
+                           "proximaExecucao":  "2026-06-20T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-06-19T15:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-19T15:30:02",
+                                                 "end":  "2026-06-19T15:31:33",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  91,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-18T15:30:01",
                                                  "end":  "2026-06-18T15:31:42",
@@ -823,6 +835,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-06-19T15:45:46",
+                                                 "end":  "2026-06-19T15:51:45",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  359,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-06-17T17:00:02",
                                                  "end":  "2026-06-17T17:04:45",
                                                  "status":  "OK",
@@ -1338,6 +1359,15 @@
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-19T15:45:46",
+                                                 "end":  "2026-06-19T15:51:45",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  359,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-17T17:00:02",
                                                  "end":  "2026-06-17T17:04:45",
