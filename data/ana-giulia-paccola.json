@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-06-19T18:00:07-03:00",
+    "geradoEm":  "2026-06-20T16:00:13-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -11,14 +11,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-06-20T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-06-19T15:30:30",
+                           "proximaExecucao":  "2026-06-21T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-06-20T15:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-20T15:30:03",
+                                                 "end":  "2026-06-20T15:32:08",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  125,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-19T15:30:02",
                                                  "end":  "2026-06-19T15:31:33",
@@ -513,14 +525,23 @@
                                           ],
                            "descricao":  "Coleta as metricas do Instagram e publica o snapshot no GitHub Pages (diario 11h, recupera se PC estava desligado, roda na bateria).",
                            "agendamento":  "Diariamente as 11:00",
-                           "proximaExecucao":  "2026-06-20T11:00:00",
-                           "ultimaExecucaoWindows":  "2026-06-19T11:00:00",
+                           "proximaExecucao":  "2026-06-21T11:00:00",
+                           "ultimaExecucaoWindows":  "2026-06-20T12:07:07",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-20T15:30:18",
+                                                 "end":  "2026-06-20T15:32:08",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  110,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-19T11:00:03",
                                                  "end":  "2026-06-19T11:01:34",
@@ -619,6 +640,15 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-20T15:30:18",
+                                                 "end":  "2026-06-20T15:32:08",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  110,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-19T11:00:03",
                                                  "end":  "2026-06-19T11:01:34",
@@ -1337,8 +1367,8 @@
                                           ],
                            "descricao":  "Relatorio mensal do tempo de reuniao-\u003efechamento e fechamento-\u003epagamento por vendedor (Julia, Felipe, Lindsey). Roda diariamente 09:00 mas so executa de verdade no 5o dia util do mes, gerando o relatorio do mes anterior. Publica Doc em Drive \u003e Gestao \u003e Relatorios semanais \u003e Comercial.",
                            "agendamento":  "Diariamente as 09:00",
-                           "proximaExecucao":  "2026-06-20T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-06-19T09:00:00",
+                           "proximaExecucao":  "2026-06-21T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-06-20T09:07:07",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
