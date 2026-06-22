@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-06-22T09:00:12-03:00",
+    "geradoEm":  "2026-06-22T10:33:19-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -918,8 +918,8 @@
                            "agendamento":  "Seg as 09:00",
                            "proximaExecucao":  "2026-06-29T09:00:00",
                            "ultimaExecucaoWindows":  "2026-06-22T09:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
@@ -1277,12 +1277,36 @@
                            "agendamento":  "Seg as 09:00",
                            "proximaExecucao":  "2026-06-29T09:00:00",
                            "ultimaExecucaoWindows":  "2026-06-22T09:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-22T09:00:15",
+                                                 "end":  "2026-06-22T09:34:50",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  2075,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1wdhZ8eWLa9lk4UnretdYKq-_YqM2Mg6xgpGfse4YY6Q/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/XBU9dKia",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1ifMZuS0fFPGuk0Ih0-NR6XV-vDnP26iDSiefxeRs9eY/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/9duivU81",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-15T09:00:27",
                                                  "end":  "2026-06-15T09:00:37",
