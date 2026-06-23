@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-06-23T10:00:05-03:00",
+    "geradoEm":  "2026-06-23T17:11:01-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -11,14 +11,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-06-23T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-06-22T15:30:30",
+                           "proximaExecucao":  "2026-06-24T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-06-23T15:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-23T15:30:01",
+                                                 "end":  "2026-06-23T15:31:36",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  95,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-22T15:30:01",
                                                  "end":  "2026-06-22T15:32:21",
@@ -558,14 +570,23 @@
                                           ],
                            "descricao":  "Coleta as metricas do Instagram e publica o snapshot no GitHub Pages (diario 11h, recupera se PC estava desligado, roda na bateria).",
                            "agendamento":  "Diariamente as 11:00",
-                           "proximaExecucao":  "2026-06-23T11:00:00",
-                           "ultimaExecucaoWindows":  "2026-06-22T11:00:00",
+                           "proximaExecucao":  "2026-06-24T11:00:00",
+                           "ultimaExecucaoWindows":  "2026-06-23T11:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-23T11:00:03",
+                                                 "end":  "2026-06-23T11:02:04",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  121,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-22T11:00:05",
                                                  "end":  "2026-06-22T11:01:42",
@@ -691,6 +712,15 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-23T11:00:03",
+                                                 "end":  "2026-06-23T11:02:04",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  121,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-22T11:00:05",
                                                  "end":  "2026-06-22T11:01:42",
@@ -1084,14 +1114,30 @@
                                           ],
                            "descricao":  "Roda toda segunda 09:30 gerando relatorio financeiro semanal",
                            "agendamento":  "Ter as 16:00",
-                           "proximaExecucao":  "2026-06-23T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-06-16T16:00:00",
+                           "proximaExecucao":  "2026-06-30T16:00:00",
+                           "ultimaExecucaoWindows":  "2026-06-23T16:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-23T16:00:21",
+                                                 "end":  "2026-06-23T16:00:50",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  29,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1skTP1W_ZYsPhWzrETYuilVvxwT3pCQacPy-YdhYbAfw/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/ZkqnnPbm",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-19T16:47:26",
                                                  "end":  "2026-06-19T16:47:42",
@@ -1272,6 +1318,15 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-23T15:57:00",
+                                                 "end":  "2026-06-23T15:57:03",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  3,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-22T09:00:15",
                                                  "end":  "2026-06-22T09:34:50",
@@ -1490,10 +1545,10 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-06-23T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-06-22T17:00:00",
-                           "ultimoResultadoCodigo":  267014,
-                           "ultimoResultadoTexto":  "Cancelada pelo usuario",
+                           "proximaExecucao":  "2026-06-24T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-06-23T17:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
