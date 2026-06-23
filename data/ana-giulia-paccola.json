@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-06-23T17:11:01-03:00",
+    "geradoEm":  "2026-06-23T17:23:42-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -944,6 +944,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-06-23T17:16:32",
+                                                 "end":  "2026-06-23T17:23:36",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  424,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-06-22T08:22:57",
                                                  "end":  "2026-06-22T08:26:30",
                                                  "status":  "OK",
@@ -1547,12 +1556,21 @@
                            "agendamento":  "Diariamente as 17:00",
                            "proximaExecucao":  "2026-06-24T17:00:00",
                            "ultimaExecucaoWindows":  "2026-06-23T17:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  4294967295,
+                           "ultimoResultadoTexto":  "Codigo 4294967295",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-23T17:16:32",
+                                                 "end":  "2026-06-23T17:23:36",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  424,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-22T08:22:57",
                                                  "end":  "2026-06-22T08:26:30",
