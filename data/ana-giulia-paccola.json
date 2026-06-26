@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-06-26T10:00:05-03:00",
+    "geradoEm":  "2026-06-26T13:29:46-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -594,14 +594,23 @@
                                           ],
                            "descricao":  "Coleta as metricas do Instagram e publica o snapshot no GitHub Pages (diario 11h, recupera se PC estava desligado, roda na bateria).",
                            "agendamento":  "Diariamente as 11:00",
-                           "proximaExecucao":  "2026-06-26T11:00:00",
-                           "ultimaExecucaoWindows":  "2026-06-25T11:00:00",
+                           "proximaExecucao":  "2026-06-27T11:00:00",
+                           "ultimaExecucaoWindows":  "2026-06-26T11:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-26T11:00:03",
+                                                 "end":  "2026-06-26T11:01:49",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  106,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-25T11:00:19",
                                                  "end":  "2026-06-25T11:02:05",
@@ -755,6 +764,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-06-26T11:00:03",
+                                                 "end":  "2026-06-26T11:01:49",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  106,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-06-25T11:00:19",
                                                  "end":  "2026-06-25T11:02:05",
                                                  "status":  "OK",
@@ -902,14 +920,23 @@
                                           ],
                            "descricao":  "Atualiza status do KPI a partir dos Paineis do Kommo (Closer/Financeiro/Operacional). Roda 2x na sexta: 11h e 17h30.",
                            "agendamento":  "Sex as 17:30",
-                           "proximaExecucao":  "2026-06-26T11:00:00",
-                           "ultimaExecucaoWindows":  "2026-06-19T17:30:30",
+                           "proximaExecucao":  "2026-06-26T17:30:30",
+                           "ultimaExecucaoWindows":  "2026-06-26T11:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-26T11:00:21",
+                                                 "end":  "2026-06-26T11:02:28",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  127,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-19T17:30:05",
                                                  "end":  "2026-06-19T17:32:48",
