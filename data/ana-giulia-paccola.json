@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-06-30T08:41:08-03:00",
+    "geradoEm":  "2026-06-30T10:52:49-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -1121,6 +1121,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-06-30T10:52:14",
+                                                 "end":  "2026-06-30T10:52:40",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  26,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-06-30T08:37:15",
                                                  "end":  "2026-06-30T08:40:53",
                                                  "status":  "OK",
@@ -1751,8 +1760,8 @@
                                           ],
                            "descricao":  "Relatorio mensal do tempo de reuniao-\u003efechamento e fechamento-\u003epagamento por vendedor (Julia, Felipe, Lindsey). Roda diariamente 09:00 mas so executa de verdade no 5o dia util do mes, gerando o relatorio do mes anterior. Publica Doc em Drive \u003e Gestao \u003e Relatorios semanais \u003e Comercial.",
                            "agendamento":  "Diariamente as 09:00",
-                           "proximaExecucao":  "2026-06-30T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-06-29T09:00:00",
+                           "proximaExecucao":  "2026-07-01T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-06-30T09:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -1794,12 +1803,21 @@
                            "agendamento":  "Diariamente as 17:00",
                            "proximaExecucao":  "2026-06-30T17:00:00",
                            "ultimaExecucaoWindows":  "2026-06-30T08:37:37",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-06-30T10:52:14",
+                                                 "end":  "2026-06-30T10:52:40",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  26,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-30T08:37:15",
                                                  "end":  "2026-06-30T08:40:53",
