@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-07-03T16:00:06-03:00",
+    "geradoEm":  "2026-07-03T17:05:49-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -1271,6 +1271,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-07-03T17:00:02",
+                                                 "end":  "2026-07-03T17:05:37",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  335,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-07-02T17:00:02",
                                                  "end":  "2026-07-02T17:07:41",
                                                  "status":  "OK",
@@ -1994,14 +2003,23 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-07-03T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-07-02T17:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-07-04T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-07-03T17:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-03T17:00:02",
+                                                 "end":  "2026-07-03T17:05:37",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  335,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-02T17:00:02",
                                                  "end":  "2026-07-02T17:07:41",
