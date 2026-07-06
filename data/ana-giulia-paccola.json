@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-07-06T08:56:27-03:00",
+    "geradoEm":  "2026-07-06T09:38:15-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -1310,8 +1310,8 @@
                                           ],
                            "descricao":  "Relatorio semanal Kommo - segundas 09:00 BRT (janela domingo 00:00 -\u003e execucao)",
                            "agendamento":  "Seg as 09:00",
-                           "proximaExecucao":  "2026-07-06T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-06-29T09:00:00",
+                           "proximaExecucao":  "2026-07-13T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-07-06T09:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -1809,14 +1809,30 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Seg as 09:00",
-                           "proximaExecucao":  "2026-07-06T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-06-29T09:00:00",
+                           "proximaExecucao":  "2026-07-13T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-07-06T09:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-06T09:00:35",
+                                                 "end":  "2026-07-06T09:00:44",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  9,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1LCcw2HwqmxPKzeDCw_76r8rkwbzy92aFpKRSEVVtmGs/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/UcgmymTT",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-06-29T09:00:30",
                                                  "end":  "2026-06-29T09:00:38",
@@ -2019,8 +2035,8 @@
                                           ],
                            "descricao":  "Relatorio mensal do tempo de reuniao-\u003efechamento e fechamento-\u003epagamento por vendedor (Julia, Felipe, Lindsey). Roda diariamente 09:00 mas so executa de verdade no 5o dia util do mes, gerando o relatorio do mes anterior. Publica Doc em Drive \u003e Gestao \u003e Relatorios semanais \u003e Comercial.",
                            "agendamento":  "Diariamente as 09:00",
-                           "proximaExecucao":  "2026-07-06T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-07-06T08:48:48",
+                           "proximaExecucao":  "2026-07-07T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-07-06T09:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -2062,8 +2078,8 @@
                            "agendamento":  "Diariamente as 17:00",
                            "proximaExecucao":  "2026-07-06T17:00:00",
                            "ultimaExecucaoWindows":  "2026-07-06T08:48:48",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
