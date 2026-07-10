@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-07-10T16:30:46-03:00",
+    "geradoEm":  "2026-07-10T17:04:47-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -1479,9 +1479,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-07-10T16:26:02",
-                                                 "end":  "2026-07-10T16:30:36",
+                                                 "end":  "2026-07-10T17:04:35",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  274,
+                                                 "duracaoSeg":  2313,
                                                  "urls":  [
 
                                                           ]
@@ -2341,19 +2341,19 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-07-10T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-07-09T17:00:00",
-                           "ultimoResultadoCodigo":  1,
-                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
+                           "proximaExecucao":  "2026-07-11T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-07-10T17:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-07-10T16:26:02",
-                                                 "end":  "2026-07-10T16:30:36",
+                                                 "end":  "2026-07-10T17:04:35",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  274,
+                                                 "duracaoSeg":  2313,
                                                  "urls":  [
 
                                                           ]
