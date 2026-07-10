@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-07-10T11:00:17-03:00",
+    "geradoEm":  "2026-07-10T16:30:46-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -11,14 +11,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-07-10T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-07-09T15:30:30",
+                           "proximaExecucao":  "2026-07-11T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-07-10T15:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-10T15:30:01",
+                                                 "end":  "2026-07-10T15:32:35",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  154,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-09T15:30:02",
                                                  "end":  "2026-07-09T15:32:59",
@@ -1312,12 +1324,21 @@
                            "agendamento":  "Sex as 17:30",
                            "proximaExecucao":  "2026-07-10T17:30:30",
                            "ultimaExecucaoWindows":  "2026-07-10T11:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-10T11:00:21",
+                                                 "end":  "2026-07-10T11:04:42",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  261,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-03T17:30:11",
                                                  "end":  "2026-07-03T17:32:05",
@@ -1456,6 +1477,15 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-10T16:26:02",
+                                                 "end":  "2026-07-10T16:30:36",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  274,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-10T08:42:16",
                                                  "end":  "2026-07-10T09:32:59",
@@ -2319,6 +2349,15 @@
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-10T16:26:02",
+                                                 "end":  "2026-07-10T16:30:36",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  274,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-10T08:42:16",
                                                  "end":  "2026-07-10T09:32:59",
