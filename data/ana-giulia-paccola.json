@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-07-13T09:16:58-03:00",
+    "geradoEm":  "2026-07-13T11:33:22-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -801,14 +801,23 @@
                                           ],
                            "descricao":  "Coleta as metricas do Instagram e publica o snapshot no GitHub Pages (diario 11h, recupera se PC estava desligado, roda na bateria).",
                            "agendamento":  "Diariamente as 11:00",
-                           "proximaExecucao":  "2026-07-13T11:00:00",
-                           "ultimaExecucaoWindows":  "2026-07-13T08:37:37",
+                           "proximaExecucao":  "2026-07-14T11:00:00",
+                           "ultimaExecucaoWindows":  "2026-07-13T11:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-13T11:00:02",
+                                                 "end":  "2026-07-13T11:00:03",
+                                                 "status":  "ERRO",
+                                                 "duracaoSeg":  1,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-13T08:38:10",
                                                  "end":  "2026-07-13T08:38:14",
@@ -1087,6 +1096,15 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-13T11:00:02",
+                                                 "end":  "2026-07-13T11:00:03",
+                                                 "status":  "ERRO",
+                                                 "duracaoSeg":  1,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-13T08:38:10",
                                                  "end":  "2026-07-13T08:38:14",
@@ -1370,6 +1388,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-07-13T11:01:14",
+                                                 "end":  "2026-07-13T11:03:55",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  161,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-07-10T20:30:31",
                                                  "end":  "2026-07-10T20:30:31",
                                                  "status":  "ERRO",
@@ -1534,6 +1561,15 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-13T11:32:45",
+                                                 "end":  "2026-07-13T11:32:57",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  12,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-13T08:38:09",
                                                  "end":  "2026-07-13T08:42:57",
@@ -2431,6 +2467,15 @@
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-13T11:32:45",
+                                                 "end":  "2026-07-13T11:32:57",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  12,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-13T08:38:09",
                                                  "end":  "2026-07-13T08:42:57",
