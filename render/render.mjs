@@ -152,7 +152,7 @@ const SETOR_POR_NOME = {
   'Relatorio Comercial Semanal': 'Comercial',
   'Relatorio Tempo Fechamento Pagamento': 'Comercial',
   'Relatório Diário de Leads (SDR)': 'Comercial',
-  'Lembrete Analise TLDV': 'Comercial',
+  'Lembrete Relatório TLDV closers': 'Comercial',
   'Planilha Financeira - automatização Asaas': 'Financeiro',
   'Relatorio Financeiro Semanal': 'Financeiro',
   'Relatório Mensal - Produtividade (Astrea)': 'Operacional',

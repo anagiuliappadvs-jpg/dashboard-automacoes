@@ -89,11 +89,11 @@ a:hover{color:var(--accent)}
   <img class="logo" src="assets/logo-paccola.png" alt="Paccola &amp; Pelegrini Advogados Associados">
 </header>
 <h1>Dashboard de Automa&ccedil;&otilde;es</h1>
-<div class="subt">Atualizado em 13/07/2026 11:43 &middot; 12 automa&ccedil;&atilde;o(&otilde;es) ativa(s)</div>
+<div class="subt">Atualizado em 13/07/2026 09:14 &middot; 12 automa&ccedil;&atilde;o(&otilde;es) ativa(s)</div>
 <div style="background:rgba(168,137,92,.10);border:1px solid var(--accent);border-left:4px solid var(--accent);border-radius:4px;padding:12px 16px;margin-bottom:28px;color:var(--accent-dark);font-size:13px;font-family:-apple-system,Helvetica,sans-serif;font-style:italic">Esta &eacute; a vers&atilde;o p&uacute;blica do dashboard. Detalhes sens&iacute;veis (nomes de clientes etc.) ficam apenas na vers&atilde;o local de cada PC.</div>
-<nav class="tabs"><button type="button" class="tab active" data-tab="Comercial">Comercial<span class="tab-count">6</span></button><button type="button" class="tab" data-tab="Operacional">Operacional<span class="tab-count">2</span></button><button type="button" class="tab" data-tab="Financeiro">Financeiro<span class="tab-count">2</span></button><button type="button" class="tab" data-tab="Marketing">Marketing<span class="tab-count">2</span><span class="tab-dot" title="Falha hoje"></span></button><button type="button" class="tab" data-tab="Instagram">Instagram</button></nav>
+<nav class="tabs"><button type="button" class="tab active" data-tab="Comercial">Comercial<span class="tab-count">7</span></button><button type="button" class="tab" data-tab="Operacional">Operacional<span class="tab-count">1</span></button><button type="button" class="tab" data-tab="Financeiro">Financeiro<span class="tab-count">2</span></button><button type="button" class="tab" data-tab="Marketing">Marketing<span class="tab-count">2</span><span class="tab-dot" title="Falha hoje"></span></button><button type="button" class="tab" data-tab="Instagram">Instagram</button></nav>
 <div class="panel active" data-panel="Comercial">
-<div class="subt-mini">6 automa&ccedil;&atilde;o(&otilde;es) &middot; 3 OK hoje &middot; 0 falha(s) hoje</div>
+<div class="subt-mini">7 automa&ccedil;&atilde;o(&otilde;es) &middot; 3 OK hoje &middot; 0 falha(s) hoje</div>
 <div class="auto">
 <h2>CRM 2026 <span class="badge ok">OK</span></h2>
 
@@ -102,6 +102,14 @@ a:hover{color:var(--accent)}
 
 <details><summary>Historico completo (10 execucao(oes))</summary>
 <table><thead><tr><th>Data</th><th>Hora</th><th>Duracao</th><th>Status</th><th>Arquivos</th></tr></thead><tbody><tr><td>13/07/2026</td><td>08:38:09</td><td>46s</td><td><span class="badge ok">OK</span></td><td><span style="color:var(--mut);font-size:11px">&mdash;</span></td></tr><tr><td>06/07/2026</td><td>08:49:04</td><td>3.9 min</td><td><span class="badge ok">OK</span></td><td><span style="color:var(--mut);font-size:11px">&mdash;</span></td></tr><tr><td>29/06/2026</td><td>08:30:17</td><td>1.4 min</td><td><span class="badge err">ERRO</span></td><td><span style="color:var(--mut);font-size:11px">&mdash;</span></td></tr><tr><td>22/06/2026</td><td>08:30:00</td><td>53s</td><td><span class="badge ok">OK</span></td><td><span style="color:var(--mut);font-size:11px">&mdash;</span></td></tr><tr><td>15/06/2026</td><td>08:43:19</td><td>2.3 min</td><td><span class="badge ok">OK</span></td><td><span style="color:var(--mut);font-size:11px">&mdash;</span></td></tr><tr><td>08/06/2026</td><td>08:39:26</td><td>28s</td><td><span class="badge ok">OK</span></td><td><span style="color:var(--mut);font-size:11px">&mdash;</span></td></tr><tr><td>03/06/2026</td><td>17:05:13</td><td>42s</td><td><span class="badge ok">OK</span></td><td><span style="color:var(--mut);font-size:11px">&mdash;</span></td></tr><tr><td>01/06/2026</td><td>08:48:44</td><td>12s</td><td><span class="badge ok">OK</span></td><td><span style="color:var(--mut);font-size:11px">&mdash;</span></td></tr><tr><td>25/05/2026</td><td>10:01:38</td><td>2.3 min</td><td><span class="badge ok">OK</span></td><td><span style="color:var(--mut);font-size:11px">&mdash;</span></td></tr><tr><td>20/05/2026</td><td>14:09:14</td><td>21.9 min</td><td><span class="badge err">ERRO</span></td><td><span style="color:var(--mut);font-size:11px">&mdash;</span></td></tr></tbody></table></details>
+</div>
+<div class="auto">
+<h2>Lembrete Relatório TLDV closers <span class="badge man">Manual</span></h2>
+<div class="desc">Toda sexta às 17:00, o Claude cria automaticamente um card no Trello (Pendências, board Agenda - Emília e Amanda) lembrando a Ana Giulia de conferir se a análise semanal dos atendimentos dos closers (Pamela, Felipe, Lindsay, Julia) rodou. A análise em si é uma rotina agendada do Claude (cron 0 16 * * 5) que lê 3 reuniões por vendedor via Kommo + tldv, identifica padrões de fechamento/objeção com citações literais, e publica: Google Doc em Drive &gt; Comercial &gt; Closer + card Trello em Pendências com data de entrega na sexta. O card de lembrete é redundância — se a rotina não rodou (PC desligado/Claude fechado), Ana Giulia pede manualmente &#39;rodar análise vendedores agora&#39;.</div>
+<div class="grid"><div class="cell"><div class="l">Agendamento</div><div class="v">Sexta-feira, 17:00 (Claude cria card automaticamente após a análise)</div></div><div class="cell"><div class="l">Proxima execucao</div><div class="v">-</div></div><div class="cell"><div class="l">Ultima execucao</div><div class="v">-</div></div></div>
+
+
+<div class="empty">Sem historico de execucoes ainda.</div>
 </div>
 <div class="auto">
 <h2>Planilha de KPI - automação <span class="badge err">Falha</span></h2>
@@ -150,15 +158,7 @@ a:hover{color:var(--accent)}
 </div>
 </div>
 <div class="panel" data-panel="Operacional">
-<div class="subt-mini">2 automa&ccedil;&atilde;o(&otilde;es) &middot; 0 OK hoje &middot; 0 falha(s) hoje</div>
-<div class="auto">
-<h2>Lembrete Relatório TLDV closers <span class="badge man">Manual</span></h2>
-<div class="desc">Toda sexta às 17:00, o Claude cria automaticamente um card no Trello (Pendências, board Agenda - Emília e Amanda) lembrando a Ana Giulia de conferir se a análise semanal dos atendimentos dos closers (Pamela, Felipe, Lindsay, Julia) rodou. A análise em si é uma rotina agendada do Claude (cron 0 16 * * 5) que lê 3 reuniões por vendedor via Kommo + tldv, identifica padrões de fechamento/objeção com citações literais, e publica: Google Doc em Drive &gt; Comercial &gt; Closer + card Trello em Pendências com data de entrega na sexta. O card de lembrete é redundância — se a rotina não rodou (PC desligado/Claude fechado), Ana Giulia pede manualmente &#39;rodar análise vendedores agora&#39;.</div>
-<div class="grid"><div class="cell"><div class="l">Agendamento</div><div class="v">Sexta-feira, 17:00 (Claude cria card automaticamente após a análise)</div></div><div class="cell"><div class="l">Proxima execucao</div><div class="v">-</div></div><div class="cell"><div class="l">Ultima execucao</div><div class="v">-</div></div></div>
-
-
-<div class="empty">Sem historico de execucoes ainda.</div>
-</div>
+<div class="subt-mini">1 automa&ccedil;&atilde;o(&otilde;es) &middot; 0 OK hoje &middot; 0 falha(s) hoje</div>
 <div class="auto">
 <h2>Relatório Mensal - Produtividade (Astrea) <span class="badge man">Manual</span></h2>
 <div class="desc">No 1º dia útil de cada mês (lembrete no Trello às 10:00, lista Pendências) a Ana Giulia loga no Astrea e pede pro Claude rodar. O Claude lê a agenda do Astrea pelo navegador (prazos, tarefas e audiências do mês anterior), conta por colaborador como responsável (cumpridos e pendentes) e como revisor, e grava no Google Sheets &#39;Relatório Mensal - produtividade&#39;. NÃO roda 100% sozinho porque o Astrea não tem API: a leitura depende da sessão do navegador logado (execução agendada não tem acesso ao Chrome) e não se guarda a senha do Astrea por segurança.</div>
