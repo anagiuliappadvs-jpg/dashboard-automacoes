@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-07-10T17:04:47-03:00",
+    "geradoEm":  "2026-07-13T08:43:18-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -11,14 +11,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-07-11T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-07-10T15:30:30",
+                           "proximaExecucao":  "2026-07-13T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-07-13T08:38:38",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-13T08:38:08",
+                                                 "end":  "2026-07-13T08:42:16",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  248,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-10T15:30:01",
                                                  "end":  "2026-07-10T15:32:35",
@@ -682,14 +694,23 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Seg as 08:30",
-                           "proximaExecucao":  "2026-07-13T08:30:30",
-                           "ultimaExecucaoWindows":  "2026-07-06T08:48:48",
+                           "proximaExecucao":  "2026-07-20T08:30:30",
+                           "ultimaExecucaoWindows":  "2026-07-13T08:38:38",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-13T08:38:09",
+                                                 "end":  "2026-07-13T08:38:55",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  46,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-06T08:49:04",
                                                  "end":  "2026-07-06T08:52:55",
@@ -780,14 +801,23 @@
                                           ],
                            "descricao":  "Coleta as metricas do Instagram e publica o snapshot no GitHub Pages (diario 11h, recupera se PC estava desligado, roda na bateria).",
                            "agendamento":  "Diariamente as 11:00",
-                           "proximaExecucao":  "2026-07-11T11:00:00",
-                           "ultimaExecucaoWindows":  "2026-07-10T11:00:00",
+                           "proximaExecucao":  "2026-07-13T11:00:00",
+                           "ultimaExecucaoWindows":  "2026-07-13T08:37:37",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-13T08:38:10",
+                                                 "end":  "2026-07-13T08:38:14",
+                                                 "status":  "ERRO",
+                                                 "duracaoSeg":  4,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-10T11:00:02",
                                                  "end":  "2026-07-10T11:00:03",
@@ -1049,14 +1079,23 @@
                                           ],
                            "descricao":  "Renova o token de longa duracao do Instagram (mantem os ~60 dias sempre cheios).",
                            "agendamento":  "Dom as 10:30",
-                           "proximaExecucao":  "2026-07-12T10:30:30",
-                           "ultimaExecucaoWindows":  "2026-07-06T08:48:48",
-                           "ultimoResultadoCodigo":  1,
-                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
+                           "proximaExecucao":  "2026-07-19T10:30:30",
+                           "ultimaExecucaoWindows":  "2026-07-13T08:38:38",
+                           "ultimoResultadoCodigo":  3221226505,
+                           "ultimoResultadoTexto":  "Codigo 3221226505",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-13T08:38:10",
+                                                 "end":  "2026-07-13T08:38:14",
+                                                 "status":  "ERRO",
+                                                 "duracaoSeg":  4,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-10T11:00:02",
                                                  "end":  "2026-07-10T11:00:03",
@@ -1322,14 +1361,32 @@
                                           ],
                            "descricao":  "Atualiza status do KPI a partir dos Paineis do Kommo (Closer/Financeiro/Operacional). Roda 2x na sexta: 11h e 17h30.",
                            "agendamento":  "Sex as 17:30",
-                           "proximaExecucao":  "2026-07-10T17:30:30",
-                           "ultimaExecucaoWindows":  "2026-07-10T11:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-07-17T11:00:00",
+                           "ultimaExecucaoWindows":  "2026-07-10T17:30:30",
+                           "ultimoResultadoCodigo":  1,
+                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-10T20:30:31",
+                                                 "end":  "2026-07-10T20:30:31",
+                                                 "status":  "ERRO",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-07-10T17:30:07",
+                                                 "end":  "2026-07-10T17:30:07",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-10T11:00:21",
                                                  "end":  "2026-07-10T11:04:42",
@@ -1477,6 +1534,15 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-13T08:38:09",
+                                                 "end":  "2026-07-13T08:42:57",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  288,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-10T16:26:02",
                                                  "end":  "2026-07-10T17:04:35",
@@ -2288,8 +2354,8 @@
                                           ],
                            "descricao":  "Relatorio mensal do tempo de reuniao-\u003efechamento e fechamento-\u003epagamento por vendedor (Julia, Felipe, Lindsey). Roda diariamente 09:00 mas so executa de verdade no 5o dia util do mes, gerando o relatorio do mes anterior. Publica Doc em Drive \u003e Gestao \u003e Relatorios semanais \u003e Comercial.",
                            "agendamento":  "Diariamente as 09:00",
-                           "proximaExecucao":  "2026-07-11T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-07-10T09:00:00",
+                           "proximaExecucao":  "2026-07-13T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-07-13T08:38:38",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -2341,14 +2407,23 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-07-11T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-07-10T17:00:00",
+                           "proximaExecucao":  "2026-07-13T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-07-13T08:38:38",
                            "ultimoResultadoCodigo":  267009,
                            "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-13T08:38:09",
+                                                 "end":  "2026-07-13T08:42:57",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  288,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-10T16:26:02",
                                                  "end":  "2026-07-10T17:04:35",
