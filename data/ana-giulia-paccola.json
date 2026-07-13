@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-07-13T08:43:18-03:00",
+    "geradoEm":  "2026-07-13T09:16:58-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -1526,8 +1526,8 @@
                                           ],
                            "descricao":  "Relatorio semanal Kommo - segundas 09:00 BRT (janela domingo 00:00 -\u003e execucao)",
                            "agendamento":  "Seg as 09:00",
-                           "proximaExecucao":  "2026-07-13T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-07-06T09:00:00",
+                           "proximaExecucao":  "2026-07-20T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-07-13T09:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -2128,14 +2128,30 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Seg as 09:00",
-                           "proximaExecucao":  "2026-07-13T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-07-06T09:00:00",
+                           "proximaExecucao":  "2026-07-20T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-07-13T09:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-13T09:00:22",
+                                                 "end":  "2026-07-13T09:00:34",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  12,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1467b6HT0B-_TyQ3X5fvv4WioxtJa-I5SehLUlO2iYtE/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/SvDXOo7y",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-06T09:00:35",
                                                  "end":  "2026-07-06T09:00:44",
@@ -2354,8 +2370,8 @@
                                           ],
                            "descricao":  "Relatorio mensal do tempo de reuniao-\u003efechamento e fechamento-\u003epagamento por vendedor (Julia, Felipe, Lindsey). Roda diariamente 09:00 mas so executa de verdade no 5o dia util do mes, gerando o relatorio do mes anterior. Publica Doc em Drive \u003e Gestao \u003e Relatorios semanais \u003e Comercial.",
                            "agendamento":  "Diariamente as 09:00",
-                           "proximaExecucao":  "2026-07-13T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-07-13T08:38:38",
+                           "proximaExecucao":  "2026-07-14T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-07-13T09:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -2409,8 +2425,8 @@
                            "agendamento":  "Diariamente as 17:00",
                            "proximaExecucao":  "2026-07-13T17:00:00",
                            "ultimaExecucaoWindows":  "2026-07-13T08:38:38",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
@@ -2757,24 +2773,6 @@
                                           ],
                            "descricao":  "No 1º dia útil de cada mês (lembrete no Trello às 10:00, lista Pendências) a Ana Giulia loga no Astrea e pede pro Claude rodar. O Claude lê a agenda do Astrea pelo navegador (prazos, tarefas e audiências do mês anterior), conta por colaborador como responsável (cumpridos e pendentes) e como revisor, e grava no Google Sheets \u0027Relatório Mensal - produtividade\u0027. NÃO roda 100% sozinho porque o Astrea não tem API: a leitura depende da sessão do navegador logado (execução agendada não tem acesso ao Chrome) e não se guarda a senha do Astrea por segurança.",
                            "agendamento":  "1º dia útil do mês, 10:00 (assistido: lembrete Trello + 1 mensagem)",
-                           "proximaExecucao":  null,
-                           "ultimaExecucaoWindows":  null,
-                           "ultimoResultadoCodigo":  null,
-                           "ultimoResultadoTexto":  "Manual",
-                           "runsPerdidos":  0,
-                           "diasIntervalo":  null,
-                           "tipo":  "Manual",
-                           "historico":  [
-
-                                         ]
-                       },
-                       {
-                           "nome":  "Lembrete Relatório TLDV closers",
-                           "linksFixos":  [
-
-                                          ],
-                           "descricao":  "Toda sexta às 17:00, o Claude cria automaticamente um card no Trello (Pendências, board Agenda - Emília e Amanda) lembrando a Ana Giulia de conferir se a análise semanal dos atendimentos dos closers (Pamela, Felipe, Lindsay, Julia) rodou. A análise em si é uma rotina agendada do Claude (cron 0 16 * * 5) que lê 3 reuniões por vendedor via Kommo + tldv, identifica padrões de fechamento/objeção com citações literais, e publica: Google Doc em Drive \u003e Comercial \u003e Closer + card Trello em Pendências com data de entrega na sexta. O card de lembrete é redundância — se a rotina não rodou (PC desligado/Claude fechado), Ana Giulia pede manualmente \u0027rodar análise vendedores agora\u0027.",
-                           "agendamento":  "Sexta-feira, 17:00 (Claude cria card automaticamente após a análise)",
                            "proximaExecucao":  null,
                            "ultimaExecucaoWindows":  null,
                            "ultimoResultadoCodigo":  null,
