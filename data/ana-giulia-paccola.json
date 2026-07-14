@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-07-14T15:00:07-03:00",
+    "geradoEm":  "2026-07-14T15:36:14-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -11,14 +11,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-07-14T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-07-13T15:30:30",
+                           "proximaExecucao":  "2026-07-15T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-07-14T15:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-14T15:30:01",
+                                                 "end":  "2026-07-14T15:31:24",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  83,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-13T15:30:01",
                                                  "end":  "2026-07-13T15:31:22",
@@ -1399,6 +1411,39 @@
                                          ]
                        },
                        {
+                           "nome":  "Dashboard RH - Atualização Semanal",
+                           "linksFixos":  [
+                                              {
+                                                  "label":  "Dashboard de RH (link protegido)",
+                                                  "url":  "https://anagiuliappadvs-jpg.github.io/dashboard-rh/",
+                                                  "tipo":  "link"
+                                              }
+                                          ],
+                           "descricao":  "Toda segunda 14:00: rele os closers do mes corrente (KPI + CRM 2026-CLAUDE), regenera o dados_rh.json e republica o link protegido do Dashboard de RH. So mexe no mes em curso; dados mensais (salarios, avaliacoes, ferias) continuam manuais.",
+                           "agendamento":  "Seg as 14:00",
+                           "proximaExecucao":  "2026-07-20T14:00:00",
+                           "ultimaExecucaoWindows":  null,
+                           "ultimoResultadoCodigo":  267011,
+                           "ultimoResultadoTexto":  "Ainda nao executou",
+                           "runsPerdidos":  0,
+                           "diasIntervalo":  7,
+                           "tipo":  "Agendada",
+                           "historico":  [
+                                             {
+                                                 "start":  "2026-07-14T14:35:46",
+                                                 "end":  "2026-07-14T14:39:03",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  197,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://aka.ms/pscore6",
+                                                                  "tipo":  "link"
+                                                              }
+                                                          ]
+                                             }
+                                         ]
+                       },
+                       {
                            "nome":  "Planilha de KPI - automação",
                            "linksFixos":  [
                                               {
@@ -1408,8 +1453,8 @@
                                               }
                                           ],
                            "descricao":  "Atualiza status do KPI a partir dos Paineis do Kommo (Closer/Financeiro/Operacional). Roda 2x na sexta: 11h e 17h30.",
-                           "agendamento":  "Sex as 17:30",
-                           "proximaExecucao":  "2026-07-17T11:00:00",
+                           "agendamento":  "Sex as 17:00",
+                           "proximaExecucao":  "2026-07-17T17:00:00",
                            "ultimaExecucaoWindows":  "2026-07-10T17:30:30",
                            "ultimoResultadoCodigo":  1,
                            "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
