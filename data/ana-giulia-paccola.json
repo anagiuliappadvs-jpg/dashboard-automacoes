@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-07-14T14:00:12-03:00",
+    "geradoEm":  "2026-07-14T15:00:07-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -1419,11 +1419,22 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-07-14T13:55:48",
-                                                 "end":  "2026-07-14T13:57:38",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  110,
+                                                 "end":  "2026-07-14T14:33:08",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  2240,
                                                  "urls":  [
-
+                                                              {
+                                                                  "url":  "https://trello.com/c/nzf7yWkT",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/gLRtuseW",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "http://www.w3.org/TR/html4/loose.dtd",
+                                                                  "tipo":  "link"
+                                                              }
                                                           ]
                                              },
                                              {
