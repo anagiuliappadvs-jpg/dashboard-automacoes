@@ -144,7 +144,7 @@ ${histHtml}
 
 // Organizacao em abas/setores. Cada automacao e mapeada por nome.
 // Automacao nova (sem mapeamento) cai no SETOR_PADRAO e avisa no log.
-const ORDEM_SETORES = ['Comercial', 'Operacional', 'Financeiro', 'Marketing'];
+const ORDEM_SETORES = ['Comercial', 'Operacional', 'Financeiro', 'Marketing', 'RH'];
 const SETOR_POR_NOME = {
   'CRM 2026': 'Comercial',
   'Planilha de KPI - automação': 'Comercial',
@@ -158,10 +158,35 @@ const SETOR_POR_NOME = {
   'Relatório Mensal - Produtividade (Astrea)': 'Operacional',
   'Dashboard Instagram - Coletor': 'Marketing',
   'Dashboard Instagram - Renovar Token': 'Marketing',
+  'Dashboard RH - Atualização Semanal': 'RH',
 };
+// Rede de seguranca: se o nome da tarefa nao estiver no mapa exato, tenta por padrao.
+const SETOR_POR_REGEX = [
+  { re: /\bRH\b|Recursos Humanos|Dashboard RH/i, setor: 'RH' },
+];
 const SETOR_PADRAO = 'Operacional';
+function resolveSetor(nome) {
+  if (SETOR_POR_NOME[nome]) return SETOR_POR_NOME[nome];
+  for (const r of SETOR_POR_REGEX) if (r.re.test(nome)) return r.setor;
+  return null; // null = caiu no padrao (loga aviso)
+}
 const IGNORAR_SNAPSHOTS = new Set(['emilia-pelegrini.json']);
-const INSTAGRAM_URL = 'https://anagiuliappadvs-jpg.github.io/paccolaepelegrini/';
+// Abas que embutem outro painel (iframe). RH tambem e setor (mostra cards + painel);
+// Instagram e so painel.
+const EMBED_POR_ABA = {
+  RH: {
+    url: 'https://anagiuliappadvs-jpg.github.io/dashboard-rh/',
+    subtitle: 'Painel de RH &middot; vers&atilde;o protegida (pede c&oacute;digo de acesso) &middot; sem remunera&ccedil;&atilde;o',
+    linkLabel: 'Abrir o painel de RH em nova aba',
+    titulo: 'Dashboard de RH',
+  },
+  Instagram: {
+    url: 'https://anagiuliappadvs-jpg.github.io/paccolaepelegrini/',
+    subtitle: 'M&eacute;tricas do perfil @paccolaepelegrini &middot; atualizadas automaticamente todo dia',
+    linkLabel: 'Abrir o painel do Instagram em nova aba',
+    titulo: 'Dashboard de Instagram',
+  },
+};
 
 function statsHoje(automacoes) {
   const hoje = new Date(); hoje.setHours(0,0,0,0);
@@ -203,8 +228,8 @@ const porSetor = {};
 for (const s of ORDEM_SETORES) porSetor[s] = [];
 for (const snap of snapshots) {
   for (const a of (snap.automacoes || [])) {
-    const setor = SETOR_POR_NOME[a.nome] || SETOR_PADRAO;
-    if (!SETOR_POR_NOME[a.nome]) console.warn(`Sem setor definido para "${a.nome}" -> ${SETOR_PADRAO}`);
+    const setor = resolveSetor(a.nome) || SETOR_PADRAO;
+    if (!resolveSetor(a.nome)) console.warn(`Sem setor definido para "${a.nome}" -> ${SETOR_PADRAO}`);
     porSetor[setor].push(a);
   }
 }
@@ -299,12 +324,13 @@ const header = `<header class="header">
   <img class="logo" src="assets/logo-paccola.png" alt="Paccola &amp; Pelegrini Advogados Associados">
 </header>`;
 
-// Abas: um setor por aba + a aba do Instagram (iframe)
+// Abas: um setor por aba (Comercial..RH) + a aba do Instagram (so painel).
+// RH e setor E painel: mostra os cards de automacao de RH e, abaixo, o painel embutido.
 const tabsMeta = [...ORDEM_SETORES.map(s => ({ id: s, label: s })), { id: 'Instagram', label: 'Instagram' }];
 
 const navHtml = tabsMeta.map((t, i) => {
   let extra = '';
-  if (t.id !== 'Instagram') {
+  if (ORDEM_SETORES.includes(t.id)) {
     const list = porSetor[t.id] || [];
     const { falhasHoje } = statsHoje(list);
     extra = `<span class="tab-count">${list.length}</span>${falhasHoje > 0 ? '<span class="tab-dot" title="Falha hoje"></span>' : ''}`;
@@ -312,23 +338,30 @@ const navHtml = tabsMeta.map((t, i) => {
   return `<button type="button" class="tab${i === 0 ? ' active' : ''}" data-tab="${t.id}">${htmlEscape(t.label)}${extra}</button>`;
 }).join('');
 
+function embedHtmlDe(emb, comSubtitle) {
+  return `${comSubtitle ? `<div class="subt-mini"${comSubtitle === 'topo' ? ' style="margin-top:22px"' : ''}>${emb.subtitle}</div>` : ''}
+<div class="ig-wrap"><iframe src="${emb.url}" title="${emb.titulo}" loading="lazy"></iframe></div>
+<div class="ig-note">N&atilde;o carregou? <a href="${emb.url}" target="_blank" rel="noopener">${emb.linkLabel}</a></div>`;
+}
+
 const panelsHtml = tabsMeta.map((t, i) => {
   const active = i === 0 ? ' active' : '';
-  if (t.id === 'Instagram') {
-    return `<div class="panel${active}" data-panel="Instagram">
-<div class="subt-mini">M&eacute;tricas do perfil @paccolaepelegrini &middot; atualizadas automaticamente todo dia</div>
-<div class="ig-wrap"><iframe src="${INSTAGRAM_URL}" title="Dashboard de Instagram" loading="lazy"></iframe></div>
-<div class="ig-note">N&atilde;o carregou? <a href="${INSTAGRAM_URL}" target="_blank" rel="noopener">Abrir o painel do Instagram em nova aba</a></div>
-</div>`;
+  const emb = EMBED_POR_ABA[t.id];
+  const isSetor = ORDEM_SETORES.includes(t.id);
+  let cardsHtml = '';
+  if (isSetor) {
+    const list = porSetor[t.id] || [];
+    if (list.length > 0) {
+      const { okHoje, falhasHoje } = statsHoje(list);
+      cardsHtml = `<div class="subt-mini">${list.length} automa&ccedil;&atilde;o(&otilde;es) &middot; ${okHoje} OK hoje &middot; ${falhasHoje} falha(s) hoje</div>\n${list.map(renderAutomacao).join('\n')}`;
+    } else if (!emb) {
+      cardsHtml = '<div class="empty">Nenhuma automa&ccedil;&atilde;o neste setor.</div>';
+    }
   }
-  const list = porSetor[t.id] || [];
-  const { okHoje, falhasHoje } = statsHoje(list);
-  const body = list.length
-    ? list.map(renderAutomacao).join('\n')
-    : '<div class="empty">Nenhuma automa&ccedil;&atilde;o neste setor.</div>';
+  const embHtml = emb ? embedHtmlDe(emb, isSetor ? 'topo' : true) : '';
   return `<div class="panel${active}" data-panel="${t.id}">
-<div class="subt-mini">${list.length} automa&ccedil;&atilde;o(&otilde;es) &middot; ${okHoje} OK hoje &middot; ${falhasHoje} falha(s) hoje</div>
-${body}
+${cardsHtml}
+${embHtml}
 </div>`;
 }).join('\n');
 
