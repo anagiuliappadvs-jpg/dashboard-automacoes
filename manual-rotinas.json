@@ -3,10 +3,5 @@
     "nome": "Relatório Mensal - Produtividade (Astrea)",
     "descricao": "No 1º dia útil de cada mês (lembrete no Trello às 10:00, lista Pendências) a Ana Giulia loga no Astrea e pede pro Claude rodar. O Claude lê a agenda do Astrea pelo navegador (prazos, tarefas e audiências do mês anterior), conta por colaborador como responsável (cumpridos e pendentes) e como revisor, e grava no Google Sheets 'Relatório Mensal - produtividade'. NÃO roda 100% sozinho porque o Astrea não tem API: a leitura depende da sessão do navegador logado (execução agendada não tem acesso ao Chrome) e não se guarda a senha do Astrea por segurança.",
     "agendamento": "1º dia útil do mês, 10:00 (assistido: lembrete Trello + 1 mensagem)"
-  },
-  {
-    "nome": "Dashboard RH - Atualização Semanal",
-    "descricao": "Toda segunda relê os closers do mês corrente (KPI + CRM 2026-CLAUDE), regenera o dados_rh.json e republica o link protegido do Dashboard de RH (versão criptografada, sem remuneração). Só mexe no mês em curso — histórico e correções manuais ficam congelados. Os dados mensais (salários, produtividade, avaliações, férias) continuam atualizados manualmente no fechamento do mês.",
-    "agendamento": "Semanal — segunda, 14:00 (obs.: a tarefa agendada ainda precisa ser instalada no PC; por enquanto roda quando acionada)"
   }
 ]

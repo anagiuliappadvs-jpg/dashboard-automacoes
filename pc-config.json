@@ -7,7 +7,8 @@
     "Relatorio Semanal KPI CRM": "Relatorio Comercial Semanal",
     "KpiStatusUpdater": "Planilha de KPI - automação",
     "Relatório Diário SDR": "Relatório Diário de Leads (SDR)",
-    "PaccolaPelegrini-RelatorioSemanal": "Relatório de campanha semanal"
+    "PaccolaPelegrini-RelatorioSemanal": "Relatório de campanha semanal",
+    "Dashboard RH - Atualizacao Semanal": "Dashboard RH - Atualização Semanal"
   },
   "linksFixos": {
     "CRM Novos Clientes": [
@@ -26,6 +27,9 @@
     ],
     "PaccolaPelegrini-RelatorioSemanal": [
       { "label": "Pasta Tráfego no Drive (relatório)", "url": "https://drive.google.com/drive/folders/1xGfvAa6h2CZfgLsLp1fimBQeZm5IBO8N", "tipo": "drive" }
+    ],
+    "Dashboard RH - Atualizacao Semanal": [
+      { "label": "Dashboard de RH (link protegido)", "url": "https://anagiuliappadvs-jpg.github.io/dashboard-rh/", "tipo": "link" }
     ]
   }
 }
