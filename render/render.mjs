@@ -176,7 +176,7 @@ const IGNORAR_SNAPSHOTS = new Set(['emilia-pelegrini.json']);
 const EMBED_POR_ABA = {
   RH: {
     url: 'https://anagiuliappadvs-jpg.github.io/dashboard-rh/',
-    subtitle: 'Painel de RH &middot; vers&atilde;o protegida (pede c&oacute;digo de acesso) &middot; sem remunera&ccedil;&atilde;o',
+    subtitle: 'Painel de RH &middot; vers&atilde;o protegida &middot; os dados s&oacute; abrem com o c&oacute;digo de acesso',
     linkLabel: 'Abrir o painel de RH em nova aba',
     titulo: 'Dashboard de RH',
   },
