@@ -176,15 +176,18 @@ const IGNORAR_SNAPSHOTS = new Set(['emilia-pelegrini.json']);
 const EMBED_POR_ABA = {
   RH: {
     url: 'https://anagiuliappadvs-jpg.github.io/dashboard-rh/',
-    subtitle: 'Painel de RH &middot; vers&atilde;o protegida &middot; os dados s&oacute; abrem com o c&oacute;digo de acesso',
+    subtitle: 'Painel de RH &middot; &eacute; o mesmo dashboard de sempre &mdash; digite o c&oacute;digo de acesso na caixinha abaixo',
     linkLabel: 'Abrir o painel de RH em nova aba',
     titulo: 'Dashboard de RH',
+    // tela de login centraliza no meio do iframe: altura menor deixa a caixinha visivel sem rolar
+    altura: 820,
   },
   Instagram: {
     url: 'https://anagiuliappadvs-jpg.github.io/paccolaepelegrini/',
     subtitle: 'M&eacute;tricas do perfil @paccolaepelegrini &middot; atualizadas automaticamente todo dia',
     linkLabel: 'Abrir o painel do Instagram em nova aba',
     titulo: 'Dashboard de Instagram',
+    altura: 1500,
   },
 };
 
@@ -340,7 +343,7 @@ const navHtml = tabsMeta.map((t, i) => {
 
 function embedHtmlDe(emb, comSubtitle) {
   return `${comSubtitle ? `<div class="subt-mini"${comSubtitle === 'topo' ? ' style="margin-top:22px"' : ''}>${emb.subtitle}</div>` : ''}
-<div class="ig-wrap"><iframe src="${emb.url}" title="${emb.titulo}" loading="lazy"></iframe></div>
+<div class="ig-wrap"><iframe src="${emb.url}" title="${emb.titulo}" loading="lazy" style="height:${emb.altura || 1500}px"></iframe></div>
 <div class="ig-note">N&atilde;o carregou? <a href="${emb.url}" target="_blank" rel="noopener">${emb.linkLabel}</a></div>`;
 }
 
