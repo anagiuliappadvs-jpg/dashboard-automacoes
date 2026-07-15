@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-07-14T18:00:07-03:00",
+    "geradoEm":  "2026-07-15T10:30:52-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -1463,6 +1463,18 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-07-14T21:35:35",
+                                                 "end":  "2026-07-14T23:06:07",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  5432,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://trello.com/c/woHniEj8",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-07-14T13:55:48",
                                                  "end":  "2026-07-14T14:33:08",
                                                  "status":  "OK",
@@ -2043,6 +2055,22 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-07-14T21:28:07",
+                                                 "end":  "2026-07-14T21:28:35",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  28,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1iNNJbszXMto-kXHXkv9NmdE9dMqmwhfpvxnm9uea67Q/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/HRLyt0gZ",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-07-14T16:00:05",
                                                  "end":  "2026-07-14T16:00:42",
                                                  "status":  "OK",
@@ -2544,8 +2572,8 @@
                                           ],
                            "descricao":  "Relatorio mensal do tempo de reuniao-\u003efechamento e fechamento-\u003epagamento por vendedor (Julia, Felipe, Lindsey). Roda diariamente 09:00 mas so executa de verdade no 5o dia util do mes, gerando o relatorio do mes anterior. Publica Doc em Drive \u003e Gestao \u003e Relatorios semanais \u003e Comercial.",
                            "agendamento":  "Diariamente as 09:00",
-                           "proximaExecucao":  "2026-07-15T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-07-14T09:00:00",
+                           "proximaExecucao":  "2026-07-16T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-07-15T09:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
