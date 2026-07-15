@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-07-15T16:00:10-03:00",
+    "geradoEm":  "2026-07-15T17:06:17-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -1449,7 +1449,7 @@
                                                   "tipo":  "link"
                                               }
                                           ],
-                           "descricao":  "Toda segunda 14:00: rele os closers do mes corrente (KPI + CRM 2026-CLAUDE), regenera o dados_rh.json e republica o link protegido do Dashboard de RH. So mexe no mes em curso; dados mensais (salarios, avaliacoes, ferias) continuam manuais.",
+                           "descricao":  "Rele KPI+CRM, reconstroi e publica toda segunda 14h",
                            "agendamento":  "Seg as 14:00",
                            "proximaExecucao":  "2026-07-20T14:00:00",
                            "ultimaExecucaoWindows":  null,
@@ -1459,18 +1459,7 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
-                                             {
-                                                 "start":  "2026-07-14T14:35:46",
-                                                 "end":  "2026-07-14T14:39:03",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  197,
-                                                 "urls":  [
-                                                              {
-                                                                  "url":  "https://aka.ms/pscore6",
-                                                                  "tipo":  "link"
-                                                              }
-                                                          ]
-                                             }
+
                                          ]
                        },
                        {
@@ -1698,6 +1687,15 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-15T17:00:05",
+                                                 "end":  "2026-07-15T17:05:38",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  333,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-14T17:00:02",
                                                  "end":  "2026-07-14T17:03:27",
@@ -2655,14 +2653,23 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-07-15T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-07-14T17:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-07-16T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-07-15T17:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-15T17:00:05",
+                                                 "end":  "2026-07-15T17:05:38",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  333,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-14T17:00:02",
                                                  "end":  "2026-07-14T17:03:27",
