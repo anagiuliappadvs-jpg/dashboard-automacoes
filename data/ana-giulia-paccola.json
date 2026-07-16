@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-07-16T15:00:08-03:00",
+    "geradoEm":  "2026-07-16T16:00:09-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -11,14 +11,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-07-16T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-07-15T15:54:54",
+                           "proximaExecucao":  "2026-07-17T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-07-16T15:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-16T15:30:01",
+                                                 "end":  "2026-07-16T15:31:30",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  89,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-15T15:54:35",
                                                  "end":  "2026-07-15T15:56:24",
