@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-07-18T11:00:13-03:00",
+    "geradoEm":  "2026-07-18T17:03:49-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -11,14 +11,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-07-18T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-07-17T15:30:30",
+                           "proximaExecucao":  "2026-07-19T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-07-18T15:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-18T15:30:01",
+                                                 "end":  "2026-07-18T15:31:41",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  100,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-17T15:30:01",
                                                  "end":  "2026-07-17T15:31:36",
@@ -1778,6 +1790,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-07-18T17:00:02",
+                                                 "end":  "2026-07-18T17:03:31",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  209,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-07-17T17:00:02",
                                                  "end":  "2026-07-17T17:03:41",
                                                  "status":  "OK",
@@ -2160,15 +2181,6 @@
                                                  "end":  "2026-06-02T17:04:14",
                                                  "status":  "OK",
                                                  "duracaoSeg":  252,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-06-01T21:05:17",
-                                                 "end":  "2026-06-01T21:05:48",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  31,
                                                  "urls":  [
 
                                                           ]
@@ -2761,14 +2773,23 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-07-18T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-07-17T17:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-07-19T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-07-18T17:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-18T17:00:02",
+                                                 "end":  "2026-07-18T17:03:31",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  209,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-17T17:00:02",
                                                  "end":  "2026-07-17T17:03:41",
@@ -3152,15 +3173,6 @@
                                                  "end":  "2026-06-02T17:04:14",
                                                  "status":  "OK",
                                                  "duracaoSeg":  252,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-06-01T21:05:17",
-                                                 "end":  "2026-06-01T21:05:48",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  31,
                                                  "urls":  [
 
                                                           ]
