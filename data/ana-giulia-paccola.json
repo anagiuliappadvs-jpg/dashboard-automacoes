@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-07-17T17:03:57-03:00",
+    "geradoEm":  "2026-07-18T11:00:13-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -861,14 +861,23 @@
                                           ],
                            "descricao":  "Coleta as metricas do Instagram e publica o snapshot no GitHub Pages (diario 11h, recupera se PC estava desligado, roda na bateria).",
                            "agendamento":  "Diariamente as 11:00",
-                           "proximaExecucao":  "2026-07-18T11:00:00",
-                           "ultimaExecucaoWindows":  "2026-07-17T11:00:00",
+                           "proximaExecucao":  "2026-07-19T11:00:00",
+                           "ultimaExecucaoWindows":  "2026-07-18T11:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-18T11:00:03",
+                                                 "end":  "2026-07-18T11:00:04",
+                                                 "status":  "ERRO",
+                                                 "duracaoSeg":  1,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-17T11:00:02",
                                                  "end":  "2026-07-17T11:00:02",
@@ -1192,6 +1201,15 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-18T11:00:03",
+                                                 "end":  "2026-07-18T11:00:04",
+                                                 "status":  "ERRO",
+                                                 "duracaoSeg":  1,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-17T11:00:02",
                                                  "end":  "2026-07-17T11:00:02",
@@ -1535,19 +1553,22 @@
                            "agendamento":  "Sex as 17:00",
                            "proximaExecucao":  "2026-07-24T17:00:00",
                            "ultimaExecucaoWindows":  "2026-07-17T17:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-07-17T17:00:23",
-                                                 "end":  "2026-07-17T17:02:39",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  136,
+                                                 "end":  "2026-07-17T17:11:16",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  653,
                                                  "urls":  [
-
+                                                              {
+                                                                  "url":  "https://trello.com/c/R1p7OX98",
+                                                                  "tipo":  "trello"
+                                                              }
                                                           ]
                                              },
                                              {
@@ -2687,8 +2708,8 @@
                                           ],
                            "descricao":  "Relatorio mensal do tempo de reuniao-\u003efechamento e fechamento-\u003epagamento por vendedor (Julia, Felipe, Lindsey). Roda diariamente 09:00 mas so executa de verdade no 5o dia util do mes, gerando o relatorio do mes anterior. Publica Doc em Drive \u003e Gestao \u003e Relatorios semanais \u003e Comercial.",
                            "agendamento":  "Diariamente as 09:00",
-                           "proximaExecucao":  "2026-07-18T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-07-17T09:00:00",
+                           "proximaExecucao":  "2026-07-19T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-07-18T10:06:06",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -2742,8 +2763,8 @@
                            "agendamento":  "Diariamente as 17:00",
                            "proximaExecucao":  "2026-07-18T17:00:00",
                            "ultimaExecucaoWindows":  "2026-07-17T17:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
