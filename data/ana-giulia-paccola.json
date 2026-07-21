@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-07-20T18:00:10-03:00",
+    "geradoEm":  "2026-07-21T11:14:15-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -906,14 +906,23 @@
                                           ],
                            "descricao":  "Coleta as metricas do Instagram e publica o snapshot no GitHub Pages (diario 11h, recupera se PC estava desligado, roda na bateria).",
                            "agendamento":  "Diariamente as 11:00",
-                           "proximaExecucao":  "2026-07-21T11:00:00",
-                           "ultimaExecucaoWindows":  "2026-07-20T11:00:00",
+                           "proximaExecucao":  "2026-07-22T11:00:00",
+                           "ultimaExecucaoWindows":  "2026-07-21T11:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-21T11:00:13",
+                                                 "end":  "2026-07-21T11:00:16",
+                                                 "status":  "ERRO",
+                                                 "duracaoSeg":  3,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-20T11:00:02",
                                                  "end":  "2026-07-20T11:00:03",
@@ -1264,6 +1273,15 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-21T11:00:13",
+                                                 "end":  "2026-07-21T11:00:16",
+                                                 "status":  "ERRO",
+                                                 "duracaoSeg":  3,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-20T11:00:02",
                                                  "end":  "2026-07-20T11:00:03",
@@ -1625,8 +1643,8 @@
                            "nome":  "Planilha de KPI - automação",
                            "linksFixos":  [
                                               {
-                                                  "label":  "Planilha KPI 2026",
-                                                  "url":  "https://docs.google.com/spreadsheets/d/1AV9sJGgYmvChiDTrkE6lp1eHHpui1WNqXqBRW4U9kjI/edit",
+                                                  "label":  "Planilha KPI 2026 (nova)",
+                                                  "url":  "https://docs.google.com/spreadsheets/d/18Ao87u3FLys6Ay902MNgJDaPMvXb3_dskf9yOC6Boi8/edit",
                                                   "tipo":  "sheet"
                                               }
                                           ],
@@ -2535,8 +2553,8 @@
                            "nome":  "Relatorio Comercial Semanal",
                            "linksFixos":  [
                                               {
-                                                  "label":  "Planilha KPI 2026",
-                                                  "url":  "https://docs.google.com/spreadsheets/d/1AV9sJGgYmvChiDTrkE6lp1eHHpui1WNqXqBRW4U9kjI/edit",
+                                                  "label":  "Planilha KPI 2026 (nova)",
+                                                  "url":  "https://docs.google.com/spreadsheets/d/18Ao87u3FLys6Ay902MNgJDaPMvXb3_dskf9yOC6Boi8/edit",
                                                   "tipo":  "sheet"
                                               },
                                               {
@@ -2805,8 +2823,8 @@
                                           ],
                            "descricao":  "Relatorio mensal do tempo de reuniao-\u003efechamento e fechamento-\u003epagamento por vendedor (Julia, Felipe, Lindsey). Roda diariamente 09:00 mas so executa de verdade no 5o dia util do mes, gerando o relatorio do mes anterior. Publica Doc em Drive \u003e Gestao \u003e Relatorios semanais \u003e Comercial.",
                            "agendamento":  "Diariamente as 09:00",
-                           "proximaExecucao":  "2026-07-21T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-07-20T09:00:00",
+                           "proximaExecucao":  "2026-07-22T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-07-21T09:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
