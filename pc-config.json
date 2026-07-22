@@ -16,11 +16,11 @@
       { "label": "CRM (destino)", "url": "https://docs.google.com/spreadsheets/d/1lJqJfvIR2M0NaGxW67PcjsjQ2SygDbRkPInWu3cEAKc/edit", "tipo": "sheet" }
     ],
     "Relatorio Semanal KPI CRM": [
-      { "label": "Planilha KPI 2026", "url": "https://docs.google.com/spreadsheets/d/1AV9sJGgYmvChiDTrkE6lp1eHHpui1WNqXqBRW4U9kjI/edit", "tipo": "sheet" },
+      { "label": "Planilha KPI 2026 (nova)", "url": "https://docs.google.com/spreadsheets/d/18Ao87u3FLys6Ay902MNgJDaPMvXb3_dskf9yOC6Boi8/edit", "tipo": "sheet" },
       { "label": "CRM 2026", "url": "https://docs.google.com/spreadsheets/d/1FLUYjO7UtdRQBmZnVNQ-on0rmIKKEfSeGyFoPwW4NWY/edit", "tipo": "sheet" }
     ],
     "KpiStatusUpdater": [
-      { "label": "Planilha KPI 2026", "url": "https://docs.google.com/spreadsheets/d/1AV9sJGgYmvChiDTrkE6lp1eHHpui1WNqXqBRW4U9kjI/edit", "tipo": "sheet" }
+      { "label": "Planilha KPI 2026 (nova)", "url": "https://docs.google.com/spreadsheets/d/18Ao87u3FLys6Ay902MNgJDaPMvXb3_dskf9yOC6Boi8/edit", "tipo": "sheet" }
     ],
     "Relatório Diário SDR": [
       { "label": "Pasta SDR no Drive (relatório)", "url": "https://drive.google.com/drive/folders/18UG-a9_eZJN457-wyzVJyaD0A_GDKGOv", "tipo": "drive" }

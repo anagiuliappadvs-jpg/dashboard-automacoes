@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-07-21T11:14:15-03:00",
+    "geradoEm":  "2026-07-22T09:34:34-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -11,14 +11,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-07-21T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-07-20T15:30:30",
+                           "proximaExecucao":  "2026-07-22T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-07-21T15:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-21T15:30:01",
+                                                 "end":  "2026-07-21T15:31:44",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  103,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-20T15:30:01",
                                                  "end":  "2026-07-20T15:32:01",
@@ -1877,6 +1889,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-07-21T17:00:02",
+                                                 "end":  "2026-07-21T17:03:31",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  209,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-07-20T17:00:02",
                                                  "end":  "2026-07-20T17:03:59",
                                                  "status":  "OK",
@@ -2264,10 +2285,10 @@
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-06-07T18:55:26",
+                                                 "start":  "2026-06-07T19:03:19",
                                                  "end":  "2026-06-07T19:05:04",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  578,
+                                                 "duracaoSeg":  105,
                                                  "urls":  [
 
                                                           ]
@@ -2281,14 +2302,30 @@
                                           ],
                            "descricao":  "Roda toda segunda 09:30 gerando relatorio financeiro semanal",
                            "agendamento":  "Ter as 16:00",
-                           "proximaExecucao":  "2026-07-21T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-07-14T16:00:00",
+                           "proximaExecucao":  "2026-07-28T16:00:00",
+                           "ultimaExecucaoWindows":  "2026-07-21T16:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-21T16:01:30",
+                                                 "end":  "2026-07-21T16:02:01",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  31,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/178Of8ZiSX4kbalWXYW7phl2KdMk-QrjdQCz51yJ8OY4/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/Qx5BKRq6",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-14T21:28:07",
                                                  "end":  "2026-07-14T21:28:35",
@@ -2823,8 +2860,8 @@
                                           ],
                            "descricao":  "Relatorio mensal do tempo de reuniao-\u003efechamento e fechamento-\u003epagamento por vendedor (Julia, Felipe, Lindsey). Roda diariamente 09:00 mas so executa de verdade no 5o dia util do mes, gerando o relatorio do mes anterior. Publica Doc em Drive \u003e Gestao \u003e Relatorios semanais \u003e Comercial.",
                            "agendamento":  "Diariamente as 09:00",
-                           "proximaExecucao":  "2026-07-22T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-07-21T09:00:00",
+                           "proximaExecucao":  "2026-07-23T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-07-22T09:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -2876,14 +2913,23 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-07-21T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-07-20T17:00:00",
+                           "proximaExecucao":  "2026-07-22T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-07-21T17:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-21T17:00:02",
+                                                 "end":  "2026-07-21T17:03:31",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  209,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-20T17:00:02",
                                                  "end":  "2026-07-20T17:03:59",
@@ -3272,10 +3318,10 @@
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-06-07T18:55:26",
+                                                 "start":  "2026-06-07T19:03:19",
                                                  "end":  "2026-06-07T19:05:04",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  578,
+                                                 "duracaoSeg":  105,
                                                  "urls":  [
 
                                                           ]

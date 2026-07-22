@@ -1,3 +1,5 @@
 # Nada sensível aqui — credenciais ficam nos projetos individuais
 *.log
 *.bak
+# copia local de debug do dashboard (tem nomes/detalhes que NAO vao pro site)
+local-debug.html

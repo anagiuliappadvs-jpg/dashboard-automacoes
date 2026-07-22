@@ -1,13 +1,14 @@
 # Dashboard de Automacoes - Gerador
 # Le todas as tarefas agendadas do usuario + logs.txt dos projetos + manual-rotinas.json
-# Gera "Dashboard Automacoes.html" na area de trabalho
+# Publica o snapshot JSON pro site (automacoes.paccolaepelegrini.com.br).
+# A copia HTML local fica DENTRO da pasta do projeto (debug; a Ana usa so o site).
 
 $ErrorActionPreference = 'Continue'
 $OutputEncoding = [System.Text.Encoding]::UTF8
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
-$outFile = Join-Path $env:USERPROFILE 'Desktop\Dashboard Automacoes.html'
+$outFile = Join-Path $scriptDir 'local-debug.html'
 
 # ---------- Padroes a IGNORAR (tarefas do SO/apps) ----------
 $ignorarPrefixos = @(
@@ -604,23 +605,49 @@ Write-Host "Snapshot publicado em: $jsonPath"
 
 # ---------- Push pro GitHub (so do JSON deste PC) ----------
 Push-Location $scriptDir
+
+# Auto-cura de conflito: index.html (e afins) sao re-renderizados pela Action,
+# entao a versao do remote sempre vence. Sem isso, um conflito de autostash
+# deixava o repo travado PRA SEMPRE e o push "vazio" imprimia OK sem subir nada.
+function Resolve-ConflitosComRemote {
+    $unmerged = @(git diff --name-only --diff-filter=U 2>$null)
+    if ($unmerged.Count -gt 0) {
+        foreach ($f in $unmerged) {
+            git checkout origin/main -- $f 2>$null
+            git add $f 2>$null | Out-Null
+        }
+        Write-Host "Aviso: conflito resolvido pegando a versao do site: $($unmerged -join ', ')"
+    }
+}
+
 try {
     if (Test-Path '.git') {
-        # Sincroniza com remote antes de push
         git fetch origin 2>$null | Out-Null
+        Resolve-ConflitosComRemote
         git pull --rebase --autostash origin main 2>$null | Out-Null
+        if ($LASTEXITCODE -ne 0) {
+            git rebase --abort 2>$null | Out-Null
+            Resolve-ConflitosComRemote
+        }
 
         $status = git status --porcelain "data/$($pcCfg.pcId).json" 2>$null
         if ($status) {
             git add "data/$($pcCfg.pcId).json" 2>$null | Out-Null
             $msg = "Snapshot $($pcCfg.pcId) - $(Get-Date -Format 'dd/MM/yyyy HH:mm')"
             git commit -m "$msg" 2>$null | Out-Null
-            if (git remote 2>$null) {
+            if ($LASTEXITCODE -ne 0) {
+                Write-Host "ERRO: git commit falhou - snapshot NAO foi publicado (repo em estado estranho?)"
+            } elseif (git remote 2>$null) {
                 git push 2>$null | Out-Null
+                if ($LASTEXITCODE -ne 0) {
+                    # tenta 1x mais apos sincronizar (outro PC/Action pode ter pushado no meio)
+                    git pull --rebase --autostash origin main 2>$null | Out-Null
+                    git push 2>$null | Out-Null
+                }
                 if ($LASTEXITCODE -eq 0) {
                     Write-Host "Push pro GitHub: OK (Action vai re-renderizar o dashboard)"
                 } else {
-                    Write-Host "Push falhou (provavel falta de auth - rode: gh auth login)"
+                    Write-Host "ERRO: git push falhou - o site NAO recebeu o snapshot (auth? rede? conflito?)"
                 }
             }
         } else {
@@ -628,7 +655,7 @@ try {
         }
     }
 } catch {
-    Write-Host "Erro git: $_"
+    Write-Host "ERRO git: $_"
 } finally {
     Pop-Location
 }
