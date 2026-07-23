@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-07-22T17:00:09-03:00",
+    "geradoEm":  "2026-07-23T08:30:03-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -1919,6 +1919,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-07-22T17:00:02",
+                                                 "end":  "2026-07-22T17:00:32",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  30,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-07-21T17:00:02",
                                                  "end":  "2026-07-21T17:03:31",
                                                  "status":  "OK",
@@ -2315,10 +2324,10 @@
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-06-07T19:03:19",
+                                                 "start":  "2026-06-07T19:03:43",
                                                  "end":  "2026-06-07T19:05:04",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  105,
+                                                 "duracaoSeg":  81,
                                                  "urls":  [
 
                                                           ]
@@ -2945,12 +2954,21 @@
                            "agendamento":  "Diariamente as 17:00",
                            "proximaExecucao":  "2026-07-23T17:00:00",
                            "ultimaExecucaoWindows":  "2026-07-22T17:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  1,
+                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-22T17:00:02",
+                                                 "end":  "2026-07-22T17:00:32",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  30,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-21T17:00:02",
                                                  "end":  "2026-07-21T17:03:31",
@@ -3348,10 +3366,10 @@
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-06-07T19:03:19",
+                                                 "start":  "2026-06-07T19:03:43",
                                                  "end":  "2026-06-07T19:05:04",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  105,
+                                                 "duracaoSeg":  81,
                                                  "urls":  [
 
                                                           ]
