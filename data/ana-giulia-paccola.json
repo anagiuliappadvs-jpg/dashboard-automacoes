@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-07-28T15:00:10-03:00",
+    "geradoEm":  "2026-07-28T16:00:15-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -11,14 +11,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-07-28T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-07-27T15:30:30",
+                           "proximaExecucao":  "2026-07-29T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-07-28T15:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-07-28T15:30:01",
+                                                 "end":  "2026-07-28T15:31:26",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  85,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-27T15:30:01",
                                                  "end":  "2026-07-27T15:31:44",
@@ -2524,10 +2536,10 @@
                                           ],
                            "descricao":  "Roda toda segunda 09:30 gerando relatorio financeiro semanal",
                            "agendamento":  "Ter as 16:00",
-                           "proximaExecucao":  "2026-07-28T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-07-21T16:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-08-04T16:00:00",
+                           "ultimaExecucaoWindows":  "2026-07-28T16:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
