@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-03T08:21:10-03:00",
+    "geradoEm":  "2026-08-03T09:00:32-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -958,14 +958,23 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Seg as 08:30",
-                           "proximaExecucao":  "2026-08-03T08:30:30",
-                           "ultimaExecucaoWindows":  "2026-07-27T08:41:41",
+                           "proximaExecucao":  "2026-08-10T08:30:30",
+                           "ultimaExecucaoWindows":  "2026-08-03T08:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-03T08:30:04",
+                                                 "end":  "2026-08-03T08:31:06",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  62,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-27T08:42:06",
                                                  "end":  "2026-07-27T08:43:22",
@@ -2270,10 +2279,10 @@
                                           ],
                            "descricao":  "Relatorio semanal Kommo - segundas 09:00 BRT (janela domingo 00:00 -\u003e execucao)",
                            "agendamento":  "Seg as 09:00",
-                           "proximaExecucao":  "2026-08-03T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-07-27T09:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-08-10T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-03T09:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
@@ -3026,14 +3035,38 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Seg as 09:00",
-                           "proximaExecucao":  "2026-08-03T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-07-27T09:00:00",
+                           "proximaExecucao":  "2026-08-10T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-03T09:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-03T08:59:16",
+                                                 "end":  "2026-08-03T09:00:26",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  70,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1JQXHriS7anOXQM_qQVj6hQSoqA7GiJ-Y0PD0SdiI8n4/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/JbdUsPhT",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1SqeNqVRQK9VgqV4rsVAKS9EaGN6LyCGWB_J6v45gBrs/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/JVmfHcDH",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-07-31T17:49:53",
                                                  "end":  "2026-07-31T17:49:58",
@@ -3325,8 +3358,8 @@
                                           ],
                            "descricao":  "Relatorio mensal do tempo de reuniao-\u003efechamento e fechamento-\u003epagamento por vendedor (Julia, Felipe, Lindsey). Roda diariamente 09:00 mas so executa de verdade no 5o dia util do mes, gerando o relatorio do mes anterior. Publica Doc em Drive \u003e Gestao \u003e Relatorios semanais \u003e Comercial.",
                            "agendamento":  "Diariamente as 09:00",
-                           "proximaExecucao":  "2026-08-03T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-02T15:31:31",
+                           "proximaExecucao":  "2026-08-04T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-03T09:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
