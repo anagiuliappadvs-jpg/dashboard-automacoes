@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-05T14:00:12-03:00",
+    "geradoEm":  "2026-08-05T15:00:14-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -3595,6 +3595,15 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-05T14:19:08",
+                                                 "end":  "2026-08-05T14:40:57",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  1309,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-05T13:46:21",
                                                  "end":  "2026-08-05T13:46:25",
