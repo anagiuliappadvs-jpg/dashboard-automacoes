@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-06T17:00:13-03:00",
+    "geradoEm":  "2026-08-06T17:03:07-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -2866,6 +2866,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-08-06T17:00:02",
+                                                 "end":  "2026-08-06T17:02:56",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  174,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-08-05T17:00:03",
                                                  "end":  "2026-08-05T17:02:52",
                                                  "status":  "OK",
@@ -3275,15 +3284,6 @@
                                                  "end":  "2026-06-24T17:05:41",
                                                  "status":  "OK",
                                                  "duracaoSeg":  339,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-06-23T17:16:32",
-                                                 "end":  "2026-06-23T17:23:36",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  424,
                                                  "urls":  [
 
                                                           ]
@@ -4040,6 +4040,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-08-06T17:00:02",
+                                                 "end":  "2026-08-06T17:02:56",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  174,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-08-05T17:00:03",
                                                  "end":  "2026-08-05T17:02:52",
                                                  "status":  "OK",
@@ -4449,15 +4458,6 @@
                                                  "end":  "2026-06-24T17:05:41",
                                                  "status":  "OK",
                                                  "duracaoSeg":  339,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-06-23T17:16:32",
-                                                 "end":  "2026-06-23T17:23:36",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  424,
                                                  "urls":  [
 
                                                           ]
