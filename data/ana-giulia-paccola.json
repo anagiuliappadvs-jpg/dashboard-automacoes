@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-07T11:00:22-03:00",
+    "geradoEm":  "2026-08-07T12:37:51-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -1154,17 +1154,17 @@
                            "agendamento":  "Diariamente as 11:00",
                            "proximaExecucao":  "2026-08-08T11:00:00",
                            "ultimaExecucaoWindows":  "2026-08-07T11:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-08-07T11:00:03",
-                                                 "end":  "2026-08-07T11:00:03",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  0,
+                                                 "end":  "2026-08-07T11:27:58",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  1675,
                                                  "urls":  [
 
                                                           ]
@@ -1674,9 +1674,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-08-07T11:00:03",
-                                                 "end":  "2026-08-07T11:00:03",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  0,
+                                                 "end":  "2026-08-07T11:27:58",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  1675,
                                                  "urls":  [
 
                                                           ]
@@ -2648,11 +2648,11 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-08-07T12:00:00",
+                           "proximaExecucao":  "2026-08-07T14:00:00",
                            "ultimaExecucaoWindows":  "2026-08-06T16:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
-                           "runsPerdidos":  9,
+                           "runsPerdidos":  10,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
