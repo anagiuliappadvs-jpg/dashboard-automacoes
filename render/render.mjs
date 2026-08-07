@@ -148,6 +148,8 @@ const ORDEM_SETORES = ['Comercial', 'Operacional', 'Financeiro', 'Marketing', 'R
 const SETOR_POR_NOME = {
   'CRM 2026': 'Comercial',
   'Planilha de KPI - automação': 'Comercial',
+  'ABA KPI POR MÊS': 'Comercial',
+  'KPI VIGIA': 'Comercial',
   'Relatório de campanha semanal': 'Comercial',
   'Relatorio Comercial Semanal': 'Comercial',
   'Relatorio Tempo Fechamento Pagamento': 'Comercial',
