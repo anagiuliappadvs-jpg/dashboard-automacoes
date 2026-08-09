@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-09T15:32:17-03:00",
+    "geradoEm":  "2026-08-09T17:02:44-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -13,19 +13,22 @@
                            "agendamento":  "Diariamente as 15:30",
                            "proximaExecucao":  "2026-08-10T15:30:30",
                            "ultimaExecucaoWindows":  "2026-08-09T15:30:30",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-08-09T15:30:05",
-                                                 "end":  "2026-08-09T15:30:53",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  48,
+                                                 "end":  "2026-08-09T15:33:53",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  228,
                                                  "urls":  [
-
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
                                                           ]
                                              },
                                              {
@@ -1186,13 +1189,22 @@
                            "descricao":  "Coleta as metricas do Instagram e publica o snapshot no GitHub Pages (diario 11h, recupera se PC estava desligado, roda na bateria).",
                            "agendamento":  "Diariamente as 11:00",
                            "proximaExecucao":  "2026-08-10T11:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-08T15:32:32",
+                           "ultimaExecucaoWindows":  "2026-08-09T15:32:32",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
-                           "runsPerdidos":  1,
+                           "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-09T15:32:16",
+                                                 "end":  "2026-08-09T15:34:10",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  114,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-08T15:32:55",
                                                  "end":  "2026-08-08T15:34:57",
@@ -1707,13 +1719,22 @@
                            "descricao":  "Renova o token de longa duracao do Instagram (mantem os ~60 dias sempre cheios).",
                            "agendamento":  "Dom as 10:30",
                            "proximaExecucao":  "2026-08-16T10:30:30",
-                           "ultimaExecucaoWindows":  "2026-08-02T15:31:31",
-                           "ultimoResultadoCodigo":  1,
-                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
-                           "runsPerdidos":  1,
+                           "ultimaExecucaoWindows":  "2026-08-09T15:32:32",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
+                           "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-09T15:32:16",
+                                                 "end":  "2026-08-09T15:34:10",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  114,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-08T15:32:55",
                                                  "end":  "2026-08-08T15:34:57",
@@ -2699,8 +2720,8 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-08-09T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-09T15:31:31",
+                           "proximaExecucao":  "2026-08-09T18:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-09T17:02:02",
                            "ultimoResultadoCodigo":  2147946720,
                            "ultimoResultadoTexto":  "Codigo 2147946720",
                            "runsPerdidos":  0,
@@ -4049,8 +4070,8 @@
                            "agendamento":  "Diariamente as 09:00",
                            "proximaExecucao":  "2026-08-10T09:00:00",
                            "ultimaExecucaoWindows":  "2026-08-09T15:32:32",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
@@ -4112,10 +4133,10 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-08-09T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-08T17:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-08-10T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-09T17:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
