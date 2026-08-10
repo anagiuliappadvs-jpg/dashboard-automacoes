@@ -245,8 +245,22 @@ if (Test-Path $__pcCfgPath) {
 foreach ($t in $tarefas) {
     $info = Get-ScheduledTaskInfo -TaskName $t.TaskName -TaskPath $t.TaskPath
     $projFolder = Find-ProjectFolder $t
-    $logPath = if ($projFolder) { Join-Path $projFolder 'logs.txt' } else { $null }
-    $execs = if ($logPath) { Parse-LogFile $logPath } else { @() }
+    # Qual log ler: por padrao 'logs.txt', mas pc-config.json pode apontar outro
+    # (varias tarefas dividem a mesma pasta de projeto e cada uma tem seu log).
+    $nomeLog = 'logs.txt'
+    $logMapeado = $false
+    if ($__pcCfg -and $__pcCfg.PSObject.Properties.Name -contains 'logs' -and $__pcCfg.logs) {
+        $mapLog = $__pcCfg.logs.PSObject.Properties[$t.TaskName]
+        if ($mapLog -and $mapLog.Value) { $nomeLog = $mapLog.Value; $logMapeado = $true }
+    }
+    $logPath = if ($projFolder) { Join-Path $projFolder $nomeLog } else { $null }
+    # Se a tarefa tem log proprio mapeado e ele ainda nao existe (nunca rodou), o historico
+    # fica VAZIO. Nao cair no logs.txt da pasta: varias tarefas dividem a mesma pasta e o
+    # historico de uma apareceria na outra (a ABA KPI POR MES mostrava o log do updater).
+    $execs = if ($logPath -and (Test-Path $logPath)) { Parse-LogFile $logPath }
+             elseif ($logMapeado) { @() }
+             elseif ($projFolder -and (Test-Path (Join-Path $projFolder 'logs.txt'))) { Parse-LogFile (Join-Path $projFolder 'logs.txt') }
+             else { @() }
 
     # Agendamento humanizado + dias de intervalo
     $sched = ''
@@ -278,10 +292,17 @@ foreach ($t in $tarefas) {
     }
 
     $nomeExibicao = if ($nomeAliases.ContainsKey($t.TaskName)) { $nomeAliases[$t.TaskName] } else { $t.TaskName }
+    # Descricao: por padrao a da tarefa do Windows, mas pc-config.json pode sobrescrever
+    # (editar a descricao da tarefa exige admin/UAC; pelo config nao precisa).
+    $descricao = $t.Description
+    if ($__pcCfg -and $__pcCfg.PSObject.Properties.Name -contains 'descricoes' -and $__pcCfg.descricoes) {
+        $dOver = $__pcCfg.descricoes.PSObject.Properties[$t.TaskName]
+        if ($dOver -and $dOver.Value) { $descricao = $dOver.Value }
+    }
     $row = [pscustomobject]@{
         Nome = $nomeExibicao
         NomeTecnico = $t.TaskName
-        Descricao = $t.Description
+        Descricao = $descricao
         Agendamento = $sched
         ProximaExecucao = $info.NextRunTime
         UltimaExecucaoWindows = $info.LastRunTime

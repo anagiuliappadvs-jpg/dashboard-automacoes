@@ -12,6 +12,17 @@
     "PaccolaPelegrini-RelatorioSemanal": "Relatório de campanha semanal",
     "Dashboard RH - Atualizacao Semanal": "Dashboard RH - Atualização Semanal"
   },
+  "descricoes": {
+    "KpiStatusUpdater": "Atualiza o status da Planilha de KPI a partir dos Painéis do Kommo (Closer/Financeiro/Operacional/SDR). Roda 1x por semana, sexta às 17h, depois que a equipe fecha a semana. Também preenche a coluna Campanha e regenera as abas ANÁLISE e BASE.",
+    "KpiVigia": "Rede de segurança do KPI: a cada 2 horas confere se a atualização de sexta deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
+    "KpiNovaAbaMes": "Cria a aba do mês na Planilha de KPI todo dia 1º, copiando a estrutura do mês anterior (cabeçalho, formatação) e deixando-a vazia. Se a aba já existir, não faz nada."
+  },
+  "_comentario_logs": "Qual arquivo de log ler para cada tarefa. Sem isso o dashboard le sempre 'logs.txt' - e o KPI migrou pra logs-v2.txt em 20/07/2026, entao o historico dele congelou. Chave = nome TECNICO da tarefa do Windows.",
+  "logs": {
+    "KpiStatusUpdater": "logs-v2.txt",
+    "KpiVigia": "logs-vigia.txt",
+    "KpiNovaAbaMes": "logs-aba-mes.txt"
+  },
   "linksFixos": {
     "CRM Novos Clientes": [
       { "label": "Planilha Financeira (fonte)", "url": "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit", "tipo": "sheet" },
