@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-10T08:41:59-03:00",
+    "geradoEm":  "2026-08-10T08:45:12-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -2287,212 +2287,7 @@
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
-                                             {
-                                                 "start":  "2026-07-27T09:05:50",
-                                                 "end":  "2026-07-27T09:08:21",
-                                                 "status":  "ERRO",
-                                                 "duracaoSeg":  151,
-                                                 "urls":  [
 
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-17T17:00:23",
-                                                 "end":  "2026-07-17T17:11:16",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  653,
-                                                 "urls":  [
-                                                              {
-                                                                  "url":  "https://trello.com/c/R1p7OX98",
-                                                                  "tipo":  "trello"
-                                                              }
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-14T21:35:35",
-                                                 "end":  "2026-07-14T23:06:07",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  5432,
-                                                 "urls":  [
-                                                              {
-                                                                  "url":  "https://trello.com/c/woHniEj8",
-                                                                  "tipo":  "trello"
-                                                              }
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-14T13:55:48",
-                                                 "end":  "2026-07-14T14:33:08",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  2240,
-                                                 "urls":  [
-                                                              {
-                                                                  "url":  "https://trello.com/c/nzf7yWkT",
-                                                                  "tipo":  "trello"
-                                                              },
-                                                              {
-                                                                  "url":  "https://trello.com/c/gLRtuseW",
-                                                                  "tipo":  "trello"
-                                                              },
-                                                              {
-                                                                  "url":  "http://www.w3.org/TR/html4/loose.dtd",
-                                                                  "tipo":  "link"
-                                                              }
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-13T11:01:14",
-                                                 "end":  "2026-07-13T11:03:55",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  161,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-10T20:30:31",
-                                                 "end":  "2026-07-10T20:30:31",
-                                                 "status":  "ERRO",
-                                                 "duracaoSeg":  0,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-10T17:30:07",
-                                                 "end":  "2026-07-10T17:30:07",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  0,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-10T11:00:21",
-                                                 "end":  "2026-07-10T11:04:42",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  261,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-03T17:30:11",
-                                                 "end":  "2026-07-03T17:32:05",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  114,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-03T11:00:14",
-                                                 "end":  "2026-07-03T11:05:27",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  313,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-02T08:47:51",
-                                                 "end":  "2026-07-02T08:50:43",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  172,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-06-26T17:30:04",
-                                                 "end":  "2026-06-26T17:32:23",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  139,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-06-26T11:00:21",
-                                                 "end":  "2026-06-26T11:02:28",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  127,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-06-19T17:30:05",
-                                                 "end":  "2026-06-19T17:32:48",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  163,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-06-19T12:57:02",
-                                                 "end":  "2026-06-19T13:01:26",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  264,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-06-12T17:30:06",
-                                                 "end":  "2026-06-12T17:32:23",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  137,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-06-12T11:00:31",
-                                                 "end":  "2026-06-12T11:02:53",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  142,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-06-07T18:29:28",
-                                                 "end":  "2026-06-07T18:36:56",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  448,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-05-29T17:30:06",
-                                                 "end":  "2026-05-29T17:32:35",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  149,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-05-29T11:00:22",
-                                                 "end":  "2026-05-29T11:05:19",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  297,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-05-25T15:43:43",
-                                                 "end":  "2026-05-25T15:53:34",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  591,
-                                                 "urls":  [
-
-                                                          ]
-                                             }
                                          ]
                        },
                        {
@@ -2626,18 +2421,18 @@
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de sexta deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
                            "proximaExecucao":  "2026-08-10T10:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-10T08:18:18",
-                           "ultimoResultadoCodigo":  2147946720,
-                           "ultimoResultadoTexto":  "Codigo 2147946720",
+                           "ultimaExecucaoWindows":  "2026-08-10T08:44:44",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-08-10T08:36:44",
-                                                 "end":  "2026-08-10T08:36:44",
+                                                 "end":  "2026-08-10T08:44:17",
                                                  "status":  "Indeterminado",
-                                                 "duracaoSeg":  0,
+                                                 "duracaoSeg":  453,
                                                  "urls":  [
 
                                                           ]
