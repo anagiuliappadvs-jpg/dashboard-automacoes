@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-11T16:00:16-03:00",
+    "geradoEm":  "2026-08-11T17:00:12-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -3141,12 +3141,28 @@
                            "agendamento":  "Ter as 16:00",
                            "proximaExecucao":  "2026-08-18T16:00:00",
                            "ultimaExecucaoWindows":  "2026-08-11T16:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-11T16:00:16",
+                                                 "end":  "2026-08-11T16:00:48",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  32,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1koKllG25W3DYR8A3o0U_TYkPnp-kevz-erLul3ZXvH4/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/XIN9P0Dn",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-04T16:00:15",
                                                  "end":  "2026-08-04T16:00:35",
@@ -3901,10 +3917,10 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-08-11T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-10T17:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-08-12T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-11T17:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
