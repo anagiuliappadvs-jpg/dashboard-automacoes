@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-11T14:00:12-03:00",
+    "geradoEm":  "2026-08-11T15:00:15-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -2309,10 +2309,10 @@
                                           ],
                            "descricao":  "Rele KPI+CRM, reconstroi e publica toda segunda 14h",
                            "agendamento":  "Ter as 15:00",
-                           "proximaExecucao":  "2026-08-11T15:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-03T14:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-08-18T15:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-11T15:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
