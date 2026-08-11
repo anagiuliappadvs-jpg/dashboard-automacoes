@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-11T17:00:12-03:00",
+    "geradoEm":  "2026-08-11T18:00:12-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -2480,14 +2480,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de sexta deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-08-11T18:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-11T16:00:00",
+                           "proximaExecucao":  "2026-08-11T20:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-11T18:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-11T18:00:01",
+                                                 "end":  "2026-08-11T18:00:01",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-11T16:00:01",
                                                  "end":  "2026-08-11T16:00:01",
@@ -2707,6 +2716,15 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-11T17:00:02",
+                                                 "end":  "2026-08-11T17:02:50",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  168,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-10T17:00:02",
                                                  "end":  "2026-08-10T17:02:56",
@@ -3117,15 +3135,6 @@
                                                  "end":  "2026-06-30T10:52:40",
                                                  "status":  "OK",
                                                  "duracaoSeg":  26,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-06-30T08:37:15",
-                                                 "end":  "2026-06-30T08:40:53",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  218,
                                                  "urls":  [
 
                                                           ]
@@ -3919,12 +3928,21 @@
                            "agendamento":  "Diariamente as 17:00",
                            "proximaExecucao":  "2026-08-12T17:00:00",
                            "ultimaExecucaoWindows":  "2026-08-11T17:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  1,
+                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-11T17:00:02",
+                                                 "end":  "2026-08-11T17:02:50",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  168,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-10T17:00:02",
                                                  "end":  "2026-08-10T17:02:56",
@@ -4335,15 +4353,6 @@
                                                  "end":  "2026-06-30T10:52:40",
                                                  "status":  "OK",
                                                  "duracaoSeg":  26,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-06-30T08:37:15",
-                                                 "end":  "2026-06-30T08:40:53",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  218,
                                                  "urls":  [
 
                                                           ]
