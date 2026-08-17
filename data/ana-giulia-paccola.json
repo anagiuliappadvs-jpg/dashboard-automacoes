@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-17T10:00:29-03:00",
+    "geradoEm":  "2026-08-17T11:00:24-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -1311,14 +1311,23 @@
                                           ],
                            "descricao":  "Coleta as metricas do Instagram e publica o snapshot no GitHub Pages (diario 11h, recupera se PC estava desligado, roda na bateria).",
                            "agendamento":  "Diariamente as 11:00",
-                           "proximaExecucao":  "2026-08-17T11:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-16T13:58:58",
-                           "ultimoResultadoCodigo":  3221225786,
-                           "ultimoResultadoTexto":  "Codigo 3221225786",
+                           "proximaExecucao":  "2026-08-18T11:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-17T11:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-17T11:00:03",
+                                                 "end":  "2026-08-17T11:00:03",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-16T13:58:23",
                                                  "end":  "2026-08-16T13:58:53",
@@ -1903,6 +1912,15 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-17T11:00:03",
+                                                 "end":  "2026-08-17T11:00:03",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-16T13:58:23",
                                                  "end":  "2026-08-16T13:58:53",
