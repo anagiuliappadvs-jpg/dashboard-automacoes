@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-17T15:01:08-03:00",
+    "geradoEm":  "2026-08-17T16:01:00-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -11,14 +11,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-08-17T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-08-16T21:28:28",
+                           "proximaExecucao":  "2026-08-18T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-08-17T15:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-17T15:30:01",
+                                                 "end":  "2026-08-17T15:32:14",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  133,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-16T21:28:35",
                                                  "end":  "2026-08-16T21:36:03",
@@ -2678,14 +2690,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de sexta deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-08-17T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-17T14:00:00",
+                           "proximaExecucao":  "2026-08-17T18:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-17T16:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-17T16:00:02",
+                                                 "end":  "2026-08-17T16:00:02",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-17T14:00:01",
                                                  "end":  "2026-08-17T14:00:01",
