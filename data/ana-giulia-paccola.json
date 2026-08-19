@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-18T17:00:43-03:00",
+    "geradoEm":  "2026-08-19T09:08:01-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -2720,14 +2720,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de sexta deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-08-18T18:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-18T16:00:00",
+                           "proximaExecucao":  "2026-08-19T10:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-19T09:06:06",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-19T09:06:24",
+                                                 "end":  "2026-08-19T09:06:24",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-18T16:00:01",
                                                  "end":  "2026-08-18T16:00:01",
@@ -3254,6 +3263,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-08-18T17:00:04",
+                                                 "end":  "2026-08-18T17:03:31",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  207,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-08-17T17:00:03",
                                                  "end":  "2026-08-17T17:03:06",
                                                  "status":  "OK",
@@ -3645,15 +3663,6 @@
                                                  "end":  "2026-07-10T09:32:59",
                                                  "status":  "OK",
                                                  "duracaoSeg":  3043,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-09T17:00:02",
-                                                 "end":  "2026-07-09T17:00:32",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  30,
                                                  "urls":  [
 
                                                           ]
@@ -4412,8 +4421,8 @@
                                           ],
                            "descricao":  "Relatorio mensal do tempo de reuniao-\u003efechamento e fechamento-\u003epagamento por vendedor (Julia, Felipe, Lindsey). Roda diariamente 09:00 mas so executa de verdade no 5o dia util do mes, gerando o relatorio do mes anterior. Publica Doc em Drive \u003e Gestao \u003e Relatorios semanais \u003e Comercial.",
                            "agendamento":  "Diariamente as 09:00",
-                           "proximaExecucao":  "2026-08-19T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-18T09:00:00",
+                           "proximaExecucao":  "2026-08-20T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-19T09:06:06",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -4479,12 +4488,21 @@
                            "agendamento":  "Diariamente as 17:00",
                            "proximaExecucao":  "2026-08-19T17:00:00",
                            "ultimaExecucaoWindows":  "2026-08-18T17:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  1,
+                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-18T17:00:04",
+                                                 "end":  "2026-08-18T17:03:31",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  207,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-17T17:00:03",
                                                  "end":  "2026-08-17T17:03:06",
@@ -4877,15 +4895,6 @@
                                                  "end":  "2026-07-10T09:32:59",
                                                  "status":  "OK",
                                                  "duracaoSeg":  3043,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-09T17:00:02",
-                                                 "end":  "2026-07-09T17:00:32",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  30,
                                                  "urls":  [
 
                                                           ]
