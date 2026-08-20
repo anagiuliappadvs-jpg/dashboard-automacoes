@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-20T12:00:26-03:00",
+    "geradoEm":  "2026-08-20T12:30:27-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -2619,70 +2619,16 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-08-20T08:40:02",
-                                                 "end":  "2026-08-20T08:42:58",
+                                                 "end":  "2026-08-20T08:43:37",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  176,
+                                                 "duracaoSeg":  215,
                                                  "urls":  [
 
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-08-19T17:00:02",
-                                                 "end":  "2026-08-19T17:02:59",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  177,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-19T09:15:52",
-                                                 "end":  "2026-08-19T09:28:44",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  772,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-18T17:00:04",
-                                                 "end":  "2026-08-18T17:03:31",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  207,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-17T17:00:03",
-                                                 "end":  "2026-08-17T17:03:06",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  183,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-16T17:00:01",
-                                                 "end":  "2026-08-16T17:02:42",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  161,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-16T13:58:14",
-                                                 "end":  "2026-08-16T14:10:37",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  743,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-14T20:17:43",
-                                                 "end":  "2026-08-14T20:17:43",
+                                                 "start":  "2026-08-19T09:31:56",
+                                                 "end":  "2026-08-19T09:31:56",
                                                  "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
@@ -2690,343 +2636,19 @@
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-08-14T17:00:04",
-                                                 "end":  "2026-08-14T17:13:21",
-                                                 "status":  "ERRO",
-                                                 "duracaoSeg":  797,
+                                                 "start":  "2026-07-10T10:00:47",
+                                                 "end":  "2026-07-10T10:00:47",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  0,
                                                  "urls":  [
 
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-08-13T17:00:02",
-                                                 "end":  "2026-08-13T17:02:53",
+                                                 "start":  "2026-07-08T13:58:02",
+                                                 "end":  "2026-07-08T13:58:02",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  171,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-12T17:00:02",
-                                                 "end":  "2026-08-12T17:02:55",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  173,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-11T17:00:02",
-                                                 "end":  "2026-08-11T17:02:50",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  168,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-10T17:00:02",
-                                                 "end":  "2026-08-10T17:02:56",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  174,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-09T17:00:03",
-                                                 "end":  "2026-08-09T17:03:29",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  206,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-08T17:00:02",
-                                                 "end":  "2026-08-08T17:02:51",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  169,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-07T17:00:05",
-                                                 "end":  "2026-08-07T17:02:49",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  164,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-06T17:00:02",
-                                                 "end":  "2026-08-06T17:02:56",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  174,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-05T17:00:03",
-                                                 "end":  "2026-08-05T17:02:52",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  169,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-04T17:00:02",
-                                                 "end":  "2026-08-04T17:02:56",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  174,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-03T17:00:02",
-                                                 "end":  "2026-08-03T17:02:47",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  165,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-02T17:00:02",
-                                                 "end":  "2026-08-02T17:00:33",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  31,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-01T17:00:07",
-                                                 "end":  "2026-08-01T17:02:59",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  172,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-31T18:06:02",
-                                                 "end":  "2026-07-31T18:09:32",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  210,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-31T17:00:03",
-                                                 "end":  "2026-07-31T17:00:34",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  31,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-30T17:00:04",
-                                                 "end":  "2026-07-30T17:03:35",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  211,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-29T17:00:02",
-                                                 "end":  "2026-07-29T17:02:41",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  159,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-28T17:00:02",
-                                                 "end":  "2026-07-28T17:16:36",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  994,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-27T17:00:02",
-                                                 "end":  "2026-07-27T17:03:32",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  210,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-27T08:42:08",
-                                                 "end":  "2026-07-27T08:57:08",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  900,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-24T17:00:03",
-                                                 "end":  "2026-07-24T17:03:55",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  232,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-23T17:00:02",
-                                                 "end":  "2026-07-23T17:03:46",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  224,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-23T15:57:08",
-                                                 "end":  "2026-07-23T16:02:45",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  337,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-23T13:06:39",
-                                                 "end":  "2026-07-23T13:10:38",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  239,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-22T17:00:02",
-                                                 "end":  "2026-07-22T17:00:32",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  30,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-21T17:00:02",
-                                                 "end":  "2026-07-21T17:03:31",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  209,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-20T17:00:02",
-                                                 "end":  "2026-07-20T17:03:59",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  237,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-20T08:47:44",
-                                                 "end":  "2026-07-20T08:53:59",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  375,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-18T17:00:02",
-                                                 "end":  "2026-07-18T17:03:31",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  209,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-17T17:00:02",
-                                                 "end":  "2026-07-17T17:03:41",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  219,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-16T17:00:03",
-                                                 "end":  "2026-07-16T17:03:37",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  214,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-15T17:00:05",
-                                                 "end":  "2026-07-15T17:05:38",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  333,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-14T17:00:02",
-                                                 "end":  "2026-07-14T17:03:27",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  205,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-13T17:00:01",
-                                                 "end":  "2026-07-13T17:05:37",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  336,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-13T14:05:14",
-                                                 "end":  "2026-07-13T14:06:48",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  94,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-13T11:32:45",
-                                                 "end":  "2026-07-13T11:49:04",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  979,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-13T08:38:09",
-                                                 "end":  "2026-07-13T08:42:57",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  288,
+                                                 "duracaoSeg":  0,
                                                  "urls":  [
 
                                                           ]
@@ -3210,7 +2832,7 @@
                                              {
                                                  "start":  "2026-08-20T12:00:00",
                                                  "end":  "2026-08-20T12:00:00",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3219,7 +2841,7 @@
                                              {
                                                  "start":  "2026-08-20T10:00:02",
                                                  "end":  "2026-08-20T10:00:02",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3228,7 +2850,7 @@
                                              {
                                                  "start":  "2026-08-20T08:29:25",
                                                  "end":  "2026-08-20T08:29:25",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3237,7 +2859,7 @@
                                              {
                                                  "start":  "2026-08-19T16:00:00",
                                                  "end":  "2026-08-19T16:00:00",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3246,7 +2868,7 @@
                                              {
                                                  "start":  "2026-08-19T14:00:00",
                                                  "end":  "2026-08-19T14:00:00",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3255,7 +2877,7 @@
                                              {
                                                  "start":  "2026-08-19T12:00:00",
                                                  "end":  "2026-08-19T12:00:00",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3264,7 +2886,7 @@
                                              {
                                                  "start":  "2026-08-19T10:00:00",
                                                  "end":  "2026-08-19T10:00:00",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3273,7 +2895,7 @@
                                              {
                                                  "start":  "2026-08-19T09:06:24",
                                                  "end":  "2026-08-19T09:06:24",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3282,7 +2904,7 @@
                                              {
                                                  "start":  "2026-08-18T16:00:01",
                                                  "end":  "2026-08-18T16:00:01",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3291,7 +2913,7 @@
                                              {
                                                  "start":  "2026-08-18T14:00:02",
                                                  "end":  "2026-08-18T14:00:02",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3300,7 +2922,7 @@
                                              {
                                                  "start":  "2026-08-18T12:00:01",
                                                  "end":  "2026-08-18T12:00:01",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3309,7 +2931,7 @@
                                              {
                                                  "start":  "2026-08-18T10:00:02",
                                                  "end":  "2026-08-18T10:00:02",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3318,7 +2940,7 @@
                                              {
                                                  "start":  "2026-08-18T08:36:23",
                                                  "end":  "2026-08-18T08:36:23",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3327,7 +2949,7 @@
                                              {
                                                  "start":  "2026-08-17T20:16:32",
                                                  "end":  "2026-08-17T20:16:32",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3336,7 +2958,7 @@
                                              {
                                                  "start":  "2026-08-17T16:00:02",
                                                  "end":  "2026-08-17T16:00:02",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3345,7 +2967,7 @@
                                              {
                                                  "start":  "2026-08-17T14:00:01",
                                                  "end":  "2026-08-17T14:00:01",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3354,7 +2976,7 @@
                                              {
                                                  "start":  "2026-08-17T12:00:01",
                                                  "end":  "2026-08-17T12:00:01",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3363,7 +2985,7 @@
                                              {
                                                  "start":  "2026-08-17T10:00:02",
                                                  "end":  "2026-08-17T10:00:02",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3372,7 +2994,7 @@
                                              {
                                                  "start":  "2026-08-17T08:39:41",
                                                  "end":  "2026-08-17T08:39:41",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3381,7 +3003,7 @@
                                              {
                                                  "start":  "2026-08-16T21:33:23",
                                                  "end":  "2026-08-16T21:33:23",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3390,7 +3012,7 @@
                                              {
                                                  "start":  "2026-08-16T18:13:55",
                                                  "end":  "2026-08-16T18:13:55",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3399,7 +3021,7 @@
                                              {
                                                  "start":  "2026-08-16T17:02:30",
                                                  "end":  "2026-08-16T17:02:30",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3408,7 +3030,7 @@
                                              {
                                                  "start":  "2026-08-16T15:42:15",
                                                  "end":  "2026-08-16T15:42:15",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3426,7 +3048,7 @@
                                              {
                                                  "start":  "2026-08-14T16:19:36",
                                                  "end":  "2026-08-14T16:19:36",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3435,7 +3057,7 @@
                                              {
                                                  "start":  "2026-08-14T14:00:01",
                                                  "end":  "2026-08-14T14:00:01",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3444,7 +3066,7 @@
                                              {
                                                  "start":  "2026-08-14T12:00:02",
                                                  "end":  "2026-08-14T12:00:02",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3453,7 +3075,7 @@
                                              {
                                                  "start":  "2026-08-14T10:00:02",
                                                  "end":  "2026-08-14T10:00:02",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3462,7 +3084,7 @@
                                              {
                                                  "start":  "2026-08-14T08:41:19",
                                                  "end":  "2026-08-14T08:41:19",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3471,7 +3093,7 @@
                                              {
                                                  "start":  "2026-08-13T18:00:01",
                                                  "end":  "2026-08-13T18:00:01",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3480,7 +3102,7 @@
                                              {
                                                  "start":  "2026-08-13T16:00:00",
                                                  "end":  "2026-08-13T16:00:00",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3489,7 +3111,7 @@
                                              {
                                                  "start":  "2026-08-13T14:00:00",
                                                  "end":  "2026-08-13T14:00:00",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3498,7 +3120,7 @@
                                              {
                                                  "start":  "2026-08-13T12:00:00",
                                                  "end":  "2026-08-13T12:00:00",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3507,7 +3129,7 @@
                                              {
                                                  "start":  "2026-08-13T10:00:04",
                                                  "end":  "2026-08-13T10:00:04",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3516,7 +3138,7 @@
                                              {
                                                  "start":  "2026-08-13T08:32:21",
                                                  "end":  "2026-08-13T08:32:21",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3525,7 +3147,7 @@
                                              {
                                                  "start":  "2026-08-12T18:00:01",
                                                  "end":  "2026-08-12T18:00:01",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3534,7 +3156,7 @@
                                              {
                                                  "start":  "2026-08-12T16:00:01",
                                                  "end":  "2026-08-12T16:00:01",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3543,7 +3165,7 @@
                                              {
                                                  "start":  "2026-08-12T14:00:01",
                                                  "end":  "2026-08-12T14:00:01",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3552,7 +3174,7 @@
                                              {
                                                  "start":  "2026-08-12T12:09:21",
                                                  "end":  "2026-08-12T12:09:21",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3561,7 +3183,7 @@
                                              {
                                                  "start":  "2026-08-12T10:00:01",
                                                  "end":  "2026-08-12T10:00:01",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3570,7 +3192,7 @@
                                              {
                                                  "start":  "2026-08-12T08:37:15",
                                                  "end":  "2026-08-12T08:37:15",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3579,7 +3201,7 @@
                                              {
                                                  "start":  "2026-08-11T18:00:01",
                                                  "end":  "2026-08-11T18:00:01",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3588,7 +3210,7 @@
                                              {
                                                  "start":  "2026-08-11T16:00:01",
                                                  "end":  "2026-08-11T16:00:01",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3597,7 +3219,7 @@
                                              {
                                                  "start":  "2026-08-11T14:00:02",
                                                  "end":  "2026-08-11T14:00:02",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3606,7 +3228,7 @@
                                              {
                                                  "start":  "2026-08-11T12:00:01",
                                                  "end":  "2026-08-11T12:00:01",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3615,7 +3237,7 @@
                                              {
                                                  "start":  "2026-08-11T10:00:06",
                                                  "end":  "2026-08-11T10:00:06",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3624,7 +3246,7 @@
                                              {
                                                  "start":  "2026-08-11T08:28:53",
                                                  "end":  "2026-08-11T08:28:53",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3633,7 +3255,7 @@
                                              {
                                                  "start":  "2026-08-10T22:12:39",
                                                  "end":  "2026-08-10T22:12:39",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3642,7 +3264,7 @@
                                              {
                                                  "start":  "2026-08-10T16:00:00",
                                                  "end":  "2026-08-10T16:00:00",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3651,7 +3273,7 @@
                                              {
                                                  "start":  "2026-08-10T14:00:00",
                                                  "end":  "2026-08-10T14:00:00",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3660,7 +3282,7 @@
                                              {
                                                  "start":  "2026-08-10T12:00:01",
                                                  "end":  "2026-08-10T12:00:01",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3669,7 +3291,7 @@
                                              {
                                                  "start":  "2026-08-10T10:00:05",
                                                  "end":  "2026-08-10T10:00:05",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3678,7 +3300,7 @@
                                              {
                                                  "start":  "2026-08-10T08:36:44",
                                                  "end":  "2026-08-10T08:44:17",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  453,
                                                  "urls":  [
 
@@ -3687,7 +3309,7 @@
                                              {
                                                  "start":  "2026-08-07T16:00:01",
                                                  "end":  "2026-08-07T16:00:01",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3696,7 +3318,7 @@
                                              {
                                                  "start":  "2026-08-06T16:00:00",
                                                  "end":  "2026-08-06T16:00:00",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3705,7 +3327,7 @@
                                              {
                                                  "start":  "2026-08-06T12:05:09",
                                                  "end":  "2026-08-06T12:05:09",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3714,7 +3336,7 @@
                                              {
                                                  "start":  "2026-08-06T10:00:01",
                                                  "end":  "2026-08-06T10:00:01",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3723,7 +3345,7 @@
                                              {
                                                  "start":  "2026-08-05T16:00:01",
                                                  "end":  "2026-08-05T16:00:01",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3732,7 +3354,7 @@
                                              {
                                                  "start":  "2026-08-05T14:00:00",
                                                  "end":  "2026-08-05T14:00:00",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3741,7 +3363,7 @@
                                              {
                                                  "start":  "2026-08-05T12:00:04",
                                                  "end":  "2026-08-05T12:00:04",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3750,7 +3372,7 @@
                                              {
                                                  "start":  "2026-08-05T11:27:38",
                                                  "end":  "2026-08-05T11:27:38",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3759,7 +3381,7 @@
                                              {
                                                  "start":  "2026-08-04T16:00:01",
                                                  "end":  "2026-08-04T16:00:01",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3768,7 +3390,7 @@
                                              {
                                                  "start":  "2026-08-04T14:02:59",
                                                  "end":  "2026-08-04T14:02:59",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -3777,7 +3399,7 @@
                                              {
                                                  "start":  "2026-08-04T12:47:20",
                                                  "end":  "2026-08-04T12:54:53",
-                                                 "status":  "ERRO",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  453,
                                                  "urls":  [
 
@@ -3805,417 +3427,185 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
-                                                 "start":  "2026-08-20T08:40:02",
-                                                 "end":  "2026-08-20T08:42:58",
+                                                 "start":  "2026-08-18T09:05:40",
+                                                 "end":  "2026-08-18T09:12:03",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  176,
+                                                 "duracaoSeg":  383,
                                                  "urls":  [
-
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/1Fx628R7BYbXW3t9W9jKppT65whcDBskmow1E9Pmldj0/edit?usp=drivesdk",
+                                                                  "tipo":  "sheet"
+                                                              }
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-08-19T17:00:02",
-                                                 "end":  "2026-08-19T17:02:59",
+                                                 "start":  "2026-08-17T09:00:03",
+                                                 "end":  "2026-08-17T09:01:30",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  177,
+                                                 "duracaoSeg":  87,
                                                  "urls":  [
 
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-08-19T09:15:52",
-                                                 "end":  "2026-08-19T09:28:44",
+                                                 "start":  "2026-08-10T09:00:08",
+                                                 "end":  "2026-08-10T09:02:13",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  772,
+                                                 "duracaoSeg":  125,
                                                  "urls":  [
 
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-08-18T17:00:04",
-                                                 "end":  "2026-08-18T17:03:31",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  207,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-17T17:00:03",
-                                                 "end":  "2026-08-17T17:03:06",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  183,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-16T17:00:01",
-                                                 "end":  "2026-08-16T17:02:42",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  161,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-16T13:58:14",
-                                                 "end":  "2026-08-16T14:10:37",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  743,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-14T20:17:43",
-                                                 "end":  "2026-08-14T20:17:43",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  0,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-14T17:00:04",
-                                                 "end":  "2026-08-14T17:13:21",
-                                                 "status":  "ERRO",
-                                                 "duracaoSeg":  797,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-13T17:00:02",
-                                                 "end":  "2026-08-13T17:02:53",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  171,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-12T17:00:02",
-                                                 "end":  "2026-08-12T17:02:55",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  173,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-11T17:00:02",
-                                                 "end":  "2026-08-11T17:02:50",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  168,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-10T17:00:02",
-                                                 "end":  "2026-08-10T17:02:56",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  174,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-09T17:00:03",
-                                                 "end":  "2026-08-09T17:03:29",
+                                                 "start":  "2026-08-03T09:00:08",
+                                                 "end":  "2026-08-03T09:03:34",
                                                  "status":  "OK",
                                                  "duracaoSeg":  206,
                                                  "urls":  [
-
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/1ZG5_mo81ELTvLSD6fSgjdvLXHewVoDe28uH11fkkrrY/edit?usp=drivesdk",
+                                                                  "tipo":  "sheet"
+                                                              }
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-08-08T17:00:02",
-                                                 "end":  "2026-08-08T17:02:51",
+                                                 "start":  "2026-07-27T09:01:02",
+                                                 "end":  "2026-07-27T09:09:37",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  169,
+                                                 "duracaoSeg":  515,
                                                  "urls":  [
-
+                                                              {
+                                                                  "url":  "https://paccolaepelegrini.kommo.com/api/v4/leads",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://paccolaepelegrini.kommo.com/api/v4/contacts",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/10aQVSFExj3kCCFDSGMxWyLuUoEX1F2MRgaIY6rtQ6O8/edit?usp=drivesdk",
+                                                                  "tipo":  "sheet"
+                                                              }
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-08-07T17:00:05",
-                                                 "end":  "2026-08-07T17:02:49",
+                                                 "start":  "2026-07-20T09:00:05",
+                                                 "end":  "2026-07-20T09:01:42",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  164,
+                                                 "duracaoSeg":  97,
                                                  "urls":  [
-
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/10aQVSFExj3kCCFDSGMxWyLuUoEX1F2MRgaIY6rtQ6O8/edit?usp=drivesdk",
+                                                                  "tipo":  "sheet"
+                                                              }
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-08-06T17:00:02",
-                                                 "end":  "2026-08-06T17:02:56",
+                                                 "start":  "2026-07-13T11:17:10",
+                                                 "end":  "2026-07-13T11:22:35",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  174,
+                                                 "duracaoSeg":  325,
                                                  "urls":  [
-
+                                                              {
+                                                                  "url":  "https://paccolaepelegrini.kommo.com/api/v4/leads",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/10aQVSFExj3kCCFDSGMxWyLuUoEX1F2MRgaIY6rtQ6O8/edit?usp=drivesdk",
+                                                                  "tipo":  "sheet"
+                                                              }
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-08-05T17:00:03",
-                                                 "end":  "2026-08-05T17:02:52",
+                                                 "start":  "2026-07-13T09:00:02",
+                                                 "end":  "2026-07-13T09:01:48",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  169,
+                                                 "duracaoSeg":  106,
                                                  "urls":  [
-
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/10aQVSFExj3kCCFDSGMxWyLuUoEX1F2MRgaIY6rtQ6O8/edit?usp=drivesdk",
+                                                                  "tipo":  "sheet"
+                                                              }
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-08-04T17:00:02",
-                                                 "end":  "2026-08-04T17:02:56",
+                                                 "start":  "2026-07-06T09:00:05",
+                                                 "end":  "2026-07-06T09:02:45",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  174,
+                                                 "duracaoSeg":  160,
                                                  "urls":  [
-
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/1SjelVtFe8E9UpyX0CPDBit70e1q3FrcaIHtSc4gbsrg/edit?usp=drivesdk",
+                                                                  "tipo":  "sheet"
+                                                              }
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-08-03T17:00:02",
-                                                 "end":  "2026-08-03T17:02:47",
+                                                 "start":  "2026-06-29T09:00:07",
+                                                 "end":  "2026-06-29T09:01:38",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  165,
+                                                 "duracaoSeg":  91,
                                                  "urls":  [
-
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/1EiK3Fn2yZrMpjsps46R0KgQ8a8DtM1kAZsTuYUskgwU/edit?usp=drivesdk",
+                                                                  "tipo":  "sheet"
+                                                              }
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-08-02T17:00:02",
-                                                 "end":  "2026-08-02T17:00:33",
+                                                 "start":  "2026-06-22T15:21:43",
+                                                 "end":  "2026-06-22T15:28:53",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  31,
+                                                 "duracaoSeg":  430,
                                                  "urls":  [
-
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/1LGCucYgi63c4r4Pa0krb5bd4CSFvIMuOJwHaBKO60GA/edit?usp=drivesdk",
+                                                                  "tipo":  "sheet"
+                                                              }
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-08-01T17:00:07",
-                                                 "end":  "2026-08-01T17:02:59",
+                                                 "start":  "2026-06-22T09:00:03",
+                                                 "end":  "2026-06-22T09:00:30",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  172,
+                                                 "duracaoSeg":  27,
                                                  "urls":  [
-
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/1LGCucYgi63c4r4Pa0krb5bd4CSFvIMuOJwHaBKO60GA/edit?usp=drivesdk",
+                                                                  "tipo":  "sheet"
+                                                              }
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-07-31T18:06:02",
-                                                 "end":  "2026-07-31T18:09:32",
+                                                 "start":  "2026-06-17T08:38:00",
+                                                 "end":  "2026-06-17T08:45:50",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  210,
+                                                 "duracaoSeg":  470,
                                                  "urls":  [
-
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/1XeIJ7-nYuAhj-QjnL9XicwxBvZjJFdacnahWwdYv7Tw/edit?usp=drivesdk",
+                                                                  "tipo":  "sheet"
+                                                              }
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-07-31T17:00:03",
-                                                 "end":  "2026-07-31T17:00:34",
+                                                 "start":  "2026-06-16T17:42:40",
+                                                 "end":  "2026-06-16T17:52:35",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  31,
+                                                 "duracaoSeg":  595,
                                                  "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-30T17:00:04",
-                                                 "end":  "2026-07-30T17:03:35",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  211,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-29T17:00:02",
-                                                 "end":  "2026-07-29T17:02:41",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  159,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-28T17:00:02",
-                                                 "end":  "2026-07-28T17:16:36",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  994,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-27T17:00:02",
-                                                 "end":  "2026-07-27T17:03:32",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  210,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-27T08:42:08",
-                                                 "end":  "2026-07-27T08:57:08",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  900,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-24T17:00:03",
-                                                 "end":  "2026-07-24T17:03:55",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  232,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-23T17:00:02",
-                                                 "end":  "2026-07-23T17:03:46",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  224,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-23T15:57:08",
-                                                 "end":  "2026-07-23T16:02:45",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  337,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-23T13:06:39",
-                                                 "end":  "2026-07-23T13:10:38",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  239,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-22T17:00:02",
-                                                 "end":  "2026-07-22T17:00:32",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  30,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-21T17:00:02",
-                                                 "end":  "2026-07-21T17:03:31",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  209,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-20T17:00:02",
-                                                 "end":  "2026-07-20T17:03:59",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  237,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-20T08:47:44",
-                                                 "end":  "2026-07-20T08:53:59",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  375,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-18T17:00:02",
-                                                 "end":  "2026-07-18T17:03:31",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  209,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-17T17:00:02",
-                                                 "end":  "2026-07-17T17:03:41",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  219,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-16T17:00:03",
-                                                 "end":  "2026-07-16T17:03:37",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  214,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-15T17:00:05",
-                                                 "end":  "2026-07-15T17:05:38",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  333,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-14T17:00:02",
-                                                 "end":  "2026-07-14T17:03:27",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  205,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-13T17:00:01",
-                                                 "end":  "2026-07-13T17:05:37",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  336,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-13T14:05:14",
-                                                 "end":  "2026-07-13T14:06:48",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  94,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-13T11:32:45",
-                                                 "end":  "2026-07-13T11:49:04",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  979,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-13T08:38:09",
-                                                 "end":  "2026-07-13T08:42:57",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  288,
-                                                 "urls":  [
-
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/13q336SX4Ds8QECwDnPQ3APVaJfgedFpXZ-paWI2Noew/edit?usp=drivesdk",
+                                                                  "tipo":  "sheet"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/1HgiH1KD4gPSeYTuYHI5EVL8kldaJmLxzkYVSV3zk_gQ/edit?usp=drivesdk",
+                                                                  "tipo":  "sheet"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/1fIE__Pni9IMM9CkO6h9qSgSvkrSTjY4nbqONJrcowMY/edit?usp=drivesdk",
+                                                                  "tipo":  "sheet"
+                                                              }
                                                           ]
                                              }
                                          ]
