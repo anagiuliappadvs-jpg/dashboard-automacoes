@@ -21,7 +21,10 @@
   "logs": {
     "KpiStatusUpdater": "logs-v2.txt",
     "KpiVigia": "logs-vigia.txt",
-    "KpiNovaAbaMes": "logs-aba-mes.txt"
+    "KpiNovaAbaMes": "logs-aba-mes.txt",
+    "PaccolaPelegrini-RelatorioSemanal": "C:\\Users\\User\\AppData\\Local\\PaccolaPelegrini\\relatorio-semanal-kommo.log",
+    "Guardião Relatório SDR": "guardiao_sdr_log.txt",
+    "Dashboard RH - Atualizacao Semanal": "refresh.log"
   },
   "linksFixos": {
     "CRM Novos Clientes": [

@@ -61,9 +61,23 @@ function statusBadge(auto) {
     }
     if (code === 0 && (!deveriaTerRodado || rodouNaUltimaJanela)) return '<span class="badge ok">OK</span>';
     if (code === 0 && deveriaTerRodado && !rodouNaUltimaJanela) return '<span class="badge warn">Atrasada</span>';
-    if (code === 267011) return '<span class="badge err">Nao executou</span>';
+    if (code === 267011) {
+      // 267011 = "a tarefa ainda nao rodou". Se nunca teve execucao, e uma tarefa NOVA
+      // esperando a 1a rodada — nao e falha, nao pintar de vermelho.
+      const uw = auto.ultimaExecucaoWindows ? new Date(auto.ultimaExecucaoWindows) : null;
+      if (!uw || uw.getFullYear() < 2000) return '<span class="badge mut">Ainda nao rodou</span>';
+      return '<span class="badge err">Nao executou</span>';
+    }
     if (code === 267009 || code === 0x41301) return '<span class="badge warn">Rodando agora</span>';
-    if (code != null && code !== 0) return '<span class="badge err">Falha</span>';
+    if (code != null && code !== 0) {
+      // Falhou no agendamento, mas o log mostra uma execucao OK mais recente que a falha
+      // (rodada manualmente depois) -> ja foi recuperada, nao gritar Falha.
+      const uw = auto.ultimaExecucaoWindows ? new Date(auto.ultimaExecucaoWindows) : null;
+      if (ultimo && ultimo.status === 'OK' && uw && new Date(ultimo.start) > uw) {
+        return '<span class="badge ok" title="Falhou no horario agendado, mas foi refeita manualmente com sucesso">OK (refeita manual)</span>';
+      }
+      return '<span class="badge err">Falha</span>';
+    }
     if (ultimo) {
       const cls = ultimo.status === 'OK' ? 'ok' : (ultimo.status === 'ERRO' ? 'err' : 'warn');
       return `<span class="badge ${cls}">${ultimo.status}</span>`;
@@ -154,6 +168,9 @@ const SETOR_POR_NOME = {
   'Relatorio Comercial Semanal': 'Comercial',
   'Relatorio Tempo Fechamento Pagamento': 'Comercial',
   'Relatório Diário de Leads (SDR)': 'Comercial',
+  'Guardião Relatório SDR': 'Comercial',
+  'KPI VIGIA': 'Comercial',
+  'ABA KPI POR MÊS': 'Comercial',
   'Lembrete Relatório TLDV closers': 'Comercial',
   'Planilha Financeira - automatização Asaas': 'Financeiro',
   'Relatorio Financeiro Semanal': 'Financeiro',

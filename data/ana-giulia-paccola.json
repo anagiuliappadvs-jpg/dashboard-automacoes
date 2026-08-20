@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-20T12:30:27-03:00",
+    "geradoEm":  "2026-08-20T12:32:18-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -2599,7 +2599,213 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-19T09:45:53",
+                                                 "end":  "2026-08-19T09:46:10",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  17,
+                                                 "urls":  [
 
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-08-18T15:00:26",
+                                                 "end":  "2026-08-18T15:00:45",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  19,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-08-11T15:00:16",
+                                                 "end":  "2026-08-11T15:00:34",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  18,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-08-10T15:33:41",
+                                                 "end":  "2026-08-10T15:33:58",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  17,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-08-10T14:32:25",
+                                                 "end":  "2026-08-10T14:32:41",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  16,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-08-10T09:16:12",
+                                                 "end":  "2026-08-10T09:16:27",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  15,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-08-07T09:45:33",
+                                                 "end":  "2026-08-07T09:52:25",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  412,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-08-07T08:48:13",
+                                                 "end":  "2026-08-07T08:48:28",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  15,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-08-06T16:31:34",
+                                                 "end":  "2026-08-06T16:32:34",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  60,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-08-06T14:42:35",
+                                                 "end":  "2026-08-06T14:51:53",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  558,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-08-06T12:05:23",
+                                                 "end":  "2026-08-06T12:05:37",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  14,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-08-06T10:43:15",
+                                                 "end":  "2026-08-06T10:43:28",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  13,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-08-06T09:50:35",
+                                                 "end":  "2026-08-06T09:50:43",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  8,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-08-03T14:00:08",
+                                                 "end":  "2026-08-03T14:00:15",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  7,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-07-28T14:05:56",
+                                                 "end":  "2026-07-28T14:06:00",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  4,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-07-28T10:54:23",
+                                                 "end":  "2026-07-28T10:54:26",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  3,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-07-27T14:00:05",
+                                                 "end":  "2026-07-27T14:00:09",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  4,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-07-24T08:47:08",
+                                                 "end":  "2026-07-24T08:47:14",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  6,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-07-20T21:30:20",
+                                                 "end":  "2026-07-20T21:35:11",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  291,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-07-20T14:00:08",
+                                                 "end":  "2026-07-20T14:00:12",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  4,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-07-14T14:36:38",
+                                                 "end":  "2026-07-14T14:38:55",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  137,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-07-14T11:39:36",
+                                                 "end":  "2026-07-14T11:39:45",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  9,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-07-14T10:41:54",
+                                                 "end":  "2026-07-14T10:47:07",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  313,
+                                                 "urls":  [
+
+                                                          ]
+                                             }
                                          ]
                        },
                        {

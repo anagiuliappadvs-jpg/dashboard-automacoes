@@ -127,7 +127,7 @@ function Parse-LogFile($path) {
         $erro = $false
         $ok = $false
 
-        if ($lower -match 'exit=0' -or $lower -match 'tudo ok' -or $lower -match '=== fim ===' -or $lower -match '==== fim ====' -or $lower -match 'doc criado' -or $lower -match 'card criado') {
+        if ($lower -match 'exit=0' -or $lower -match 'tudo ok' -or $lower -match '=== fim ===' -or $lower -match '==== fim ====' -or $lower -match 'doc criado' -or $lower -match 'card criado' -or $lower -match 'nada a fazer' -or $lower -match 'conclu.do com sucesso' -or $lower -match 'guardiao: fim' -or $lower -match 'todos recuperados') {
             $ok = $true
         }
         if ($lower -match 'exit=1' -or $lower -match 'erro\b' -or $lower -match 'error\b' -or $lower -match 'failed' -or $lower -match 'falhou' -or $lower -match 'alerta' -or $lower -match 'unauthorized' -or $lower -match '401\b' -or $lower -match '403\b' -or $lower -match '500\b') {
@@ -193,10 +193,14 @@ function Find-ProjectFolder($task) {
         $args = $action.Arguments
         $wd = $action.WorkingDirectory
         if ($wd -and (Test-Path (Join-Path $wd 'logs.txt'))) { return $wd }
-        # Tenta extrair caminho do Execute ou Arguments
+        # Tenta extrair caminho do Execute ou Arguments.
+        # Primeiro caminhos ENTRE ASPAS (podem ter espaco, ex.: "...\Dashboard RH\..."),
+        # depois os sem aspas. O padrao antigo parava no espaco e perdia essas pastas.
         $tudo = "$cmd $args $wd"
-        if ($tudo -match '([A-Z]:\\[^"\s]+)') {
-            $p = $Matches[1]
+        $cands = @()
+        foreach ($m in [regex]::Matches($tudo, '"([A-Za-z]:\\[^"]+)"')) { $cands += $m.Groups[1].Value }
+        foreach ($m in [regex]::Matches($tudo, '([A-Za-z]:\\[^"\s]+)')) { $cands += $m.Groups[1].Value }
+        foreach ($p in $cands) {
             if (Test-Path $p) {
                 if ((Get-Item $p) -is [System.IO.DirectoryInfo]) {
                     if (Test-Path (Join-Path $p 'logs.txt')) { return $p }
@@ -253,7 +257,10 @@ foreach ($t in $tarefas) {
         $mapLog = $__pcCfg.logs.PSObject.Properties[$t.TaskName]
         if ($mapLog -and $mapLog.Value) { $nomeLog = $mapLog.Value; $logMapeado = $true }
     }
-    $logPath = if ($projFolder) { Join-Path $projFolder $nomeLog } else { $null }
+    # O mapeamento pode ser um caminho ABSOLUTO (ex.: log em AppData) ou so o nome do arquivo
+    $logPath = if ($nomeLog -match '^[A-Za-z]:\\') { $nomeLog }
+               elseif ($projFolder) { Join-Path $projFolder $nomeLog }
+               else { $null }
     # Se a tarefa tem log proprio mapeado e ele ainda nao existe (nunca rodou), o historico
     # fica VAZIO. Nao cair no logs.txt da pasta: varias tarefas dividem a mesma pasta e o
     # historico de uma apareceria na outra (a ABA KPI POR MES mostrava o log do updater).
@@ -648,8 +655,10 @@ try {
         git pull --rebase --autostash origin main 2>$null | Out-Null
         if ($LASTEXITCODE -ne 0) {
             git rebase --abort 2>$null | Out-Null
-            Resolve-ConflitosComRemote
         }
+        # O conflito tambem pode nascer DEPOIS do pull, quando o autostash volta
+        # (index.html local vs re-render da Action) - curar de novo aqui.
+        Resolve-ConflitosComRemote
 
         $status = git status --porcelain "data/$($pcCfg.pcId).json" 2>$null
         if ($status) {
