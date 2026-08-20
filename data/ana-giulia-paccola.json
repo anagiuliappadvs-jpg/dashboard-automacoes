@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-19T17:03:09-03:00",
+    "geradoEm":  "2026-08-20T08:29:39-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -3181,14 +3181,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de sexta deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-08-19T18:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-19T16:00:00",
+                           "proximaExecucao":  "2026-08-20T10:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-20T08:29:29",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-20T08:29:25",
+                                                 "end":  "2026-08-20T08:29:25",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-19T16:00:00",
                                                  "end":  "2026-08-19T16:00:00",
@@ -4994,8 +5003,8 @@
                            "agendamento":  "Diariamente as 17:00",
                            "proximaExecucao":  "2026-08-20T17:00:00",
                            "ultimaExecucaoWindows":  "2026-08-19T17:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
