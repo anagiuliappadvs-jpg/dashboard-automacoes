@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-21T16:00:14-03:00",
+    "geradoEm":  "2026-08-21T17:00:15-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -2941,14 +2941,23 @@
                                           ],
                            "descricao":  "Atualiza o status da Planilha de KPI a partir dos Painéis do Kommo (Closer/Financeiro/Operacional/SDR). Roda 1x por semana, sexta às 17h, depois que a equipe fecha a semana. Também preenche a coluna Campanha e regenera as abas ANÁLISE e BASE.",
                            "agendamento":  "Sex as 17:00",
-                           "proximaExecucao":  "2026-08-21T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-14T17:00:00",
-                           "ultimoResultadoCodigo":  1,
-                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
+                           "proximaExecucao":  "2026-08-28T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-21T17:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-21T17:00:13",
+                                                 "end":  "2026-08-21T17:00:13",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-20T12:41:58",
                                                  "end":  "2026-08-20T12:45:09",
@@ -4756,10 +4765,10 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-08-21T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-20T17:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-08-22T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-21T17:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
