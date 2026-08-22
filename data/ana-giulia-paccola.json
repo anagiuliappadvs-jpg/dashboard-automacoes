@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-22T15:32:49-03:00",
+    "geradoEm":  "2026-08-22T17:19:31-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -1385,12 +1385,21 @@
                            "agendamento":  "Diariamente as 11:00",
                            "proximaExecucao":  "2026-08-23T11:00:00",
                            "ultimaExecucaoWindows":  "2026-08-22T15:32:32",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-22T16:59:50",
+                                                 "end":  "2026-08-22T16:59:50",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-22T15:32:27",
                                                  "end":  "2026-08-22T15:32:27",
@@ -2029,6 +2038,15 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-22T16:59:50",
+                                                 "end":  "2026-08-22T16:59:50",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-22T15:32:27",
                                                  "end":  "2026-08-22T15:32:27",
@@ -3135,14 +3153,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de sexta deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-08-22T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-22T15:32:32",
+                           "proximaExecucao":  "2026-08-22T18:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-22T17:19:19",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-22T17:19:15",
+                                                 "end":  "2026-08-22T17:19:15",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-22T15:32:25",
                                                  "end":  "2026-08-22T15:32:25",
@@ -4822,14 +4849,23 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-08-22T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-21T17:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-08-23T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-22T17:00:00",
+                           "ultimoResultadoCodigo":  1,
+                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-22T17:00:02",
+                                                 "end":  "2026-08-22T17:00:33",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  31,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-21T17:00:03",
                                                  "end":  "2026-08-21T17:02:49",
@@ -5245,10 +5281,10 @@
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-07-13T11:38:44",
+                                                 "start":  "2026-07-13T11:39:27",
                                                  "end":  "2026-07-13T11:49:04",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  620,
+                                                 "duracaoSeg":  577,
                                                  "urls":  [
 
                                                           ]
