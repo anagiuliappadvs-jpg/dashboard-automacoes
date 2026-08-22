@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-21T17:03:00-03:00",
+    "geradoEm":  "2026-08-22T08:43:21-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -2857,14 +2857,23 @@
                                           ],
                            "descricao":  "Recuperacao automatica do Relatorio Diario SDR: toda manha (08:40) confere os ultimos dias uteis e recria/sobe qualquer relatorio das 17h que tenha falhado (rede, upload, etc.). Pula fins de semana. Ver guardiao_sdr.py.",
                            "agendamento":  "Diariamente as 08:40",
-                           "proximaExecucao":  "2026-08-22T08:40:40",
-                           "ultimaExecucaoWindows":  "2026-08-21T08:40:40",
+                           "proximaExecucao":  "2026-08-23T08:40:40",
+                           "ultimaExecucaoWindows":  "2026-08-22T08:40:40",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-22T08:40:37",
+                                                 "end":  "2026-08-22T08:40:37",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-21T08:40:03",
                                                  "end":  "2026-08-21T08:40:03",
@@ -2943,17 +2952,17 @@
                            "agendamento":  "Sex as 17:00",
                            "proximaExecucao":  "2026-08-28T17:00:00",
                            "ultimaExecucaoWindows":  "2026-08-21T17:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-08-21T17:00:13",
-                                                 "end":  "2026-08-21T17:02:13",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  120,
+                                                 "end":  "2026-08-21T17:03:41",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  208,
                                                  "urls":  [
 
                                                           ]
@@ -3096,14 +3105,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de sexta deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-08-21T18:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-21T16:00:00",
+                           "proximaExecucao":  "2026-08-22T10:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-22T08:43:43",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-22T08:43:07",
+                                                 "end":  "2026-08-22T08:43:07",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-21T16:00:02",
                                                  "end":  "2026-08-21T16:00:02",
@@ -4767,8 +4785,8 @@
                            "agendamento":  "Diariamente as 17:00",
                            "proximaExecucao":  "2026-08-22T17:00:00",
                            "ultimaExecucaoWindows":  "2026-08-21T17:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
