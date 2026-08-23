@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-23T15:32:55-03:00",
+    "geradoEm":  "2026-08-23T17:02:54-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -3192,14 +3192,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de sexta deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-08-23T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-23T14:00:00",
+                           "proximaExecucao":  "2026-08-23T18:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-23T17:02:02",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-23T17:02:31",
+                                                 "end":  "2026-08-23T17:02:31",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-23T13:53:49",
                                                  "end":  "2026-08-23T14:00:02",
@@ -4086,8 +4095,8 @@
 
                                           ],
                            "descricao":  "Roda toda segunda 09:30 gerando relatorio financeiro semanal",
-                           "agendamento":  "Ter as 16:00",
-                           "proximaExecucao":  "2026-08-25T16:00:00",
+                           "agendamento":  "Seg as 16:00",
+                           "proximaExecucao":  "2026-08-24T16:00:00",
                            "ultimaExecucaoWindows":  "2026-08-18T16:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
@@ -4913,10 +4922,10 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-08-23T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-22T17:00:00",
-                           "ultimoResultadoCodigo":  1,
-                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
+                           "proximaExecucao":  "2026-08-24T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-23T17:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
