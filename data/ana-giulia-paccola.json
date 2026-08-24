@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-24T15:02:11-03:00",
+    "geradoEm":  "2026-08-24T16:00:25-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -24,10 +24,19 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
-                                                 "start":  "2026-08-24T14:22:31",
-                                                 "end":  "2026-08-24T14:55:03",
+                                                 "start":  "2026-08-24T15:50:19",
+                                                 "end":  "2026-08-24T15:50:28",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  1952,
+                                                 "duracaoSeg":  9,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-08-24T14:22:31",
+                                                 "end":  "2026-08-24T15:15:13",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  3162,
                                                  "urls":  [
                                                               {
                                                                   "url":  "https://docs.google.com/presentation/d/1o-NRWiK1XwNPs0Kx0OdTjHO2yYzC4Cceo3kSylJxprk/edit",
@@ -40,6 +49,14 @@
                                                               {
                                                                   "url":  "https://docs.google.com/presentation/d/1ykUQhxpwbxmAOKnnM35QDzbHo010pA3uHWgVaib765A/edit",
                                                                   "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1Fm0BJ3tP8LP6QzLS9vOVYsD1BOVZ9x53oUc4OHDReQA/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/Z9eQdDyu",
+                                                                  "tipo":  "trello"
                                                               }
                                                           ]
                                              }
@@ -52,14 +69,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-08-24T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-08-23T15:30:30",
+                           "proximaExecucao":  "2026-08-25T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-08-24T15:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-24T15:30:01",
+                                                 "end":  "2026-08-24T15:31:25",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  84,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-23T15:30:02",
                                                  "end":  "2026-08-23T15:31:26",
@@ -3269,14 +3298,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de sexta deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-08-24T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-24T14:00:00",
+                           "proximaExecucao":  "2026-08-24T18:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-24T16:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-24T16:00:04",
+                                                 "end":  "2026-08-24T16:00:04",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-24T14:00:01",
                                                  "end":  "2026-08-24T14:00:01",
@@ -4230,14 +4268,23 @@
                                           ],
                            "descricao":  "Roda toda segunda 09:30 gerando relatorio financeiro semanal",
                            "agendamento":  "Seg as 16:00",
-                           "proximaExecucao":  "2026-08-24T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-18T16:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-08-31T16:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-24T16:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-24T16:00:12",
+                                                 "end":  "2026-08-24T16:00:20",
+                                                 "status":  "ERRO",
+                                                 "duracaoSeg":  8,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-23T14:46:20",
                                                  "end":  "2026-08-23T14:46:48",
