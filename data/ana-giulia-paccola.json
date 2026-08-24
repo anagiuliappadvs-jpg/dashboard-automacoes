@@ -2,8 +2,49 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-24T14:00:37-03:00",
+    "geradoEm":  "2026-08-24T15:00:18-03:00",
     "automacoes":  [
+                       {
+                           "nome":  "Apresentação Semanal para as Sócias",
+                           "linksFixos":  [
+                                              {
+                                                  "label":  "Pasta da apresentação no Drive",
+                                                  "url":  "https://drive.google.com/drive/folders/19hYHR3f52xDTWQ7mftgaZvh3CWZwB8UT",
+                                                  "tipo":  "drive"
+                                              }
+                                          ],
+                           "descricao":  "Monta a apresentação da reunião de terça (Comercial + Administrativo + Financeiro) e sobe pro Drive como Google Slides. Roda segunda 16:30, depois do Relatório Financeiro das 16:00. Lê KPI, CRM, Controle de Contratos, Relatório Leads Kommo, o log do financeiro e o Dashboard de RH — janela sempre segunda a domingo da semana anterior.",
+                           "agendamento":  "Seg as 16:30",
+                           "proximaExecucao":  "2026-08-24T16:30:30",
+                           "ultimaExecucaoWindows":  null,
+                           "ultimoResultadoCodigo":  267011,
+                           "ultimoResultadoTexto":  "Ainda nao executou",
+                           "runsPerdidos":  0,
+                           "diasIntervalo":  7,
+                           "tipo":  "Agendada",
+                           "historico":  [
+                                             {
+                                                 "start":  "2026-08-24T14:22:31",
+                                                 "end":  "2026-08-24T14:55:03",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  1952,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1o-NRWiK1XwNPs0Kx0OdTjHO2yYzC4Cceo3kSylJxprk/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1jbD5YxVdivBlEJUUhgGw3u4rzgDDvHAuvQVymePRpJ4/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1ykUQhxpwbxmAOKnnM35QDzbHo010pA3uHWgVaib765A/edit",
+                                                                  "tipo":  "link"
+                                                              }
+                                                          ]
+                                             }
+                                         ]
+                       },
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
                            "linksFixos":  [
@@ -4183,7 +4224,7 @@
                                          ]
                        },
                        {
-                           "nome":  "Relatorio Financeiro Semanal",
+                           "nome":  "Relatório Financeiro Semanal",
                            "linksFixos":  [
 
                                           ],
