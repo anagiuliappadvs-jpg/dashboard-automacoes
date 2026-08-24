@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-24T11:00:59-03:00",
+    "geradoEm":  "2026-08-24T13:14:48-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -1406,17 +1406,17 @@
                            "agendamento":  "Diariamente as 11:00",
                            "proximaExecucao":  "2026-08-25T11:00:00",
                            "ultimaExecucaoWindows":  "2026-08-24T11:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-08-24T11:00:23",
-                                                 "end":  "2026-08-24T11:00:23",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  0,
+                                                 "end":  "2026-08-24T11:02:25",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  122,
                                                  "urls":  [
 
                                                           ]
@@ -2079,9 +2079,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-08-24T11:00:23",
-                                                 "end":  "2026-08-24T11:00:23",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  0,
+                                                 "end":  "2026-08-24T11:02:25",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  122,
                                                  "urls":  [
 
                                                           ]
@@ -3228,14 +3228,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de sexta deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-08-24T12:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-24T10:00:00",
+                           "proximaExecucao":  "2026-08-24T14:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-24T13:14:14",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-24T13:14:13",
+                                                 "end":  "2026-08-24T13:14:13",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-24T10:00:06",
                                                  "end":  "2026-08-24T10:00:06",
@@ -3959,6 +3968,18 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-24T11:17:52",
+                                                 "end":  "2026-08-24T11:23:10",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  318,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/1Fx628R7BYbXW3t9W9jKppT65whcDBskmow1E9Pmldj0/edit?usp=drivesdk",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-24T09:00:04",
                                                  "end":  "2026-08-24T09:02:00",
