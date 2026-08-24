@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-24T09:00:36-03:00",
+    "geradoEm":  "2026-08-24T10:03:51-03:00",
     "automacoes":  [
                        {
                            "nome":  "Planilha Financeira - automatização Asaas",
@@ -3210,14 +3210,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de sexta deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-08-24T10:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-24T08:42:42",
+                           "proximaExecucao":  "2026-08-24T12:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-24T10:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-24T10:00:06",
+                                                 "end":  "2026-08-24T10:00:06",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-24T08:42:13",
                                                  "end":  "2026-08-24T08:42:13",
@@ -3926,12 +3935,21 @@
                            "agendamento":  "Seg as 09:00",
                            "proximaExecucao":  "2026-08-31T09:00:00",
                            "ultimaExecucaoWindows":  "2026-08-24T09:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  1,
+                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-24T09:00:04",
+                                                 "end":  "2026-08-24T09:02:00",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  116,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-18T09:05:40",
                                                  "end":  "2026-08-18T09:12:03",
@@ -4505,19 +4523,26 @@
                            "agendamento":  "Seg as 09:00",
                            "proximaExecucao":  "2026-08-31T09:00:00",
                            "ultimaExecucaoWindows":  "2026-08-24T09:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-08-24T09:00:30",
-                                                 "end":  "2026-08-24T09:00:34",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  4,
+                                                 "end":  "2026-08-24T09:00:40",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  10,
                                                  "urls":  [
-
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1-oqDyABmrN_n_hXs3rQ4xBWkXQBTcRwff92RIdvgmvo/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/LGZazf6h",
+                                                                  "tipo":  "trello"
+                                                              }
                                                           ]
                                              },
                                              {
