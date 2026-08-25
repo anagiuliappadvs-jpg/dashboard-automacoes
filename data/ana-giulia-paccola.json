@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-25T14:00:14-03:00",
+    "geradoEm":  "2026-08-25T15:01:11-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -25,9 +25,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-08-25T13:09:21",
-                                                 "end":  "2026-08-25T13:58:46",
+                                                 "end":  "2026-08-25T14:35:51",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  2965,
+                                                 "duracaoSeg":  5190,
                                                  "urls":  [
                                                               {
                                                                   "url":  "https://docs.google.com/presentation/d/1rEHxXDoBIgHcX2M_iswdL5cpxNCirzyqiY3lCGlAEAM/edit",
@@ -35,6 +35,22 @@
                                                               },
                                                               {
                                                                   "url":  "https://trello.com/c/kwEHcEQX",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1qT-vfmNCSjaqitGTsNKwmB0TMYeS5F5c5YRrZPuUfVQ/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/SKcRMZUH",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1o6iPlGwbAN67V90GveST6721bDJze7RgVNePYeYMw9s/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/dzWF0cjg",
                                                                   "tipo":  "trello"
                                                               }
                                                           ]
@@ -2858,14 +2874,23 @@
                                           ],
                            "descricao":  "Rele KPI+CRM, reconstroi e publica toda segunda 14h",
                            "agendamento":  "Ter as 15:00",
-                           "proximaExecucao":  "2026-08-25T15:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-18T15:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-09-01T15:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-25T15:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-25T15:00:49",
+                                                 "end":  "2026-08-25T15:00:49",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-19T09:45:53",
                                                  "end":  "2026-08-19T09:46:10",
