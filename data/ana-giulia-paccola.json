@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-26T08:35:28-03:00",
+    "geradoEm":  "2026-08-26T08:44:36-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -3159,14 +3159,23 @@
                                           ],
                            "descricao":  "Recuperacao automatica do Relatorio Diario SDR: toda manha (08:40) confere os ultimos dias uteis e recria/sobe qualquer relatorio das 17h que tenha falhado (rede, upload, etc.). Pula fins de semana. Ver guardiao_sdr.py.",
                            "agendamento":  "Diariamente as 08:40",
-                           "proximaExecucao":  "2026-08-26T08:40:40",
-                           "ultimaExecucaoWindows":  "2026-08-25T08:52:52",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-08-27T08:40:40",
+                           "ultimaExecucaoWindows":  "2026-08-26T08:40:40",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-26T08:40:02",
+                                                 "end":  "2026-08-26T08:40:02",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-25T08:52:16",
                                                  "end":  "2026-08-25T08:52:16",
@@ -5343,6 +5352,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-08-26T08:40:02",
+                                                 "end":  "2026-08-26T08:44:00",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  238,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-08-25T17:00:02",
                                                  "end":  "2026-08-25T17:13:05",
                                                  "status":  "OK",
@@ -5793,10 +5811,10 @@
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-07-13T11:47:02",
+                                                 "start":  "2026-07-13T11:48:06",
                                                  "end":  "2026-07-13T11:49:04",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  122,
+                                                 "duracaoSeg":  58,
                                                  "urls":  [
 
                                                           ]
