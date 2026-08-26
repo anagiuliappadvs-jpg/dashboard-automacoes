@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-25T17:00:14-03:00",
+    "geradoEm":  "2026-08-26T08:35:28-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -3434,14 +3434,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de sexta deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-08-25T18:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-25T16:00:00",
+                           "proximaExecucao":  "2026-08-26T10:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-26T08:34:34",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-26T08:34:58",
+                                                 "end":  "2026-08-26T08:34:58",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-25T16:00:01",
                                                  "end":  "2026-08-25T16:00:01",
@@ -5327,12 +5336,21 @@
                            "agendamento":  "Diariamente as 17:00",
                            "proximaExecucao":  "2026-08-26T17:00:00",
                            "ultimaExecucaoWindows":  "2026-08-25T17:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  1,
+                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-25T17:00:02",
+                                                 "end":  "2026-08-25T17:13:05",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  783,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-24T17:00:03",
                                                  "end":  "2026-08-24T17:03:28",
@@ -5775,10 +5793,10 @@
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-07-13T11:46:24",
+                                                 "start":  "2026-07-13T11:47:02",
                                                  "end":  "2026-07-13T11:49:04",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  160,
+                                                 "duracaoSeg":  122,
                                                  "urls":  [
 
                                                           ]
