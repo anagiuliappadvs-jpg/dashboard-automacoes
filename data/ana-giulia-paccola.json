@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-28T15:01:40-03:00",
+    "geradoEm":  "2026-08-28T16:00:17-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -157,14 +157,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-08-28T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-08-27T15:30:30",
+                           "proximaExecucao":  "2026-08-29T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-08-28T15:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-28T15:30:01",
+                                                 "end":  "2026-08-28T15:35:11",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  310,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-27T15:30:01",
                                                  "end":  "2026-08-27T15:32:01",
@@ -3539,14 +3551,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de sexta deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-08-28T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-28T14:39:39",
+                           "proximaExecucao":  "2026-08-28T18:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-28T16:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-28T16:00:01",
+                                                 "end":  "2026-08-28T16:00:01",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-28T14:39:22",
                                                  "end":  "2026-08-28T14:39:22",
