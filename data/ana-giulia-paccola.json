@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-31T09:00:44-03:00",
+    "geradoEm":  "2026-08-31T10:01:43-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -3501,6 +3501,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-08-31T09:19:36",
+                                                 "end":  "2026-08-31T09:23:12",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  216,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-08-28T17:00:15",
                                                  "end":  "2026-08-28T17:03:10",
                                                  "status":  "OK",
@@ -3656,14 +3665,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de sexta deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-08-31T10:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-31T08:24:24",
+                           "proximaExecucao":  "2026-08-31T12:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-31T10:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-31T10:00:08",
+                                                 "end":  "2026-08-31T10:00:08",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-31T08:24:18",
                                                  "end":  "2026-08-31T08:24:18",
@@ -4642,12 +4660,24 @@
                            "agendamento":  "Seg as 09:00",
                            "proximaExecucao":  "2026-09-07T09:00:00",
                            "ultimaExecucaoWindows":  "2026-08-31T09:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-31T09:00:05",
+                                                 "end":  "2026-08-31T09:02:39",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  154,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/1XxKkjqGQ29r65JYS6Qje9ItZx1zCCIQdsugkmUX4Ef4/edit?usp=drivesdk",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-24T11:17:52",
                                                  "end":  "2026-08-24T11:23:10",
@@ -5258,19 +5288,34 @@
                            "agendamento":  "Seg as 09:00",
                            "proximaExecucao":  "2026-09-07T09:00:00",
                            "ultimaExecucaoWindows":  "2026-08-31T09:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-08-31T09:00:31",
-                                                 "end":  "2026-08-31T09:00:37",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  6,
+                                                 "end":  "2026-08-31T09:30:24",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  1793,
                                                  "urls":  [
-
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/18_RAVmG7GvypS0RFogcmg8IzFxwZhnhQkm3ornGTbAM/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/hsewuzqJ",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1akBRQXVYvE_NlumA722DFY1OD8MaMy7Y8kTBqqNbXZs/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/gzBm0MaJ",
+                                                                  "tipo":  "trello"
+                                                              }
                                                           ]
                                              },
                                              {
