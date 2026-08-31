@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-31T08:25:04-03:00",
+    "geradoEm":  "2026-08-31T08:28:36-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -158,13 +158,25 @@
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
                            "proximaExecucao":  "2026-08-31T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-08-29T15:49:49",
+                           "ultimaExecucaoWindows":  "2026-08-31T08:24:24",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
-                           "runsPerdidos":  1,
+                           "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-31T08:24:36",
+                                                 "end":  "2026-08-31T08:26:33",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  117,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-29T15:49:24",
                                                  "end":  "2026-08-29T15:51:30",
@@ -1624,17 +1636,17 @@
                            "agendamento":  "Diariamente as 11:00",
                            "proximaExecucao":  "2026-08-31T11:00:00",
                            "ultimaExecucaoWindows":  "2026-08-31T08:24:24",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-08-31T08:24:21",
-                                                 "end":  "2026-08-31T08:24:24",
+                                                 "end":  "2026-08-31T08:26:08",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  3,
+                                                 "duracaoSeg":  107,
                                                  "urls":  [
 
                                                           ]
@@ -2351,9 +2363,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-08-31T08:24:21",
-                                                 "end":  "2026-08-31T08:24:24",
+                                                 "end":  "2026-08-31T08:26:08",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  3,
+                                                 "duracaoSeg":  107,
                                                  "urls":  [
 
                                                           ]
@@ -5697,6 +5709,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-08-31T08:24:38",
+                                                 "end":  "2026-08-31T08:28:05",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  207,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-08-29T17:00:02",
                                                  "end":  "2026-08-29T17:03:42",
                                                  "status":  "OK",
@@ -6183,10 +6204,10 @@
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-07-13T14:06:09",
+                                                 "start":  "2026-07-13T14:06:42",
                                                  "end":  "2026-07-13T14:06:48",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  39,
+                                                 "duracaoSeg":  6,
                                                  "urls":  [
 
                                                           ]
