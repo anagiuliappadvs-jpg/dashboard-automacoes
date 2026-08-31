@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-31T15:00:35-03:00",
+    "geradoEm":  "2026-08-31T16:06:28-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -15,7 +15,7 @@
                                           ],
                            "descricao":  "Monta a apresentação da reunião de terça (Comercial + Administrativo + Financeiro) e sobe pro Drive como Google Slides. Roda segunda 16:30, depois do Relatório Financeiro das 16:00. Lê KPI, CRM, Controle de Contratos, Relatório Leads Kommo, o log do financeiro e o Dashboard de RH — janela sempre segunda a domingo da semana anterior.",
                            "agendamento":  "Seg as 16:30",
-                           "proximaExecucao":  "2026-08-31T16:30:30",
+                           "proximaExecucao":  "2026-09-02T16:30:30",
                            "ultimaExecucaoWindows":  "2026-08-24T16:37:37",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
@@ -157,14 +157,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-08-31T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-08-31T08:24:24",
+                           "proximaExecucao":  "2026-09-01T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-08-31T15:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-31T15:30:01",
+                                                 "end":  "2026-08-31T15:32:22",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  141,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-31T08:24:36",
                                                  "end":  "2026-08-31T08:50:02",
@@ -3683,14 +3695,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de sexta deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-08-31T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-31T14:00:00",
+                           "proximaExecucao":  "2026-08-31T18:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-31T16:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-31T16:00:24",
+                                                 "end":  "2026-08-31T16:00:24",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-31T14:00:02",
                                                  "end":  "2026-08-31T14:00:02",
@@ -4926,14 +4947,30 @@
                                           ],
                            "descricao":  "Roda toda segunda 09:30 gerando relatorio financeiro semanal",
                            "agendamento":  "Seg as 16:00",
-                           "proximaExecucao":  "2026-08-31T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-24T16:00:00",
+                           "proximaExecucao":  "2026-09-07T16:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-31T16:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-31T16:03:04",
+                                                 "end":  "2026-08-31T16:05:02",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  118,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1P4QKP_AnSvxRZIfl39Od9xTt8fSJ5lepjIac7McVKww/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/Dwh5Cpju",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-24T16:00:12",
                                                  "end":  "2026-08-24T16:01:02",
