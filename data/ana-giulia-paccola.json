@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-30T09:11:32-03:00",
+    "geradoEm":  "2026-08-31T08:25:04-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -157,11 +157,11 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-08-30T15:30:30",
+                           "proximaExecucao":  "2026-08-31T15:30:30",
                            "ultimaExecucaoWindows":  "2026-08-29T15:49:49",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
-                           "runsPerdidos":  0,
+                           "runsPerdidos":  1,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
@@ -1622,14 +1622,23 @@
                                           ],
                            "descricao":  "Coleta as metricas do Instagram e publica o snapshot no GitHub Pages (diario 11h, recupera se PC estava desligado, roda na bateria).",
                            "agendamento":  "Diariamente as 11:00",
-                           "proximaExecucao":  "2026-08-30T11:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-29T15:49:49",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-08-31T11:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-31T08:24:24",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-31T08:24:21",
+                                                 "end":  "2026-08-31T08:24:24",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  3,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-29T15:49:32",
                                                  "end":  "2026-08-29T15:51:16",
@@ -2332,14 +2341,23 @@
                                           ],
                            "descricao":  "Renova o token de longa duracao do Instagram (mantem os ~60 dias sempre cheios).",
                            "agendamento":  "Dom as 10:30",
-                           "proximaExecucao":  "2026-08-30T10:30:30",
-                           "ultimaExecucaoWindows":  "2026-08-23T13:53:53",
+                           "proximaExecucao":  "2026-09-06T10:30:30",
+                           "ultimaExecucaoWindows":  "2026-08-31T08:24:24",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-31T08:24:21",
+                                                 "end":  "2026-08-31T08:24:24",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  3,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-29T15:49:32",
                                                  "end":  "2026-08-29T15:51:16",
@@ -3608,14 +3626,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de sexta deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-08-30T10:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-30T09:10:10",
+                           "proximaExecucao":  "2026-08-31T10:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-31T08:24:24",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-08-31T08:24:18",
+                                                 "end":  "2026-08-31T08:24:18",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-30T09:10:30",
                                                  "end":  "2026-08-30T09:10:30",
@@ -5661,10 +5688,10 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-08-30T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-29T17:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-08-31T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-08-31T08:24:24",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
