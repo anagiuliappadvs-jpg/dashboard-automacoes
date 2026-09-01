@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-09-01T15:01:06-03:00",
+    "geradoEm":  "2026-09-01T16:00:23-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -23,6 +23,38 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-01T15:02:50",
+                                                 "end":  "2026-09-01T15:20:40",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  1070,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1VrGs90sdRTe4dK0Yb0mJ6pZoAfa3xkTt_3wvbrTAv4E/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/7Of0NzwW",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1P_qEAZrfbagUZ0IqJAGCTNBIExFOrrnCJxR_nZACv6w/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/5P7vK8Kb",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/17zFTg9DaXkJEL_zZmaqwk7MAwZWxeuFBeTwgkl8sN3k/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/IE2hK2h3",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-31T16:00:51",
                                                  "end":  "2026-08-31T16:10:31",
@@ -166,14 +198,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-09-01T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-08-31T15:30:30",
+                           "proximaExecucao":  "2026-09-02T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-09-01T15:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-01T15:30:03",
+                                                 "end":  "2026-09-01T15:31:52",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  109,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-01T08:55:15",
                                                  "end":  "2026-09-01T08:57:10",
@@ -3156,17 +3200,17 @@
                            "agendamento":  "Ter as 15:00",
                            "proximaExecucao":  "2026-09-08T15:00:00",
                            "ultimaExecucaoWindows":  "2026-09-01T15:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-09-01T15:01:01",
-                                                 "end":  "2026-09-01T15:01:01",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  0,
+                                                 "end":  "2026-09-01T15:01:19",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  18,
                                                  "urls":  [
 
                                                           ]
@@ -3752,14 +3796,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de sexta deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-09-01T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-09-01T14:00:00",
+                           "proximaExecucao":  "2026-09-01T18:00:00",
+                           "ultimaExecucaoWindows":  "2026-09-01T16:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-01T16:00:01",
+                                                 "end":  "2026-09-01T16:00:01",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-01T14:00:02",
                                                  "end":  "2026-09-01T14:00:02",
