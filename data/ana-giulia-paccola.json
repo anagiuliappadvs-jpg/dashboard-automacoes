@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-08-31T17:04:07-03:00",
+    "geradoEm":  "2026-09-01T08:42:57-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -15,7 +15,7 @@
                                           ],
                            "descricao":  "Monta a apresentação da reunião de terça (Comercial + Administrativo + Financeiro) e sobe pro Drive como Google Slides. Roda segunda 16:30, depois do Relatório Financeiro das 16:00. Lê KPI, CRM, Controle de Contratos, Relatório Leads Kommo, o log do financeiro e o Dashboard de RH — janela sempre segunda a domingo da semana anterior.",
                            "agendamento":  "Seg as 16:30",
-                           "proximaExecucao":  "2026-09-01T16:30:30",
+                           "proximaExecucao":  "2026-09-07T16:30:30",
                            "ultimaExecucaoWindows":  "2026-08-24T16:37:37",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
@@ -3357,14 +3357,23 @@
                                           ],
                            "descricao":  "Recuperacao automatica do Relatorio Diario SDR: toda manha (08:40) confere os ultimos dias uteis e recria/sobe qualquer relatorio das 17h que tenha falhado (rede, upload, etc.). Pula fins de semana. Ver guardiao_sdr.py.",
                            "agendamento":  "Diariamente as 08:40",
-                           "proximaExecucao":  "2026-09-01T08:40:40",
-                           "ultimaExecucaoWindows":  "2026-08-31T08:40:40",
+                           "proximaExecucao":  "2026-09-02T08:40:40",
+                           "ultimaExecucaoWindows":  "2026-09-01T08:40:40",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-01T08:40:06",
+                                                 "end":  "2026-09-01T08:40:06",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-31T08:40:02",
                                                  "end":  "2026-08-31T08:40:02",
@@ -3509,10 +3518,10 @@
                                           ],
                            "descricao":  "Cria a aba do mês na Planilha de KPI todo dia 1º, copiando a estrutura do mês anterior (cabeçalho, formatação) e deixando-a vazia. Se a aba já existir, não faz nada.",
                            "agendamento":  "MSFT_TaskTrigger as 08:00",
-                           "proximaExecucao":  "2026-09-01T08:00:00",
-                           "ultimaExecucaoWindows":  null,
-                           "ultimoResultadoCodigo":  267011,
-                           "ultimoResultadoTexto":  "Ainda nao executou",
+                           "proximaExecucao":  "2026-10-01T08:00:00",
+                           "ultimaExecucaoWindows":  "2026-09-01T08:39:39",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
@@ -3704,14 +3713,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de sexta deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-08-31T18:00:00",
-                           "ultimaExecucaoWindows":  "2026-08-31T16:00:00",
+                           "proximaExecucao":  "2026-09-01T10:00:00",
+                           "ultimaExecucaoWindows":  "2026-09-01T08:42:42",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-01T08:42:17",
+                                                 "end":  "2026-09-01T08:42:17",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-31T16:00:24",
                                                  "end":  "2026-08-31T16:00:24",
@@ -5864,8 +5882,8 @@
                            "agendamento":  "Diariamente as 17:00",
                            "proximaExecucao":  "2026-09-01T17:00:00",
                            "ultimaExecucaoWindows":  "2026-08-31T17:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
