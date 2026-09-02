@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-09-02T09:00:29-03:00",
+    "geradoEm":  "2026-09-02T10:00:32-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -23,6 +23,30 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-02T09:32:11",
+                                                 "end":  "2026-09-02T09:42:52",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  641,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1fuLnl3_lBRhk2Sdj5jL058MFOMASrSNVVnXbTnfhY08/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/mwPrkWPw",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1ZuT8huYlwWpWlkpacj9CUQanl-D4WyRDJh2gXO95n9o/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/h4ljfXx2",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-02T08:53:42",
                                                  "end":  "2026-09-02T08:57:37",
@@ -3821,14 +3845,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de sexta deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-09-02T10:00:00",
-                           "ultimaExecucaoWindows":  "2026-09-02T08:32:32",
+                           "proximaExecucao":  "2026-09-02T12:00:00",
+                           "ultimaExecucaoWindows":  "2026-09-02T10:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-02T10:00:01",
+                                                 "end":  "2026-09-02T10:00:01",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-02T08:32:11",
                                                  "end":  "2026-09-02T08:32:11",
