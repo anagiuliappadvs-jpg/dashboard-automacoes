@@ -10,11 +10,14 @@
     "KpiVigia": "KPI VIGIA",
     "Relatório Diário SDR": "Relatório Diário de Leads (SDR)",
     "PaccolaPelegrini-RelatorioSemanal": "Relatório de campanha semanal",
-    "Dashboard RH - Atualizacao Semanal": "Dashboard RH - Atualização Semanal"
+    "Dashboard RH - Atualizacao Semanal": "Dashboard RH - Atualização Semanal",
+    "Relatorio Financeiro Semanal": "Relatório Financeiro Semanal",
+    "Apresentacao Semanal Socias": "Apresentação Semanal para as Sócias"
   },
   "descricoes": {
-    "KpiStatusUpdater": "Atualiza o status da Planilha de KPI a partir dos Painéis do Kommo (Closer/Financeiro/Operacional/SDR). Roda 1x por semana, sexta às 17h, depois que a equipe fecha a semana. Também preenche a coluna Campanha e regenera as abas ANÁLISE e BASE.",
-    "KpiVigia": "Rede de segurança do KPI: a cada 2 horas confere se a atualização de sexta deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
+    "Apresentacao Semanal Socias": "Monta a apresentação da reunião de terça (Comercial + Administrativo + Financeiro) e sobe pro Drive como Google Slides. Roda segunda 16:30, depois do Relatório Financeiro das 16:00. Lê KPI, CRM, Controle de Contratos, Relatório Leads Kommo, o log do financeiro e o Dashboard de RH — janela sempre segunda a domingo da semana anterior.",
+    "KpiStatusUpdater": "Atualiza o status da Planilha de KPI a partir dos Painéis do Kommo (Closer/Financeiro/Operacional/SDR). Roda 1x por semana, segunda às 08:30 (antes do relatório comercial das 09:00). Também preenche a coluna Campanha e regenera as abas ANÁLISE e BASE.",
+    "KpiVigia": "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
     "KpiNovaAbaMes": "Cria a aba do mês na Planilha de KPI todo dia 1º, copiando a estrutura do mês anterior (cabeçalho, formatação) e deixando-a vazia. Se a aba já existir, não faz nada."
   },
   "_comentario_logs": "Qual arquivo de log ler para cada tarefa. Sem isso o dashboard le sempre 'logs.txt' - e o KPI migrou pra logs-v2.txt em 20/07/2026, entao o historico dele congelou. Chave = nome TECNICO da tarefa do Windows.",
@@ -46,6 +49,9 @@
     ],
     "Dashboard RH - Atualizacao Semanal": [
       { "label": "Dashboard de RH (link protegido)", "url": "https://anagiuliappadvs-jpg.github.io/dashboard-rh/", "tipo": "link" }
+    ],
+    "Apresentacao Semanal Socias": [
+      { "label": "Pasta da apresentação no Drive", "url": "https://drive.google.com/drive/folders/19hYHR3f52xDTWQ7mftgaZvh3CWZwB8UT", "tipo": "drive" }
     ]
   }
 }
