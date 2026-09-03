@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-09-03T08:29:19-03:00",
+    "geradoEm":  "2026-09-03T09:00:38-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -3535,14 +3535,23 @@
                                           ],
                            "descricao":  "Recuperacao automatica do Relatorio Diario SDR: toda manha (08:40) confere os ultimos dias uteis e recria/sobe qualquer relatorio das 17h que tenha falhado (rede, upload, etc.). Pula fins de semana. Ver guardiao_sdr.py.",
                            "agendamento":  "Diariamente as 08:40",
-                           "proximaExecucao":  "2026-09-03T08:40:40",
-                           "ultimaExecucaoWindows":  "2026-09-02T08:40:40",
+                           "proximaExecucao":  "2026-09-04T08:40:40",
+                           "ultimaExecucaoWindows":  "2026-09-03T08:40:40",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-03T08:40:09",
+                                                 "end":  "2026-09-03T08:40:09",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-02T08:40:03",
                                                  "end":  "2026-09-02T08:40:03",
@@ -6110,8 +6119,8 @@
                                           ],
                            "descricao":  "Relatorio mensal do tempo de reuniao-\u003efechamento e fechamento-\u003epagamento por vendedor (Julia, Felipe, Lindsey). Roda diariamente 09:00 mas so executa de verdade no 5o dia util do mes, gerando o relatorio do mes anterior. Publica Doc em Drive \u003e Gestao \u003e Relatorios semanais \u003e Comercial.",
                            "agendamento":  "Diariamente as 09:00",
-                           "proximaExecucao":  "2026-09-03T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-09-02T09:00:00",
+                           "proximaExecucao":  "2026-09-04T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-09-03T09:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
