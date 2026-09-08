@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-09-08T14:08:52-03:00",
+    "geradoEm":  "2026-09-08T14:14:04-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -17,12 +17,28 @@
                            "agendamento":  "Seg as 16:30",
                            "proximaExecucao":  "2026-09-14T16:30:30",
                            "ultimaExecucaoWindows":  "2026-09-08T14:02:02",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-08T14:05:23",
+                                                 "end":  "2026-09-08T14:08:47",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  204,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1QxPqM-ibWH5FW-whqUWZFFSpaVLN1_F2XlQRpI6gyZU/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/a8khJ7WB",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-02T14:58:17",
                                                  "end":  "2026-09-02T14:59:53",
@@ -3849,17 +3865,17 @@
                            "agendamento":  "Seg as 08:30",
                            "proximaExecucao":  "2026-09-14T08:30:30",
                            "ultimaExecucaoWindows":  "2026-09-08T14:02:02",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-09-08T14:04:35",
-                                                 "end":  "2026-09-08T14:07:03",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  148,
+                                                 "end":  "2026-09-08T14:10:51",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  376,
                                                  "urls":  [
 
                                                           ]
@@ -4031,17 +4047,17 @@
                            "agendamento":  "Uma vez em 06:00",
                            "proximaExecucao":  "2026-09-08T16:00:00",
                            "ultimaExecucaoWindows":  "2026-09-08T14:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-09-08T14:00:17",
-                                                 "end":  "2026-09-08T14:00:17",
+                                                 "end":  "2026-09-08T14:10:52",
                                                  "status":  "Indeterminado",
-                                                 "duracaoSeg":  0,
+                                                 "duracaoSeg":  635,
                                                  "urls":  [
 
                                                           ]
@@ -5249,12 +5265,24 @@
                            "agendamento":  "Seg as 09:00",
                            "proximaExecucao":  "2026-09-14T09:00:00",
                            "ultimaExecucaoWindows":  "2026-09-08T14:02:02",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-08T14:03:59",
+                                                 "end":  "2026-09-08T14:12:48",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  529,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/1OsAvkEbFhbMUSuEA_qKbtdeZbjw_2jr7HR9LE6nAGJA/edit?usp=drivesdk",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-31T09:00:05",
                                                  "end":  "2026-08-31T09:02:39",
@@ -6435,6 +6463,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-09-08T14:03:17",
+                                                 "end":  "2026-09-08T14:11:46",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  509,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-09-04T17:00:02",
                                                  "end":  "2026-09-04T17:03:32",
                                                  "status":  "OK",
@@ -6916,24 +6953,6 @@
                                                  "end":  "2026-07-20T08:53:59",
                                                  "status":  "OK",
                                                  "duracaoSeg":  375,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-18T17:00:02",
-                                                 "end":  "2026-07-18T17:03:31",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  209,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-07-17T17:00:02",
-                                                 "end":  "2026-07-17T17:03:41",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  219,
                                                  "urls":  [
 
                                                           ]
