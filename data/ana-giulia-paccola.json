@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-09-08T14:14:04-03:00",
+    "geradoEm":  "2026-09-08T15:00:33-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -3402,14 +3402,23 @@
                                           ],
                            "descricao":  "Rele KPI+CRM, reconstroi e publica toda segunda 14h",
                            "agendamento":  "Ter as 15:00",
-                           "proximaExecucao":  "2026-09-08T15:00:00",
-                           "ultimaExecucaoWindows":  "2026-09-01T15:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-09-15T15:00:00",
+                           "ultimaExecucaoWindows":  "2026-09-08T15:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-08T15:00:20",
+                                                 "end":  "2026-09-08T15:00:25",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  5,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-01T15:01:01",
                                                  "end":  "2026-09-01T15:01:19",
@@ -3646,17 +3655,17 @@
                            "agendamento":  "Diariamente as 08:40",
                            "proximaExecucao":  "2026-09-09T08:40:40",
                            "ultimaExecucaoWindows":  "2026-09-08T14:02:02",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-09-08T14:03:17",
-                                                 "end":  "2026-09-08T14:03:17",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  0,
+                                                 "end":  "2026-09-08T14:14:18",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  661,
                                                  "urls":  [
 
                                                           ]
@@ -6456,8 +6465,8 @@
                            "agendamento":  "Diariamente as 17:00",
                            "proximaExecucao":  "2026-09-08T17:00:00",
                            "ultimaExecucaoWindows":  "2026-09-08T14:02:02",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
