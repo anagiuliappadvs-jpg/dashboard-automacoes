@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-09-14T09:00:16-03:00",
+    "geradoEm":  "2026-09-14T10:00:34-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -4198,17 +4198,17 @@
                            "agendamento":  "Seg as 08:30",
                            "proximaExecucao":  "2026-09-21T08:30:30",
                            "ultimaExecucaoWindows":  "2026-09-14T08:56:56",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-09-14T08:57:18",
-                                                 "end":  "2026-09-14T09:00:10",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  172,
+                                                 "end":  "2026-09-14T09:00:46",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  208,
                                                  "urls":  [
 
                                                           ]
@@ -4387,19 +4387,28 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-09-14T10:00:00",
-                           "ultimaExecucaoWindows":  "2026-09-14T08:56:56",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "proximaExecucao":  "2026-09-14T12:00:00",
+                           "ultimaExecucaoWindows":  "2026-09-14T10:00:00",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
-                                                 "start":  "2026-09-14T08:56:57",
-                                                 "end":  "2026-09-14T08:56:57",
-                                                 "status":  "Indeterminado",
+                                                 "start":  "2026-09-14T10:00:01",
+                                                 "end":  "2026-09-14T10:00:01",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-09-14T08:56:57",
+                                                 "end":  "2026-09-14T09:00:46",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  229,
                                                  "urls":  [
 
                                                           ]
@@ -5904,12 +5913,28 @@
                            "agendamento":  "Seg as 09:00",
                            "proximaExecucao":  "2026-09-21T09:00:00",
                            "ultimaExecucaoWindows":  "2026-09-14T09:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-14T09:00:01",
+                                                 "end":  "2026-09-14T09:01:40",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  99,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://paccolaepelegrini.kommo.com/api/v4/leads",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/1OsAvkEbFhbMUSuEA_qKbtdeZbjw_2jr7HR9LE6nAGJA/edit?usp=drivesdk",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-08T14:03:59",
                                                  "end":  "2026-09-08T14:12:48",
@@ -6582,14 +6607,30 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Seg as 09:20",
-                           "proximaExecucao":  "2026-09-14T09:20:20",
-                           "ultimaExecucaoWindows":  "2026-09-08T14:02:02",
+                           "proximaExecucao":  "2026-09-21T09:20:20",
+                           "ultimaExecucaoWindows":  "2026-09-14T09:20:20",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-14T09:20:25",
+                                                 "end":  "2026-09-14T09:20:35",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  10,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1MQ13RDlqqJhpm8qV8CNdam-8z-IMHPuJSL-2H3gXU4w/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/VIpMgz3Y",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-09T09:20:32",
                                                  "end":  "2026-09-09T09:20:44",
