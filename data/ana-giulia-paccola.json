@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-09-16T10:01:19-03:00",
+    "geradoEm":  "2026-09-16T11:00:20-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -2059,14 +2059,23 @@
                                           ],
                            "descricao":  "Coleta as metricas do Instagram e publica o snapshot no GitHub Pages (diario 11h, recupera se PC estava desligado, roda na bateria).",
                            "agendamento":  "Diariamente as 11:00",
-                           "proximaExecucao":  "2026-09-16T11:00:00",
-                           "ultimaExecucaoWindows":  "2026-09-15T11:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-09-17T11:00:00",
+                           "ultimaExecucaoWindows":  "2026-09-16T11:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-16T11:00:02",
+                                                 "end":  "2026-09-16T11:00:02",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-15T11:00:06",
                                                  "end":  "2026-09-15T11:01:50",
@@ -2921,6 +2930,15 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-16T11:00:02",
+                                                 "end":  "2026-09-16T11:00:02",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-15T11:00:06",
                                                  "end":  "2026-09-15T11:01:50",
@@ -4339,6 +4357,15 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-16T10:43:38",
+                                                 "end":  "2026-09-16T10:59:46",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  968,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-16T09:10:50",
                                                  "end":  "2026-09-16T09:13:39",
