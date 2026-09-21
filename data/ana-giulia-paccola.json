@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-09-21T16:00:22-03:00",
+    "geradoEm":  "2026-09-21T16:21:32-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -1969,7 +1969,7 @@
                                              {
                                                  "start":  "2026-08-31T08:30:00",
                                                  "end":  "2026-08-31T08:30:29",
-                                                 "status":  "ERRO",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  29,
                                                  "urls":  [
 
@@ -2023,7 +2023,7 @@
                                              {
                                                  "start":  "2026-07-20T08:47:43",
                                                  "end":  "2026-07-20T08:50:13",
-                                                 "status":  "ERRO",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  150,
                                                  "urls":  [
 
@@ -2050,7 +2050,7 @@
                                              {
                                                  "start":  "2026-06-29T08:30:17",
                                                  "end":  "2026-06-29T08:31:43",
-                                                 "status":  "ERRO",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  86,
                                                  "urls":  [
 
@@ -2113,7 +2113,7 @@
                                              {
                                                  "start":  "2026-05-20T14:09:14",
                                                  "end":  "2026-05-20T14:31:10",
-                                                 "status":  "ERRO",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  1316,
                                                  "urls":  [
 
@@ -4219,7 +4219,7 @@
                                              {
                                                  "start":  "2026-09-21T08:52:25",
                                                  "end":  "2026-09-21T08:52:25",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -4228,7 +4228,7 @@
                                              {
                                                  "start":  "2026-09-18T08:40:07",
                                                  "end":  "2026-09-18T08:40:07",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -4237,7 +4237,7 @@
                                              {
                                                  "start":  "2026-09-17T08:40:07",
                                                  "end":  "2026-09-17T08:40:07",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -4246,7 +4246,7 @@
                                              {
                                                  "start":  "2026-09-16T08:40:15",
                                                  "end":  "2026-09-16T08:40:15",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -4255,7 +4255,7 @@
                                              {
                                                  "start":  "2026-09-15T08:40:02",
                                                  "end":  "2026-09-15T08:40:02",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -4264,7 +4264,7 @@
                                              {
                                                  "start":  "2026-09-14T08:56:59",
                                                  "end":  "2026-09-14T08:56:59",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -4273,7 +4273,7 @@
                                              {
                                                  "start":  "2026-09-13T08:40:02",
                                                  "end":  "2026-09-13T08:40:02",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -4282,7 +4282,7 @@
                                              {
                                                  "start":  "2026-09-12T08:40:04",
                                                  "end":  "2026-09-12T08:40:04",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -4291,7 +4291,7 @@
                                              {
                                                  "start":  "2026-09-11T08:49:44",
                                                  "end":  "2026-09-11T08:49:44",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -4327,7 +4327,7 @@
                                              {
                                                  "start":  "2026-09-04T08:40:12",
                                                  "end":  "2026-09-04T08:40:12",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -4336,7 +4336,7 @@
                                              {
                                                  "start":  "2026-09-03T08:40:09",
                                                  "end":  "2026-09-03T08:40:09",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -4345,7 +4345,7 @@
                                              {
                                                  "start":  "2026-09-02T08:40:03",
                                                  "end":  "2026-09-02T08:40:03",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -4354,7 +4354,7 @@
                                              {
                                                  "start":  "2026-09-01T08:40:06",
                                                  "end":  "2026-09-01T08:40:06",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -4363,7 +4363,7 @@
                                              {
                                                  "start":  "2026-08-31T08:40:02",
                                                  "end":  "2026-08-31T08:40:02",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -4372,7 +4372,7 @@
                                              {
                                                  "start":  "2026-08-30T09:10:54",
                                                  "end":  "2026-08-30T09:10:54",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -4381,7 +4381,7 @@
                                              {
                                                  "start":  "2026-08-29T15:49:27",
                                                  "end":  "2026-08-29T15:49:27",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -4390,7 +4390,7 @@
                                              {
                                                  "start":  "2026-08-28T08:40:03",
                                                  "end":  "2026-08-28T08:40:03",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -4399,7 +4399,7 @@
                                              {
                                                  "start":  "2026-08-27T08:40:02",
                                                  "end":  "2026-08-27T08:40:02",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -4417,7 +4417,7 @@
                                              {
                                                  "start":  "2026-08-25T08:52:16",
                                                  "end":  "2026-08-25T08:52:16",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -4426,7 +4426,7 @@
                                              {
                                                  "start":  "2026-08-24T08:40:03",
                                                  "end":  "2026-08-24T08:40:03",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -4435,7 +4435,7 @@
                                              {
                                                  "start":  "2026-08-23T13:53:58",
                                                  "end":  "2026-08-23T13:53:58",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -4444,7 +4444,7 @@
                                              {
                                                  "start":  "2026-08-22T08:40:37",
                                                  "end":  "2026-08-22T08:40:37",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -4453,7 +4453,7 @@
                                              {
                                                  "start":  "2026-08-21T08:40:03",
                                                  "end":  "2026-08-21T08:40:03",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -4480,7 +4480,7 @@
                                              {
                                                  "start":  "2026-07-10T10:00:47",
                                                  "end":  "2026-07-10T10:00:47",
-                                                 "status":  "Indeterminado",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  0,
                                                  "urls":  [
 
@@ -4537,7 +4537,7 @@
                                              {
                                                  "start":  "2026-09-21T08:53:44",
                                                  "end":  "2026-09-21T09:12:52",
-                                                 "status":  "ERRO",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  1148,
                                                  "urls":  [
 
@@ -6812,19 +6812,26 @@
                            "agendamento":  "Seg as 16:00",
                            "proximaExecucao":  "2026-09-28T16:00:00",
                            "ultimaExecucaoWindows":  "2026-09-21T16:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-09-21T16:00:15",
-                                                 "end":  "2026-09-21T16:00:18",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  3,
+                                                 "end":  "2026-09-21T16:00:54",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  39,
                                                  "urls":  [
-
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1f9yZMBAXNWM8sFAQp6w1P2lpvb-QdEZ_OENS-tB05rc/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/U9kMpBzU",
+                                                                  "tipo":  "trello"
+                                                              }
                                                           ]
                                              },
                                              {
@@ -7542,7 +7549,7 @@
                                              {
                                                  "start":  "2026-07-27T09:36:23",
                                                  "end":  "2026-07-27T10:05:32",
-                                                 "status":  "OK",
+                                                 "status":  "ERRO",
                                                  "duracaoSeg":  1749,
                                                  "urls":  [
                                                               {
@@ -8275,7 +8282,7 @@
                                              {
                                                  "start":  "2026-08-14T17:00:04",
                                                  "end":  "2026-08-14T17:13:21",
-                                                 "status":  "ERRO",
+                                                 "status":  "OK",
                                                  "duracaoSeg":  797,
                                                  "urls":  [
 
