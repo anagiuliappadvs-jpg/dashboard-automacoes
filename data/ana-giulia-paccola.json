@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-09-21T13:24:20-03:00",
+    "geradoEm":  "2026-09-21T14:00:40-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -3927,6 +3927,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-09-21T13:46:41",
+                                                 "end":  "2026-09-21T13:47:00",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  19,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-09-15T15:00:31",
                                                  "end":  "2026-09-15T15:00:50",
                                                  "status":  "OK",
@@ -4723,14 +4732,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-09-21T14:00:00",
-                           "ultimaExecucaoWindows":  "2026-09-21T12:00:00",
+                           "proximaExecucao":  "2026-09-21T16:00:00",
+                           "ultimaExecucaoWindows":  "2026-09-21T14:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-21T14:00:01",
+                                                 "end":  "2026-09-21T14:00:01",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-21T12:00:00",
                                                  "end":  "2026-09-21T12:00:00",
@@ -7231,6 +7249,15 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-21T13:49:26",
+                                                 "end":  "2026-09-21T13:59:46",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  620,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-21T09:20:20",
                                                  "end":  "2026-09-21T09:22:26",
