@@ -127,7 +127,7 @@ function Parse-LogFile($path) {
         $erro = $false
         $ok = $false
 
-        if ($lower -match 'exit=0' -or $lower -match 'tudo ok' -or $lower -match '=== fim ===' -or $lower -match '==== fim ====' -or $lower -match 'doc criado' -or $lower -match 'card criado' -or $lower -match 'nada a fazer' -or $lower -match 'conclu.do com sucesso' -or $lower -match 'guardiao: fim' -or $lower -match 'todos recuperados') {
+        if ($lower -match 'exit=0' -or $lower -match 'tudo ok' -or $lower -match '=== fim ===' -or $lower -match '==== fim ====' -or $lower -match 'doc criado' -or $lower -match 'card criado' -or $lower -match 'nada a fazer' -or $lower -match 'conclu.do com sucesso' -or $lower -match 'guardiao: fim' -or $lower -match 'todos recuperados' -or $lower -match 'tudo em dia' -or $lower -match 'nada a recriar') {
             $ok = $true
         }
         if ($lower -match 'exit=1' -or $lower -match 'erro\b' -or $lower -match 'error\b' -or $lower -match 'failed' -or $lower -match 'falhou' -or $lower -match 'alerta' -or $lower -match 'unauthorized' -or $lower -match '401\b' -or $lower -match '403\b' -or $lower -match '500\b') {
@@ -137,9 +137,16 @@ function Parse-LogFile($path) {
         if ($erro -and -not $ok) { $status = 'ERRO' }
         elseif ($ok -and -not $erro) { $status = 'OK' }
         elseif ($ok -and $erro) {
-            # Erros podem ser apenas mencoes em comentarios. Se terminou bem -> OK
-            $ultimaLinhaSubstantiva = ($e.Linhas | Where-Object { $_ -match '\S' } | Select-Object -Last 1)
-            if ($ultimaLinhaSubstantiva -match 'fim|exit=0|ok\b|criado') { $status = 'OK' } else { $status = 'ERRO' }
+            # Bloco misto (erro + sucesso juntos, ex.: falha no boot + vigia refazendo em
+            # seguida). Decide pelo que aconteceu POR ULTIMO: recuperacao depois do erro = OK.
+            $posErro = -1; $posOk = -1
+            foreach ($pat in @('erro','falhou','failed','alerta','unauthorized')) {
+                $p = $lower.LastIndexOf($pat); if ($p -gt $posErro) { $posErro = $p }
+            }
+            foreach ($pat in @('exit=0','=== fim ===','==== fim ====','tudo ok','com sucesso','nada a fazer','todos recuperados','tudo em dia','nada a recriar','doc criado','card criado')) {
+                $p = $lower.LastIndexOf($pat); if ($p -gt $posOk) { $posOk = $p }
+            }
+            if ($posOk -gt $posErro) { $status = 'OK' } else { $status = 'ERRO' }
         }
 
         # Mensagem: ultima linha "interessante" (nao-vazia, nao apenas separador)
