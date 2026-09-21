@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-09-21T15:02:22-03:00",
+    "geradoEm":  "2026-09-21T16:00:22-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -390,14 +390,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-09-21T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-09-21T08:52:52",
+                           "proximaExecucao":  "2026-09-22T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-09-21T15:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-21T15:30:01",
+                                                 "end":  "2026-09-21T15:32:57",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  176,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-21T08:52:22",
                                                  "end":  "2026-09-21T08:59:53",
@@ -4732,14 +4744,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-09-21T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-09-21T14:00:00",
+                           "proximaExecucao":  "2026-09-21T18:00:00",
+                           "ultimaExecucaoWindows":  "2026-09-21T16:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-21T16:00:00",
+                                                 "end":  "2026-09-21T16:00:00",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-21T14:00:01",
                                                  "end":  "2026-09-21T14:00:01",
@@ -6789,14 +6810,23 @@
                                           ],
                            "descricao":  "Roda toda segunda 09:30 gerando relatorio financeiro semanal",
                            "agendamento":  "Seg as 16:00",
-                           "proximaExecucao":  "2026-09-21T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-09-14T16:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-09-28T16:00:00",
+                           "ultimaExecucaoWindows":  "2026-09-21T16:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-21T16:00:15",
+                                                 "end":  "2026-09-21T16:00:18",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  3,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-14T16:00:18",
                                                  "end":  "2026-09-14T16:01:03",
@@ -7249,6 +7279,38 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-21T15:07:27",
+                                                 "end":  "2026-09-21T15:18:38",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  671,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1_v4Yj9w1AQ_NyV26RsLyCLRJ09anKGsxTDHslz7W0_w/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/4KjsCpqZ",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/132s6Fk8xsObxyLzIomrrGGN2FeJXwlIp7qQaR5sNUlM/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/zFqriOZU",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/17ZvVYWzHdL5S8fsgmftNN1gSXnPhslT8KbbIspODCmg/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/qXSRJIU7",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-21T13:49:26",
                                                  "end":  "2026-09-21T14:05:47",
