@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-09-22T11:00:22-03:00",
+    "geradoEm":  "2026-09-22T11:40:25-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -2161,6 +2161,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-09-22T11:36:52",
+                                                 "end":  "2026-09-22T11:39:34",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  162,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-09-22T11:00:04",
                                                  "end":  "2026-09-22T11:00:06",
                                                  "status":  "ERRO",
@@ -3068,6 +3077,15 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-22T11:36:52",
+                                                 "end":  "2026-09-22T11:39:34",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  162,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-22T11:00:04",
                                                  "end":  "2026-09-22T11:00:06",
