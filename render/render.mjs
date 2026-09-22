@@ -218,8 +218,11 @@ function statsHoje(automacoes) {
       const d = new Date(h.start); d.setHours(0,0,0,0);
       return d.getTime() === hoje.getTime();
     });
-    if (rodHoje.some(h => h.status === 'ERRO')) falhasHoje++;
-    else if (rodHoje.some(h => h.status === 'OK')) okHoje++;
+    // Conta pela execucao MAIS RECENTE do dia: falha recuperada depois nao fica gritando
+    if (rodHoje.length > 0) {
+      if (rodHoje[0].status === 'ERRO') falhasHoje++;
+      else if (rodHoje.some(h => h.status === 'OK')) okHoje++;
+    }
   }
   return { okHoje, falhasHoje };
 }
