@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-09-23T10:00:46-03:00",
+    "geradoEm":  "2026-09-23T11:00:17-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -2164,14 +2164,23 @@
                                           ],
                            "descricao":  "Coleta as metricas do Instagram e publica o snapshot no GitHub Pages (diario 11h, recupera se PC estava desligado, roda na bateria).",
                            "agendamento":  "Diariamente as 11:00",
-                           "proximaExecucao":  "2026-09-23T11:00:00",
-                           "ultimaExecucaoWindows":  "2026-09-22T11:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-09-24T11:00:00",
+                           "ultimaExecucaoWindows":  "2026-09-23T11:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-23T11:00:02",
+                                                 "end":  "2026-09-23T11:00:02",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-22T11:36:52",
                                                  "end":  "2026-09-22T11:39:34",
@@ -3089,6 +3098,15 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-23T11:00:02",
+                                                 "end":  "2026-09-23T11:00:02",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-22T11:36:52",
                                                  "end":  "2026-09-22T11:39:34",
@@ -4617,11 +4635,7 @@
                        {
                            "nome":  "Planilha de KPI - automação",
                            "linksFixos":  [
-                                              {
-                                                  "label":  "Planilha KPI 2026 (nova)",
-                                                  "url":  "https://docs.google.com/spreadsheets/d/18Ao87u3FLys6Ay902MNgJDaPMvXb3_dskf9yOC6Boi8/edit",
-                                                  "tipo":  "sheet"
-                                              }
+
                                           ],
                            "descricao":  "Atualiza o status da Planilha de KPI a partir dos Painéis do Kommo (Closer/Financeiro/Operacional/SDR). Roda 1x por semana, segunda às 08:30 (antes do relatório comercial das 09:00). Também preenche a coluna Campanha e regenera as abas ANÁLISE e BASE.",
                            "agendamento":  "Seg as 08:30",
@@ -7463,11 +7477,6 @@
                        {
                            "nome":  "Relatorio Comercial Semanal",
                            "linksFixos":  [
-                                              {
-                                                  "label":  "Planilha KPI 2026 (nova)",
-                                                  "url":  "https://docs.google.com/spreadsheets/d/18Ao87u3FLys6Ay902MNgJDaPMvXb3_dskf9yOC6Boi8/edit",
-                                                  "tipo":  "sheet"
-                                              },
                                               {
                                                   "label":  "CRM 2026",
                                                   "url":  "https://docs.google.com/spreadsheets/d/1FLUYjO7UtdRQBmZnVNQ-on0rmIKKEfSeGyFoPwW4NWY/edit",
