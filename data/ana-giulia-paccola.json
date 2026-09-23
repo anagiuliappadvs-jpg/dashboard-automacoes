@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-09-23T17:00:39-03:00",
+    "geradoEm":  "2026-09-23T17:04:08-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -8166,6 +8166,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-09-23T17:00:03",
+                                                 "end":  "2026-09-23T17:03:31",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  208,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-09-22T17:00:03",
                                                  "end":  "2026-09-22T17:03:35",
                                                  "status":  "OK",
@@ -8562,10 +8571,10 @@
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-08-14T17:00:04",
+                                                 "start":  "2026-08-14T17:13:21",
                                                  "end":  "2026-08-14T17:13:21",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  797,
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  0,
                                                  "urls":  [
 
                                                           ]
