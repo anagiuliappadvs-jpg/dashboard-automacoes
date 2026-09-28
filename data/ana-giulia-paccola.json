@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-09-28T08:07:02-03:00",
+    "geradoEm":  "2026-09-28T09:00:21-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -2018,14 +2018,23 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Seg as 08:30",
-                           "proximaExecucao":  "2026-09-28T08:30:30",
-                           "ultimaExecucaoWindows":  "2026-09-21T08:52:52",
+                           "proximaExecucao":  "2026-10-05T08:30:30",
+                           "ultimaExecucaoWindows":  "2026-09-28T08:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-28T08:30:00",
+                                                 "end":  "2026-09-28T08:30:21",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  21,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-21T08:52:23",
                                                  "end":  "2026-09-21T08:54:06",
@@ -4439,14 +4448,23 @@
                                           ],
                            "descricao":  "Recuperacao automatica do Relatorio Diario SDR: toda manha (08:40) confere os ultimos dias uteis e recria/sobe qualquer relatorio das 17h que tenha falhado (rede, upload, etc.). Pula fins de semana. Ver guardiao_sdr.py.",
                            "agendamento":  "Diariamente as 08:40",
-                           "proximaExecucao":  "2026-09-28T08:40:40",
-                           "ultimaExecucaoWindows":  "2026-09-28T08:01:01",
+                           "proximaExecucao":  "2026-09-29T08:40:40",
+                           "ultimaExecucaoWindows":  "2026-09-28T08:40:40",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-28T08:40:02",
+                                                 "end":  "2026-09-28T08:40:02",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-28T08:01:58",
                                                  "end":  "2026-09-28T08:01:58",
@@ -4807,14 +4825,23 @@
                                           ],
                            "descricao":  "Atualiza o status da Planilha de KPI a partir dos Painéis do Kommo (Closer/Financeiro/Operacional/SDR). Roda 1x por semana, segunda às 08:30 (antes do relatório comercial das 09:00). Também preenche a coluna Campanha e regenera as abas ANÁLISE e BASE.",
                            "agendamento":  "Seg as 08:30",
-                           "proximaExecucao":  "2026-09-28T08:30:30",
-                           "ultimaExecucaoWindows":  "2026-09-21T08:52:52",
-                           "ultimoResultadoCodigo":  1,
-                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
+                           "proximaExecucao":  "2026-10-05T08:30:30",
+                           "ultimaExecucaoWindows":  "2026-09-28T08:30:30",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-09-28T08:30:15",
+                                                 "end":  "2026-09-28T08:34:38",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  263,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-21T08:53:44",
                                                  "end":  "2026-09-21T09:12:52",
@@ -7080,10 +7107,10 @@
                                           ],
                            "descricao":  "Relatorio semanal Kommo - segundas 09:00 BRT (janela domingo 00:00 -\u003e execucao)",
                            "agendamento":  "Seg as 09:00",
-                           "proximaExecucao":  "2026-09-28T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-09-21T09:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-10-05T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-09-28T09:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
@@ -8383,8 +8410,8 @@
                                           ],
                            "descricao":  "Relatorio mensal do tempo de reuniao-\u003efechamento e fechamento-\u003epagamento por vendedor (Julia, Felipe, Lindsey). Roda diariamente 09:00 mas so executa de verdade no 5o dia util do mes, gerando o relatorio do mes anterior. Publica Doc em Drive \u003e Gestao \u003e Relatorios semanais \u003e Comercial.",
                            "agendamento":  "Diariamente as 09:00",
-                           "proximaExecucao":  "2026-09-28T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-09-28T08:01:01",
+                           "proximaExecucao":  "2026-09-29T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-09-28T09:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -8450,8 +8477,8 @@
                            "agendamento":  "Diariamente as 17:00",
                            "proximaExecucao":  "2026-09-28T17:00:00",
                            "ultimaExecucaoWindows":  "2026-09-28T08:01:01",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
