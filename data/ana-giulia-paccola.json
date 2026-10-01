@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-09-30T22:00:17-03:00",
+    "geradoEm":  "2026-10-01T08:37:23-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -4940,8 +4940,8 @@
                                           ],
                            "descricao":  "Cria a aba do mês na Planilha de KPI todo dia 1º, copiando a estrutura do mês anterior (cabeçalho, formatação) e deixando-a vazia. Se a aba já existir, não faz nada.",
                            "agendamento":  "MSFT_TaskTrigger as 08:00",
-                           "proximaExecucao":  "2026-10-01T08:00:00",
-                           "ultimaExecucaoWindows":  "2026-09-01T08:39:39",
+                           "proximaExecucao":  "2026-11-01T08:00:00",
+                           "ultimaExecucaoWindows":  "2026-10-01T08:33:33",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -5185,14 +5185,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-10-01T00:00:00",
-                           "ultimaExecucaoWindows":  "2026-09-30T22:00:00",
+                           "proximaExecucao":  "2026-10-01T10:00:00",
+                           "ultimaExecucaoWindows":  "2026-10-01T08:36:36",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-10-01T08:36:44",
+                                                 "end":  "2026-10-01T08:36:44",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-30T22:00:01",
                                                  "end":  "2026-09-30T22:00:01",
