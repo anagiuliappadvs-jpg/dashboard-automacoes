@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-10-04T17:57:20-03:00",
+    "geradoEm":  "2026-10-04T18:00:28-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -432,19 +432,22 @@
                            "agendamento":  "Diariamente as 15:30",
                            "proximaExecucao":  "2026-10-05T15:30:30",
                            "ultimaExecucaoWindows":  "2026-10-04T17:56:56",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-10-04T17:56:24",
-                                                 "end":  "2026-10-04T17:56:24",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  0,
+                                                 "end":  "2026-10-04T17:59:03",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  159,
                                                  "urls":  [
-
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
                                                           ]
                                              },
                                              {
@@ -2341,17 +2344,17 @@
                            "agendamento":  "Diariamente as 11:00",
                            "proximaExecucao":  "2026-10-05T11:00:00",
                            "ultimaExecucaoWindows":  "2026-10-04T17:56:56",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-10-04T17:56:27",
-                                                 "end":  "2026-10-04T17:56:28",
+                                                 "end":  "2026-10-04T17:58:06",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  1,
+                                                 "duracaoSeg":  99,
                                                  "urls":  [
 
                                                           ]
@@ -3374,9 +3377,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-10-04T17:56:27",
-                                                 "end":  "2026-10-04T17:56:28",
+                                                 "end":  "2026-10-04T17:58:06",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  1,
+                                                 "duracaoSeg":  99,
                                                  "urls":  [
 
                                                           ]
@@ -5347,8 +5350,8 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-10-04T18:00:00",
-                           "ultimaExecucaoWindows":  "2026-10-04T17:56:56",
+                           "proximaExecucao":  "2026-10-04T20:00:00",
+                           "ultimaExecucaoWindows":  "2026-10-04T18:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -5357,9 +5360,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-10-04T17:56:26",
-                                                 "end":  "2026-10-04T17:56:26",
+                                                 "end":  "2026-10-04T18:00:02",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  0,
+                                                 "duracaoSeg":  216,
                                                  "urls":  [
 
                                                           ]
@@ -9045,6 +9048,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-10-04T17:56:25",
+                                                 "end":  "2026-10-04T17:59:57",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  212,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-10-03T17:00:02",
                                                  "end":  "2026-10-03T17:00:44",
                                                  "status":  "OK",
@@ -9468,10 +9480,10 @@
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-08-20T08:40:02",
+                                                 "start":  "2026-08-20T08:42:51",
                                                  "end":  "2026-08-20T08:42:58",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  176,
+                                                 "duracaoSeg":  7,
                                                  "urls":  [
 
                                                           ]
