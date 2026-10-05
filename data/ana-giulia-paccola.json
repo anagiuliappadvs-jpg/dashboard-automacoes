@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-10-04T18:00:28-03:00",
+    "geradoEm":  "2026-10-05T08:29:23-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -5350,14 +5350,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-10-04T20:00:00",
-                           "ultimaExecucaoWindows":  "2026-10-04T18:00:00",
+                           "proximaExecucao":  "2026-10-05T10:00:00",
+                           "ultimaExecucaoWindows":  "2026-10-05T08:28:28",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-10-05T08:28:29",
+                                                 "end":  "2026-10-05T08:28:29",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-10-04T17:56:26",
                                                  "end":  "2026-10-04T18:00:02",
@@ -9041,8 +9050,8 @@
                            "agendamento":  "Diariamente as 17:00",
                            "proximaExecucao":  "2026-10-05T17:00:00",
                            "ultimaExecucaoWindows":  "2026-10-04T17:56:56",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
