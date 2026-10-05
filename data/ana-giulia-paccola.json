@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-10-05T16:00:54-03:00",
+    "geradoEm":  "2026-10-05T17:00:41-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -15,14 +15,30 @@
                                           ],
                            "descricao":  "Monta a apresentação da reunião de terça (Comercial + Administrativo + Financeiro) e sobe pro Drive como Google Slides. Roda segunda 16:30, depois do Relatório Financeiro das 16:00. Lê KPI, CRM, Controle de Contratos, Relatório Leads Kommo, o log do financeiro e o Dashboard de RH — janela sempre segunda a domingo da semana anterior.",
                            "agendamento":  "Seg as 16:30",
-                           "proximaExecucao":  "2026-10-05T16:30:30",
-                           "ultimaExecucaoWindows":  "2026-09-28T16:30:30",
+                           "proximaExecucao":  "2026-10-12T16:30:30",
+                           "ultimaExecucaoWindows":  "2026-10-05T16:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-10-05T16:30:32",
+                                                 "end":  "2026-10-05T16:31:51",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  79,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1BGFsxi3FR_STPch95KYX9epXkX_lgS4sAO5_nQwdWNQ/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/gtcMTeix",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-09-28T16:30:13",
                                                  "end":  "2026-09-28T16:32:34",
@@ -8047,19 +8063,26 @@
                            "agendamento":  "Seg as 16:00",
                            "proximaExecucao":  "2026-10-12T16:00:00",
                            "ultimaExecucaoWindows":  "2026-10-05T16:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-10-05T16:00:32",
-                                                 "end":  "2026-10-05T16:00:51",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  19,
+                                                 "end":  "2026-10-05T16:00:56",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  24,
                                                  "urls":  [
-
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1KT9V7ImyNUhNjnMCKeKPG1eG1rVqp_ht6dwnqWV0Ubs/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/AFwkIGoU",
+                                                                  "tipo":  "trello"
+                                                              }
                                                           ]
                                              },
                                              {
@@ -9166,10 +9189,10 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-10-05T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-10-04T17:56:56",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-10-06T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-10-05T17:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
