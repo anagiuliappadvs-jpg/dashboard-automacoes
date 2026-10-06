@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-10-06T09:00:19-03:00",
+    "geradoEm":  "2026-10-06T10:00:18-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -23,6 +23,46 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-10-06T09:03:12",
+                                                 "end":  "2026-10-06T09:56:10",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  3178,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1H0yto2hfa-qASX-CAAjCBNPq9pigCavUKxw0ZkEo3yo/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/3w0qNRQt",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1UhRnlNGg-Fh-FngXOiGCMhs9H2wPeLxnCyZGjUuTKg0/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/00VPTu0X",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1jc6XL9Xm_0LQKpUGmpSXZlcsuUGs6axujqi-VnzOrBE/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/YIPxLxf1",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1P572zzhzmQe9BZT_ZHB0PeCSnNwbWdr5bRgbJGyGddo/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/XbvQvaDX",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-10-05T16:30:32",
                                                  "end":  "2026-10-05T16:31:51",
@@ -5432,10 +5472,10 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-10-06T10:00:00",
-                           "ultimaExecucaoWindows":  "2026-10-06T08:24:24",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "proximaExecucao":  "2026-10-06T12:00:00",
+                           "ultimaExecucaoWindows":  "2026-10-06T10:00:00",
+                           "ultimoResultadoCodigo":  2147946720,
+                           "ultimoResultadoTexto":  "Codigo 2147946720",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
