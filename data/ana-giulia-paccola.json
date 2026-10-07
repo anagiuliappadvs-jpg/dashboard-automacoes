@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-10-07T08:41:42-03:00",
+    "geradoEm":  "2026-10-07T09:00:53-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -9299,14 +9299,26 @@
                                           ],
                            "descricao":  "Relatorio mensal do tempo de reuniao-\u003efechamento e fechamento-\u003epagamento por vendedor (Julia, Felipe, Lindsey). Roda diariamente 09:00 mas so executa de verdade no 5o dia util do mes, gerando o relatorio do mes anterior. Publica Doc em Drive \u003e Gestao \u003e Relatorios semanais \u003e Comercial.",
                            "agendamento":  "Diariamente as 09:00",
-                           "proximaExecucao":  "2026-10-07T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-10-06T09:00:00",
+                           "proximaExecucao":  "2026-10-08T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-10-07T09:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-10-07T09:00:33",
+                                                 "end":  "2026-10-07T09:00:45",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  12,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1r3PB48EWXhEccaBA-eWS7Ajx_V-pmWwDdALyqKU_F1A/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-08-07T09:00:42",
                                                  "end":  "2026-08-07T09:00:51",
