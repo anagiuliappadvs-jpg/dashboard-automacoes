@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-10-09T11:00:16-03:00",
+    "geradoEm":  "2026-10-09T12:00:15-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -2481,17 +2481,17 @@
                            "agendamento":  "Diariamente as 11:00",
                            "proximaExecucao":  "2026-10-10T11:00:00",
                            "ultimaExecucaoWindows":  "2026-10-09T11:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-10-09T11:00:02",
-                                                 "end":  "2026-10-09T11:00:02",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  0,
+                                                 "end":  "2026-10-09T11:01:40",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  98,
                                                  "urls":  [
 
                                                           ]
@@ -3559,9 +3559,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-10-09T11:00:02",
-                                                 "end":  "2026-10-09T11:00:02",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  0,
+                                                 "end":  "2026-10-09T11:01:40",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  98,
                                                  "urls":  [
 
                                                           ]
@@ -5640,14 +5640,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-10-09T12:00:00",
-                           "ultimaExecucaoWindows":  "2026-10-09T10:00:00",
+                           "proximaExecucao":  "2026-10-09T14:00:00",
+                           "ultimaExecucaoWindows":  "2026-10-09T12:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-10-09T12:00:00",
+                                                 "end":  "2026-10-09T12:00:00",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-10-09T10:00:00",
                                                  "end":  "2026-10-09T10:00:00",
