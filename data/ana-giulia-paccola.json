@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-10-13T14:00:35-03:00",
+    "geradoEm":  "2026-10-13T15:01:18-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -4795,14 +4795,23 @@
                                           ],
                            "descricao":  "Rele KPI+CRM, reconstroi e publica toda segunda 14h",
                            "agendamento":  "Ter as 15:00",
-                           "proximaExecucao":  "2026-10-13T15:00:00",
-                           "ultimaExecucaoWindows":  "2026-10-06T15:00:00",
+                           "proximaExecucao":  "2026-10-20T15:00:00",
+                           "ultimaExecucaoWindows":  "2026-10-13T15:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-10-13T15:00:21",
+                                                 "end":  "2026-10-13T15:00:44",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  23,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-10-06T15:00:31",
                                                  "end":  "2026-10-06T15:00:54",
