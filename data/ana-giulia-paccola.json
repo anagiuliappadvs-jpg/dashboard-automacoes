@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-10-14T14:00:49-03:00",
+    "geradoEm":  "2026-10-14T15:00:17-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -23,6 +23,22 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-10-14T14:43:18",
+                                                 "end":  "2026-10-14T14:47:59",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  281,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1Unt6hbND3MwKtrN5carh6pYQ4Iu18VPpWx1yD9jrZSo/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/4bHwJua7",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-10-12T17:02:57",
                                                  "end":  "2026-10-12T17:04:47",
