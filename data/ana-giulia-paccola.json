@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-10-16T08:45:21-03:00",
+    "geradoEm":  "2026-10-16T08:46:20-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -10324,17 +10324,17 @@
                            "agendamento":  "Diariamente as 17:00",
                            "proximaExecucao":  "2026-10-16T17:00:00",
                            "ultimaExecucaoWindows":  "2026-10-15T17:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-10-16T08:42:51",
-                                                 "end":  "2026-10-16T08:44:38",
+                                                 "end":  "2026-10-16T08:45:48",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  107,
+                                                 "duracaoSeg":  177,
                                                  "urls":  [
 
                                                           ]
@@ -10767,15 +10767,6 @@
                                                  "end":  "2026-08-31T17:03:45",
                                                  "status":  "OK",
                                                  "duracaoSeg":  222,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-08-31T08:24:38",
-                                                 "end":  "2026-08-31T08:28:05",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  207,
                                                  "urls":  [
 
                                                           ]
