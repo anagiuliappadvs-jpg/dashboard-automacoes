@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-10-17T17:03:27-03:00",
+    "geradoEm":  "2026-10-17T17:04:33-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -10490,6 +10490,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-10-17T17:00:11",
+                                                 "end":  "2026-10-17T17:03:57",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  226,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-10-17T08:40:03",
                                                  "end":  "2026-10-17T08:45:02",
                                                  "status":  "OK",
@@ -10917,15 +10926,6 @@
                                                  "end":  "2026-09-03T17:04:57",
                                                  "status":  "OK",
                                                  "duracaoSeg":  284,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-09-02T17:00:03",
-                                                 "end":  "2026-09-02T17:03:30",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  207,
                                                  "urls":  [
 
                                                           ]
