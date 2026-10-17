@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-10-17T15:33:08-03:00",
+    "geradoEm":  "2026-10-17T17:03:27-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -544,17 +544,17 @@
                            "agendamento":  "Diariamente as 15:30",
                            "proximaExecucao":  "2026-10-18T15:30:30",
                            "ultimaExecucaoWindows":  "2026-10-17T15:30:30",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  1,
+                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-10-17T15:30:01",
-                                                 "end":  "2026-10-17T15:32:01",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  120,
+                                                 "end":  "2026-10-17T15:37:01",
+                                                 "status":  "ERRO",
+                                                 "duracaoSeg":  420,
                                                  "urls":  [
 
                                                           ]
@@ -6068,14 +6068,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-10-17T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-10-17T15:32:32",
+                           "proximaExecucao":  "2026-10-17T18:00:00",
+                           "ultimaExecucaoWindows":  "2026-10-17T17:02:02",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-10-17T17:02:30",
+                                                 "end":  "2026-10-17T17:02:30",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-10-17T15:32:32",
                                                  "end":  "2026-10-17T15:32:32",
@@ -10472,10 +10481,10 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-10-17T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-10-16T17:00:00",
-                           "ultimoResultadoCodigo":  1,
-                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
+                           "proximaExecucao":  "2026-10-18T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-10-17T17:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
