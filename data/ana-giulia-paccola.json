@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-10-19T17:00:18-03:00",
+    "geradoEm":  "2026-10-19T17:04:06-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -10714,6 +10714,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-10-19T17:00:02",
+                                                 "end":  "2026-10-19T17:03:50",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  228,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-10-18T17:00:02",
                                                  "end":  "2026-10-18T17:03:37",
                                                  "status":  "OK",
@@ -11146,10 +11155,10 @@
                                                           ]
                                              },
                                              {
-                                                 "start":  "2026-09-08T14:03:17",
+                                                 "start":  "2026-09-08T14:03:30",
                                                  "end":  "2026-09-08T14:11:46",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  509,
+                                                 "duracaoSeg":  496,
                                                  "urls":  [
 
                                                           ]
