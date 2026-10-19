@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-10-19T09:00:22-03:00",
+    "geradoEm":  "2026-10-19T10:00:42-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -6134,14 +6134,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-10-19T10:00:00",
-                           "ultimaExecucaoWindows":  "2026-10-19T08:32:32",
+                           "proximaExecucao":  "2026-10-19T12:00:00",
+                           "ultimaExecucaoWindows":  "2026-10-19T10:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-10-19T10:00:01",
+                                                 "end":  "2026-10-19T10:00:01",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-10-19T08:32:31",
                                                  "end":  "2026-10-19T08:32:45",
@@ -9109,12 +9118,28 @@
                            "agendamento":  "Seg as 09:00",
                            "proximaExecucao":  "2026-10-26T09:00:00",
                            "ultimaExecucaoWindows":  "2026-10-19T09:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-10-19T09:00:04",
+                                                 "end":  "2026-10-19T09:02:37",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  153,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://paccolaepelegrini.kommo.com/api/v4/leads",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/1-5c8cWkAQPbSHiN7X9FspeJIB1a0s1CC8KnpzP0V-ks/edit?usp=drivesdk",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-10-12T15:32:35",
                                                  "end":  "2026-10-12T16:02:43",
@@ -9938,10 +9963,10 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Seg as 09:20",
-                           "proximaExecucao":  "2026-10-19T09:20:20",
-                           "ultimaExecucaoWindows":  "2026-10-12T15:32:32",
-                           "ultimoResultadoCodigo":  1,
-                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
+                           "proximaExecucao":  "2026-10-26T09:20:20",
+                           "ultimaExecucaoWindows":  "2026-10-19T09:20:20",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
