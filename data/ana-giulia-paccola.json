@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-10-18T17:04:12-03:00",
+    "geradoEm":  "2026-10-19T08:33:31-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -2425,14 +2425,23 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Seg as 08:30",
-                           "proximaExecucao":  "2026-10-19T08:30:30",
-                           "ultimaExecucaoWindows":  "2026-10-12T08:30:30",
+                           "proximaExecucao":  "2026-10-26T08:30:30",
+                           "ultimaExecucaoWindows":  "2026-10-19T08:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-10-19T08:30:00",
+                                                 "end":  "2026-10-19T08:30:36",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  36,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-10-12T08:30:06",
                                                  "end":  "2026-10-12T08:30:36",
@@ -5844,14 +5853,23 @@
                                           ],
                            "descricao":  "Atualiza o status da Planilha de KPI a partir dos Painéis do Kommo (Closer/Financeiro/Operacional/SDR). Roda 1x por semana, segunda às 08:30 (antes do relatório comercial das 09:00). Também preenche a coluna Campanha e regenera as abas ANÁLISE e BASE.",
                            "agendamento":  "Seg as 08:30",
-                           "proximaExecucao":  "2026-10-19T08:30:30",
-                           "ultimaExecucaoWindows":  "2026-10-12T08:30:30",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-10-26T08:30:30",
+                           "ultimaExecucaoWindows":  "2026-10-19T08:30:30",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-10-19T08:30:24",
+                                                 "end":  "2026-10-19T08:32:44",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  140,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-10-13T10:03:06",
                                                  "end":  "2026-10-13T10:08:50",
@@ -6107,14 +6125,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-10-18T18:00:00",
-                           "ultimaExecucaoWindows":  "2026-10-18T17:02:02",
+                           "proximaExecucao":  "2026-10-19T10:00:00",
+                           "ultimaExecucaoWindows":  "2026-10-19T08:32:32",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-10-19T08:32:31",
+                                                 "end":  "2026-10-19T08:32:45",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  14,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-10-18T17:02:31",
                                                  "end":  "2026-10-18T17:02:31",
@@ -10549,8 +10576,8 @@
                            "agendamento":  "Diariamente as 17:00",
                            "proximaExecucao":  "2026-10-19T17:00:00",
                            "ultimaExecucaoWindows":  "2026-10-18T17:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
