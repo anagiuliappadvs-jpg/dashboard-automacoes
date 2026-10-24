@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-10-24T15:33:27-03:00",
+    "geradoEm":  "2026-10-24T17:03:15-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -2765,12 +2765,21 @@
                            "agendamento":  "Diariamente as 11:00",
                            "proximaExecucao":  "2026-10-25T11:00:00",
                            "ultimaExecucaoWindows":  "2026-10-24T15:32:32",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-10-24T16:59:48",
+                                                 "end":  "2026-10-24T16:59:48",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-10-24T15:32:36",
                                                  "end":  "2026-10-24T15:32:36",
@@ -3985,6 +3994,15 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-10-24T16:59:48",
+                                                 "end":  "2026-10-24T16:59:48",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-10-24T15:32:36",
                                                  "end":  "2026-10-24T15:32:36",
@@ -6410,14 +6428,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-10-24T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-10-24T15:32:32",
+                           "proximaExecucao":  "2026-10-24T18:00:00",
+                           "ultimaExecucaoWindows":  "2026-10-24T17:02:02",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-10-24T17:02:32",
+                                                 "end":  "2026-10-24T17:02:32",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-10-24T15:32:33",
                                                  "end":  "2026-10-24T15:32:33",
@@ -11188,10 +11215,10 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-10-24T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-10-23T17:00:00",
-                           "ultimoResultadoCodigo":  3221225786,
-                           "ultimoResultadoTexto":  "Codigo 3221225786",
+                           "proximaExecucao":  "2026-10-25T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-10-24T17:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
