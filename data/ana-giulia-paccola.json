@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-10-26T15:01:49-03:00",
+    "geradoEm":  "2026-10-26T16:01:40-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -566,14 +566,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-10-26T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-10-25T15:30:30",
+                           "proximaExecucao":  "2026-10-27T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-10-26T15:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-10-26T15:30:01",
+                                                 "end":  "2026-10-26T15:32:46",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  165,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-10-25T15:30:01",
                                                  "end":  "2026-10-25T15:33:40",
@@ -6512,14 +6524,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-10-26T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-10-26T14:00:00",
+                           "proximaExecucao":  "2026-10-26T18:00:00",
+                           "ultimaExecucaoWindows":  "2026-10-26T16:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-10-26T16:00:02",
+                                                 "end":  "2026-10-26T16:00:02",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-10-26T14:00:24",
                                                  "end":  "2026-10-26T14:00:24",
@@ -10197,14 +10218,23 @@
                                           ],
                            "descricao":  "Roda toda segunda 09:30 gerando relatorio financeiro semanal",
                            "agendamento":  "Seg as 16:00",
-                           "proximaExecucao":  "2026-10-26T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-10-19T16:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-11-02T16:00:00",
+                           "ultimaExecucaoWindows":  "2026-10-26T16:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-10-26T16:00:44",
+                                                 "end":  "2026-10-26T16:01:32",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  48,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-10-19T16:00:42",
                                                  "end":  "2026-10-19T16:01:36",
