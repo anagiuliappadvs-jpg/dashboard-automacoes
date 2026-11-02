@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-02T15:33:12-03:00",
+    "geradoEm":  "2026-11-02T16:00:27-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -600,17 +600,17 @@
                            "agendamento":  "Diariamente as 15:30",
                            "proximaExecucao":  "2026-11-03T15:30:30",
                            "ultimaExecucaoWindows":  "2026-11-02T15:30:30",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  1,
+                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-11-02T15:30:13",
-                                                 "end":  "2026-11-02T15:32:14",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  121,
+                                                 "end":  "2026-11-02T15:37:14",
+                                                 "status":  "ERRO",
+                                                 "duracaoSeg":  421,
                                                  "urls":  [
 
                                                           ]
@@ -6880,8 +6880,8 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-11-02T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-11-02T15:32:32",
+                           "proximaExecucao":  "2026-11-02T18:00:00",
+                           "ultimaExecucaoWindows":  "2026-11-02T16:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -6890,9 +6890,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-11-02T15:32:32",
-                                                 "end":  "2026-11-02T15:32:32",
+                                                 "end":  "2026-11-02T16:00:01",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  0,
+                                                 "duracaoSeg":  1649,
                                                  "urls":  [
 
                                                           ]
@@ -10905,14 +10905,26 @@
                                           ],
                            "descricao":  "Roda toda segunda 09:30 gerando relatorio financeiro semanal",
                            "agendamento":  "Seg as 16:00",
-                           "proximaExecucao":  "2026-11-02T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-10-26T16:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-11-09T16:00:00",
+                           "ultimaExecucaoWindows":  "2026-11-02T16:00:00",
+                           "ultimoResultadoCodigo":  1,
+                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-02T16:00:16",
+                                                 "end":  "2026-11-02T16:00:17",
+                                                 "status":  "ERRO",
+                                                 "duracaoSeg":  1,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://www.googleapis.com/oauth2/v4/token",
+                                                                  "tipo":  "link"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-10-26T16:00:44",
                                                  "end":  "2026-10-26T16:01:36",
