@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-05T15:00:47-03:00",
+    "geradoEm":  "2026-11-05T16:00:46-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -25,11 +25,18 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-11-05T14:58:01",
-                                                 "end":  "2026-11-05T14:59:48",
+                                                 "end":  "2026-11-05T15:03:52",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  107,
+                                                 "duracaoSeg":  351,
                                                  "urls":  [
-
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1FLR9xbhLRZoIh0DEl4ZsGVnMWduaV-wfpf-3vS3wf0o/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/vnAB6S1U",
+                                                                  "tipo":  "trello"
+                                                              }
                                                           ]
                                              },
                                              {
@@ -711,14 +718,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-11-05T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-11-04T15:30:30",
+                           "proximaExecucao":  "2026-11-06T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-11-05T15:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-05T15:30:01",
+                                                 "end":  "2026-11-05T15:33:45",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  224,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-04T15:30:01",
                                                  "end":  "2026-11-04T15:33:23",
@@ -7107,14 +7126,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-11-05T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-11-05T14:00:00",
+                           "proximaExecucao":  "2026-11-05T18:00:00",
+                           "ultimaExecucaoWindows":  "2026-11-05T16:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-05T16:00:02",
+                                                 "end":  "2026-11-05T16:00:02",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-05T14:00:02",
                                                  "end":  "2026-11-05T14:00:02",
