@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-05T09:00:45-03:00",
+    "geradoEm":  "2026-11-05T10:01:58-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -25,11 +25,50 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-11-05T08:58:43",
-                                                 "end":  "2026-11-05T08:59:53",
+                                                 "end":  "2026-11-05T09:57:43",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  70,
+                                                 "duracaoSeg":  3540,
                                                  "urls":  [
-
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1w2afW5Qn8-ZyEhVrXEr6CvMvvjZUG9oQ7Qp3YdKyVJ4/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/FzFNzlQn",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1GaHWgmGqU4tCKMO5mHa_aJ0kiG7XPtb0MxpTi44dZok/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/f5Li8mVI",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1UqwZ-jy88XWsFXq7jINxvhrlJydsuiYZDBUiobO3Lrk/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/kq67HMnt",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1fxKkO9peEwusYkE6D_LkkI-uTKV3n_GKt4HJriWbS-0/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/aXrQVLba",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1waejVWyH5H4qG4_UjUjvwHcZbSYMY_FYXJslxqAmV6c/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/bqVl0bPH",
+                                                                  "tipo":  "trello"
+                                                              }
                                                           ]
                                              },
                                              {
@@ -7041,14 +7080,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-11-05T10:00:00",
-                           "ultimaExecucaoWindows":  "2026-11-05T08:42:42",
+                           "proximaExecucao":  "2026-11-05T12:00:00",
+                           "ultimaExecucaoWindows":  "2026-11-05T10:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-05T10:00:02",
+                                                 "end":  "2026-11-05T10:00:02",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-05T08:42:22",
                                                  "end":  "2026-11-05T08:42:22",
