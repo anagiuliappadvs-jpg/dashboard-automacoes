@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-05T08:43:28-03:00",
+    "geradoEm":  "2026-11-05T09:00:45-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -23,6 +23,15 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-05T08:58:43",
+                                                 "end":  "2026-11-05T08:59:53",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  70,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-04T17:39:25",
                                                  "end":  "2026-11-04T17:54:50",
@@ -12324,8 +12333,8 @@
                                           ],
                            "descricao":  "Relatorio mensal do tempo de reuniao-\u003efechamento e fechamento-\u003epagamento por vendedor (Julia, Felipe, Lindsey). Roda diariamente 09:00 mas so executa de verdade no 5o dia util do mes, gerando o relatorio do mes anterior. Publica Doc em Drive \u003e Gestao \u003e Relatorios semanais \u003e Comercial.",
                            "agendamento":  "Diariamente as 09:00",
-                           "proximaExecucao":  "2026-11-05T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-11-04T09:00:00",
+                           "proximaExecucao":  "2026-11-06T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-11-05T09:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
