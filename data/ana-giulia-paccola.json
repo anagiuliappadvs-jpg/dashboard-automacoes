@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-06T08:47:37-03:00",
+    "geradoEm":  "2026-11-06T09:01:41-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -6845,6 +6845,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-11-06T09:00:49",
+                                                 "end":  "2026-11-06T09:00:52",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  3,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-11-02T10:42:09",
                                                  "end":  "2026-11-02T11:09:54",
                                                  "status":  "OK",
@@ -12472,14 +12481,26 @@
                                           ],
                            "descricao":  "Relatorio mensal do tempo de reuniao-\u003efechamento e fechamento-\u003epagamento por vendedor (Julia, Felipe, Lindsey). Roda diariamente 09:00 mas so executa de verdade no 5o dia util do mes, gerando o relatorio do mes anterior. Publica Doc em Drive \u003e Gestao \u003e Relatorios semanais \u003e Comercial.",
                            "agendamento":  "Diariamente as 09:00",
-                           "proximaExecucao":  "2026-11-06T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-11-05T09:00:00",
+                           "proximaExecucao":  "2026-11-07T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-11-06T09:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-06T09:00:51",
+                                                 "end":  "2026-11-06T09:01:03",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  12,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/1rPZKyzHhpNE0bpJ9bUAZcUpNJonWG3DKwGfRuDefbco/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-10-07T09:00:33",
                                                  "end":  "2026-10-07T09:00:45",
