@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-06T09:01:41-03:00",
+    "geradoEm":  "2026-11-06T10:00:53-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -6846,9 +6846,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-11-06T09:00:49",
-                                                 "end":  "2026-11-06T09:00:52",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  3,
+                                                 "end":  "2026-11-06T09:07:24",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  395,
                                                  "urls":  [
 
                                                           ]
@@ -7144,14 +7144,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-11-06T10:00:00",
-                           "ultimaExecucaoWindows":  "2026-11-06T08:44:44",
+                           "proximaExecucao":  "2026-11-06T12:00:00",
+                           "ultimaExecucaoWindows":  "2026-11-06T10:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-06T10:00:02",
+                                                 "end":  "2026-11-06T10:00:02",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-06T08:45:37",
                                                  "end":  "2026-11-06T08:45:37",
