@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-09T15:01:47-03:00",
+    "geradoEm":  "2026-11-09T16:00:31-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -718,14 +718,26 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-11-09T15:30:30",
-                           "ultimaExecucaoWindows":  "2026-11-09T08:46:46",
+                           "proximaExecucao":  "2026-11-10T15:30:30",
+                           "ultimaExecucaoWindows":  "2026-11-09T15:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-09T15:30:01",
+                                                 "end":  "2026-11-09T15:33:39",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  218,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/145_r0ku3FuvDeJ12FM0jP1Ho3mqmNBxXXEjKea1LjUc/edit",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-09T08:47:07",
                                                  "end":  "2026-11-09T08:55:38",
@@ -6941,6 +6953,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-11-09T15:03:30",
+                                                 "end":  "2026-11-09T15:11:44",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  494,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-11-09T09:43:29",
                                                  "end":  "2026-11-09T09:53:20",
                                                  "status":  "OK",
@@ -7258,14 +7279,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-11-09T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-11-09T14:00:00",
+                           "proximaExecucao":  "2026-11-09T18:00:00",
+                           "ultimaExecucaoWindows":  "2026-11-09T16:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-09T16:00:00",
+                                                 "end":  "2026-11-09T16:00:00",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-09T14:00:03",
                                                  "end":  "2026-11-09T14:00:03",
@@ -11574,14 +11604,23 @@
                                           ],
                            "descricao":  "Roda toda segunda 09:30 gerando relatorio financeiro semanal",
                            "agendamento":  "Seg as 16:00",
-                           "proximaExecucao":  "2026-11-09T16:00:00",
-                           "ultimaExecucaoWindows":  "2026-11-02T16:00:00",
-                           "ultimoResultadoCodigo":  1,
-                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
+                           "proximaExecucao":  "2026-11-16T16:00:00",
+                           "ultimaExecucaoWindows":  "2026-11-09T16:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-09T16:00:17",
+                                                 "end":  "2026-11-09T16:00:26",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  9,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-02T16:00:16",
                                                  "end":  "2026-11-02T16:00:17",
