@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-09T09:00:39-03:00",
+    "geradoEm":  "2026-11-09T10:01:29-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -6916,17 +6916,26 @@
                            "agendamento":  "Seg as 08:30",
                            "proximaExecucao":  "2026-11-16T08:30:30",
                            "ultimaExecucaoWindows":  "2026-11-09T08:46:46",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  1,
+                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-11-09T09:43:29",
+                                                 "end":  "2026-11-09T09:53:20",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  591,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-11-09T08:49:33",
-                                                 "end":  "2026-11-09T08:50:10",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  37,
+                                                 "end":  "2026-11-09T09:13:11",
+                                                 "status":  "ERRO",
+                                                 "duracaoSeg":  1418,
                                                  "urls":  [
 
                                                           ]
@@ -7231,14 +7240,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-11-09T10:00:00",
-                           "ultimaExecucaoWindows":  "2026-11-09T08:46:46",
+                           "proximaExecucao":  "2026-11-09T12:00:00",
+                           "ultimaExecucaoWindows":  "2026-11-09T10:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-09T10:00:01",
+                                                 "end":  "2026-11-09T10:00:01",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-09T08:47:09",
                                                  "end":  "2026-11-09T08:50:13",
@@ -11142,12 +11160,24 @@
                            "agendamento":  "Seg as 09:00",
                            "proximaExecucao":  "2026-11-16T09:00:00",
                            "ultimaExecucaoWindows":  "2026-11-09T09:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-09T09:00:05",
+                                                 "end":  "2026-11-09T09:02:55",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  170,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/1oAoUQMAVGzPsDqE0NTK2o9wRmNEY0nE8yuHZfIdbtEM/edit?usp=drivesdk",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-02T10:36:03",
                                                  "end":  "2026-11-02T10:43:39",
@@ -12063,8 +12093,8 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Seg as 09:20",
-                           "proximaExecucao":  "2026-11-09T09:20:20",
-                           "ultimaExecucaoWindows":  "2026-11-02T10:36:36",
+                           "proximaExecucao":  "2026-11-16T09:20:20",
+                           "ultimaExecucaoWindows":  "2026-11-09T09:20:20",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
