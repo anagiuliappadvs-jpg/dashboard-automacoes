@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-09T17:04:51-03:00",
+    "geradoEm":  "2026-11-09T21:26:21-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -17,8 +17,8 @@
                            "agendamento":  "Seg as 16:30",
                            "proximaExecucao":  "2026-11-16T16:30:30",
                            "ultimaExecucaoWindows":  "2026-11-09T16:30:30",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  267014,
+                           "ultimoResultadoTexto":  "Cancelada pelo usuario",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
@@ -7279,14 +7279,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 06:00",
-                           "proximaExecucao":  "2026-11-09T18:00:00",
-                           "ultimaExecucaoWindows":  "2026-11-09T16:00:00",
+                           "proximaExecucao":  "2026-11-09T22:00:00",
+                           "ultimaExecucaoWindows":  "2026-11-09T21:25:25",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-09T21:25:22",
+                                                 "end":  "2026-11-09T21:25:22",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-09T16:00:00",
                                                  "end":  "2026-11-09T16:00:00",
@@ -12834,8 +12843,8 @@
                            "agendamento":  "Diariamente as 17:00",
                            "proximaExecucao":  "2026-11-10T17:00:00",
                            "ultimaExecucaoWindows":  "2026-11-09T17:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
