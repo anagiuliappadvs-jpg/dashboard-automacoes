@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-10T14:00:22-03:00",
+    "geradoEm":  "2026-11-10T15:01:32-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -23,6 +23,22 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-10T14:43:19",
+                                                 "end":  "2026-11-10T14:44:42",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  83,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1PCzGQgOh1sVuewEKxRSxTEfJvhi-wbOTEKCfV25nDu0/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/XAbyNwWs",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-05T14:58:01",
                                                  "end":  "2026-11-05T15:03:52",
@@ -5875,14 +5891,23 @@
                                           ],
                            "descricao":  "Rele KPI+CRM, reconstroi e publica toda segunda 14h",
                            "agendamento":  "Ter as 15:00",
-                           "proximaExecucao":  "2026-11-10T15:00:00",
-                           "ultimaExecucaoWindows":  "2026-11-03T15:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-11-17T15:00:00",
+                           "ultimaExecucaoWindows":  "2026-11-10T15:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-10T15:00:36",
+                                                 "end":  "2026-11-10T15:01:17",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  41,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-03T15:00:09",
                                                  "end":  "2026-11-03T15:00:37",
