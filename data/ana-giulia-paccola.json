@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-16T16:00:37-03:00",
+    "geradoEm":  "2026-11-16T17:01:02-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -15,10 +15,10 @@
                                           ],
                            "descricao":  "Monta a apresentação da reunião de terça (Comercial + Administrativo + Financeiro) e sobe pro Drive como Google Slides. Roda segunda 16:30, depois do Relatório Financeiro das 16:00. Lê KPI, CRM, Controle de Contratos, Relatório Leads Kommo, o log do financeiro e o Dashboard de RH — janela sempre segunda a domingo da semana anterior.",
                            "agendamento":  "Seg as 16:30",
-                           "proximaExecucao":  "2026-11-16T16:30:30",
-                           "ultimaExecucaoWindows":  "2026-11-09T16:30:30",
-                           "ultimoResultadoCodigo":  267014,
-                           "ultimoResultadoTexto":  "Cancelada pelo usuario",
+                           "proximaExecucao":  "2026-11-23T16:30:30",
+                           "ultimaExecucaoWindows":  "2026-11-16T16:30:30",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
@@ -7611,8 +7611,8 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 08:50",
-                           "proximaExecucao":  "2026-11-16T16:20:20",
-                           "ultimaExecucaoWindows":  "2026-11-16T15:50:50",
+                           "proximaExecucao":  "2026-11-16T17:20:20",
+                           "ultimaExecucaoWindows":  "2026-11-16T16:50:50",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -7621,9 +7621,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-11-16T15:50:02",
-                                                 "end":  "2026-11-16T15:50:02",
+                                                 "end":  "2026-11-16T16:50:01",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  0,
+                                                 "duracaoSeg":  3599,
                                                  "urls":  [
 
                                                           ]
@@ -12390,19 +12390,26 @@
                            "agendamento":  "Seg as 16:00",
                            "proximaExecucao":  "2026-11-23T16:00:00",
                            "ultimaExecucaoWindows":  "2026-11-16T16:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-11-16T16:00:11",
-                                                 "end":  "2026-11-16T16:00:14",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  3,
+                                                 "end":  "2026-11-16T16:01:18",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  67,
                                                  "urls":  [
-
+                                                              {
+                                                                  "url":  "https://docs.google.com/document/d/11gyXc6xkYm6JCpYu2akkB4hBynyfcc6d75OFOiASlR0/edit?usp=drivesdk",
+                                                                  "tipo":  "doc"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/gV69aDnU",
+                                                                  "tipo":  "trello"
+                                                              }
                                                           ]
                                              },
                                              {
@@ -13625,10 +13632,10 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-11-16T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-11-15T20:04:04",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-11-17T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-11-16T17:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
