@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-16T09:00:55-03:00",
+    "geradoEm":  "2026-11-16T10:00:57-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -7247,9 +7247,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-11-16T08:30:12",
-                                                 "end":  "2026-11-16T09:00:06",
-                                                 "status":  "ERRO",
-                                                 "duracaoSeg":  1794,
+                                                 "end":  "2026-11-16T09:01:49",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  1897,
                                                  "urls":  [
 
                                                           ]
@@ -7581,14 +7581,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 08:50",
-                           "proximaExecucao":  "2026-11-16T09:20:20",
-                           "ultimaExecucaoWindows":  "2026-11-16T08:00:00",
+                           "proximaExecucao":  "2026-11-16T10:20:20",
+                           "ultimaExecucaoWindows":  "2026-11-16T09:50:50",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
-                           "runsPerdidos":  1,
+                           "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-16T09:20:02",
+                                                 "end":  "2026-11-16T09:50:01",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  1799,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-16T08:00:01",
                                                  "end":  "2026-11-16T08:00:01",
@@ -11933,12 +11942,32 @@
                            "agendamento":  "Seg as 09:00",
                            "proximaExecucao":  "2026-11-23T09:00:00",
                            "ultimaExecucaoWindows":  "2026-11-16T09:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-16T09:00:05",
+                                                 "end":  "2026-11-16T09:03:41",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  216,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://paccolaepelegrini.kommo.com/api/v4/leads/pipelines",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://paccolaepelegrini.kommo.com/api/v4/leads",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/13M__blTQNRew-yn1Nmghf1SLkmoNV88pP3nC4S8cVY4/edit?usp=drivesdk",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-09T09:00:05",
                                                  "end":  "2026-11-09T09:02:55",
@@ -12882,8 +12911,8 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Seg as 09:20",
-                           "proximaExecucao":  "2026-11-16T09:20:20",
-                           "ultimaExecucaoWindows":  "2026-11-09T09:20:20",
+                           "proximaExecucao":  "2026-11-23T09:20:20",
+                           "ultimaExecucaoWindows":  "2026-11-16T09:20:20",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
