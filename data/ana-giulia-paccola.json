@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-16T17:05:35-03:00",
+    "geradoEm":  "2026-11-16T18:00:21-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -17,12 +17,36 @@
                            "agendamento":  "Seg as 16:30",
                            "proximaExecucao":  "2026-11-23T16:30:30",
                            "ultimaExecucaoWindows":  "2026-11-16T16:30:30",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  267014,
+                           "ultimoResultadoTexto":  "Cancelada pelo usuario",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-16T17:15:11",
+                                                 "end":  "2026-11-16T17:24:51",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  580,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1tZAoYIHBh-yJ4Bs3Y8T1T2omOQ3DH53KXeu-KVEJqWo/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/xb5iLyqK",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1y63Vr66DbppbrzNoeQqRbd4g5nhEzpVYkRt6oH_GmlM/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/Fa5Y3TAU",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-10T16:32:44",
                                                  "end":  "2026-11-10T16:34:39",
@@ -7611,8 +7635,8 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 08:50",
-                           "proximaExecucao":  "2026-11-16T17:20:20",
-                           "ultimaExecucaoWindows":  "2026-11-16T16:50:50",
+                           "proximaExecucao":  "2026-11-16T18:20:20",
+                           "ultimaExecucaoWindows":  "2026-11-16T17:50:50",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -7621,9 +7645,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-11-16T15:50:02",
-                                                 "end":  "2026-11-16T16:50:01",
+                                                 "end":  "2026-11-16T17:50:01",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  3599,
+                                                 "duracaoSeg":  7199,
                                                  "urls":  [
 
                                                           ]
@@ -13634,8 +13658,8 @@
                            "agendamento":  "Diariamente as 17:00",
                            "proximaExecucao":  "2026-11-17T17:00:00",
                            "ultimaExecucaoWindows":  "2026-11-16T17:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
@@ -14180,10 +14204,10 @@
                                           ],
                            "descricao":  "Teste: acrescenta o dia na planilha TESTE ID NOVO (hashtag do cartão x tag). Não altera o relatório oficial. Parar: desativar esta tarefa.",
                            "agendamento":  "Diariamente as 17:10",
-                           "proximaExecucao":  "2026-11-16T17:10:10",
-                           "ultimaExecucaoWindows":  null,
-                           "ultimoResultadoCodigo":  267011,
-                           "ultimoResultadoTexto":  "Ainda nao executou",
+                           "proximaExecucao":  "2026-11-17T17:10:10",
+                           "ultimaExecucaoWindows":  "2026-11-16T17:10:10",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
