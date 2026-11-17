@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-17T17:00:25-03:00",
+    "geradoEm":  "2026-11-17T17:05:03-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -13763,6 +13763,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-11-17T17:00:03",
+                                                 "end":  "2026-11-17T17:04:30",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  267,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-11-16T17:00:02",
                                                  "end":  "2026-11-16T17:04:44",
                                                  "status":  "OK",
@@ -14280,15 +14289,6 @@
                                                  "end":  "2026-09-24T17:03:31",
                                                  "status":  "OK",
                                                  "duracaoSeg":  207,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-09-23T17:00:03",
-                                                 "end":  "2026-09-23T17:03:31",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  208,
                                                  "urls":  [
 
                                                           ]
@@ -14311,6 +14311,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-11-17T17:00:03",
+                                                 "end":  "2026-11-17T17:04:30",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  267,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-11-16T17:00:02",
                                                  "end":  "2026-11-16T17:04:44",
                                                  "status":  "OK",
@@ -14828,15 +14837,6 @@
                                                  "end":  "2026-09-24T17:03:31",
                                                  "status":  "OK",
                                                  "duracaoSeg":  207,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-09-23T17:00:03",
-                                                 "end":  "2026-09-23T17:03:31",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  208,
                                                  "urls":  [
 
                                                           ]
