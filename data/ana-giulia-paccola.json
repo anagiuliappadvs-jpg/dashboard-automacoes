@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-17T19:00:22-03:00",
+    "geradoEm":  "2026-11-17T20:00:46-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -7715,8 +7715,8 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 08:50",
-                           "proximaExecucao":  "2026-11-17T19:20:20",
-                           "ultimaExecucaoWindows":  "2026-11-17T18:50:50",
+                           "proximaExecucao":  "2026-11-17T20:20:20",
+                           "ultimaExecucaoWindows":  "2026-11-17T19:50:50",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -7724,10 +7724,19 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
-                                                 "start":  "2026-11-17T16:20:01",
-                                                 "end":  "2026-11-17T18:50:00",
+                                                 "start":  "2026-11-17T19:50:01",
+                                                 "end":  "2026-11-17T19:50:01",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  8999,
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-11-17T16:20:01",
+                                                 "end":  "2026-11-17T19:20:00",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  10799,
                                                  "urls":  [
 
                                                           ]
