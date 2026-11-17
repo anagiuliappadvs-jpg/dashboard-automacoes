@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-17T12:00:47-03:00",
+    "geradoEm":  "2026-11-17T13:01:04-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -7694,8 +7694,8 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 08:50",
-                           "proximaExecucao":  "2026-11-17T12:20:20",
-                           "ultimaExecucaoWindows":  "2026-11-17T11:50:50",
+                           "proximaExecucao":  "2026-11-17T13:20:20",
+                           "ultimaExecucaoWindows":  "2026-11-17T12:50:50",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -7704,9 +7704,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-11-17T08:50:07",
-                                                 "end":  "2026-11-17T11:50:00",
+                                                 "end":  "2026-11-17T12:50:00",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  10793,
+                                                 "duracaoSeg":  14393,
                                                  "urls":  [
 
                                                           ]
