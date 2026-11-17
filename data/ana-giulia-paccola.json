@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-17T10:00:52-03:00",
+    "geradoEm":  "2026-11-17T11:00:49-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -23,6 +23,22 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-17T10:27:18",
+                                                 "end":  "2026-11-17T10:28:42",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  84,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1ZC0Aicmx77ENSEc4u8FQKNqeSYH-DjVWhx_-78fotMc/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/gGLu9v0c",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-17T08:51:04",
                                                  "end":  "2026-11-17T08:54:42",
@@ -3284,14 +3300,23 @@
                                           ],
                            "descricao":  "Coleta as metricas do Instagram e publica o snapshot no GitHub Pages (diario 11h, recupera se PC estava desligado, roda na bateria).",
                            "agendamento":  "Diariamente as 11:00",
-                           "proximaExecucao":  "2026-11-17T11:00:00",
-                           "ultimaExecucaoWindows":  "2026-11-16T11:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-11-18T11:00:00",
+                           "ultimaExecucaoWindows":  "2026-11-17T11:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-17T11:00:03",
+                                                 "end":  "2026-11-17T11:00:03",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-16T11:00:04",
                                                  "end":  "2026-11-16T11:01:56",
@@ -4722,6 +4747,15 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-17T11:00:03",
+                                                 "end":  "2026-11-17T11:00:03",
+                                                 "status":  "Indeterminado",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-16T11:00:04",
                                                  "end":  "2026-11-16T11:01:56",
@@ -7660,8 +7694,8 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 08:50",
-                           "proximaExecucao":  "2026-11-17T10:20:20",
-                           "ultimaExecucaoWindows":  "2026-11-17T09:50:50",
+                           "proximaExecucao":  "2026-11-17T11:20:20",
+                           "ultimaExecucaoWindows":  "2026-11-17T10:50:50",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -7670,9 +7704,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-11-17T08:50:07",
-                                                 "end":  "2026-11-17T09:50:00",
+                                                 "end":  "2026-11-17T10:50:00",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  3593,
+                                                 "duracaoSeg":  7193,
                                                  "urls":  [
 
                                                           ]
