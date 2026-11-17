@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-17T14:05:31-03:00",
+    "geradoEm":  "2026-11-17T15:02:07-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -6182,14 +6182,23 @@
                                           ],
                            "descricao":  "Rele KPI+CRM, reconstroi e publica toda segunda 14h",
                            "agendamento":  "Ter as 15:00",
-                           "proximaExecucao":  "2026-11-17T15:00:00",
-                           "ultimaExecucaoWindows":  "2026-11-10T15:00:00",
+                           "proximaExecucao":  "2026-11-24T15:00:00",
+                           "ultimaExecucaoWindows":  "2026-11-17T15:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-17T15:00:48",
+                                                 "end":  "2026-11-17T15:01:16",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  28,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-10T15:00:36",
                                                  "end":  "2026-11-10T15:01:31",
@@ -7694,8 +7703,8 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 08:50",
-                           "proximaExecucao":  "2026-11-17T14:20:20",
-                           "ultimaExecucaoWindows":  "2026-11-17T13:50:50",
+                           "proximaExecucao":  "2026-11-17T15:20:20",
+                           "ultimaExecucaoWindows":  "2026-11-17T14:50:50",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -7704,9 +7713,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-11-17T08:50:07",
-                                                 "end":  "2026-11-17T13:50:00",
+                                                 "end":  "2026-11-17T14:50:00",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  17993,
+                                                 "duracaoSeg":  21593,
                                                  "urls":  [
 
                                                           ]
