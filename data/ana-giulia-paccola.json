@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-17T08:00:21-03:00",
+    "geradoEm":  "2026-11-17T09:00:33-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -23,6 +23,22 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-17T08:51:04",
+                                                 "end":  "2026-11-17T08:54:42",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  218,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1rHNvjJ3WGdW-5ggJdMOseRP-n3tUXAo4f-bkCk_rfuw/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/8cq3D1d7",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-16T17:15:11",
                                                  "end":  "2026-11-16T17:24:51",
@@ -6500,14 +6516,23 @@
                                           ],
                            "descricao":  "Recuperacao automatica do Relatorio Diario SDR: toda manha (08:40) confere os ultimos dias uteis e recria/sobe qualquer relatorio das 17h que tenha falhado (rede, upload, etc.). Pula fins de semana. Ver guardiao_sdr.py.",
                            "agendamento":  "Diariamente as 08:40",
-                           "proximaExecucao":  "2026-11-17T08:40:40",
-                           "ultimaExecucaoWindows":  "2026-11-16T08:40:40",
+                           "proximaExecucao":  "2026-11-18T08:40:40",
+                           "ultimaExecucaoWindows":  "2026-11-17T08:40:40",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-17T08:40:02",
+                                                 "end":  "2026-11-17T08:40:02",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-16T08:40:02",
                                                  "end":  "2026-11-16T08:40:02",
@@ -7635,8 +7660,8 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 08:50",
-                           "proximaExecucao":  "2026-11-17T08:20:20",
-                           "ultimaExecucaoWindows":  "2026-11-17T07:50:50",
+                           "proximaExecucao":  "2026-11-17T09:20:20",
+                           "ultimaExecucaoWindows":  "2026-11-17T08:50:50",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -7644,10 +7669,19 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
-                                                 "start":  "2026-11-16T15:50:02",
-                                                 "end":  "2026-11-17T07:50:01",
+                                                 "start":  "2026-11-17T08:50:07",
+                                                 "end":  "2026-11-17T08:50:07",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  57599,
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-11-16T15:50:02",
+                                                 "end":  "2026-11-17T08:20:00",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  59398,
                                                  "urls":  [
 
                                                           ]
@@ -13567,8 +13601,8 @@
                                           ],
                            "descricao":  "Relatorio mensal do tempo de reuniao-\u003efechamento e fechamento-\u003epagamento por vendedor (Julia, Felipe, Lindsey). Roda diariamente 09:00 mas so executa de verdade no 5o dia util do mes, gerando o relatorio do mes anterior. Publica Doc em Drive \u003e Gestao \u003e Relatorios semanais \u003e Comercial.",
                            "agendamento":  "Diariamente as 09:00",
-                           "proximaExecucao":  "2026-11-17T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-11-16T09:00:00",
+                           "proximaExecucao":  "2026-11-18T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-11-17T09:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
