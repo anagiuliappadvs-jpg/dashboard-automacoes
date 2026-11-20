@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-20T15:33:20-03:00",
+    "geradoEm":  "2026-11-20T17:10:00-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -808,17 +808,17 @@
                            "agendamento":  "Diariamente as 15:30",
                            "proximaExecucao":  "2026-11-21T15:30:30",
                            "ultimaExecucaoWindows":  "2026-11-20T15:30:30",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  1,
+                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-11-20T15:30:01",
-                                                 "end":  "2026-11-20T15:32:14",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  133,
+                                                 "end":  "2026-11-20T15:37:14",
+                                                 "status":  "ERRO",
+                                                 "duracaoSeg":  433,
                                                  "urls":  [
 
                                                           ]
@@ -7829,14 +7829,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 08:50",
-                           "proximaExecucao":  "2026-11-20T15:50:50",
-                           "ultimaExecucaoWindows":  "2026-11-20T15:32:32",
+                           "proximaExecucao":  "2026-11-20T17:20:20",
+                           "ultimaExecucaoWindows":  "2026-11-20T17:09:09",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-20T17:09:32",
+                                                 "end":  "2026-11-20T17:09:32",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-20T15:32:32",
                                                  "end":  "2026-11-20T15:32:32",
@@ -13949,14 +13958,23 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-11-20T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-11-19T17:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-11-21T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-11-20T17:00:00",
+                           "ultimoResultadoCodigo":  1,
+                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-20T17:00:02",
+                                                 "end":  "2026-11-20T17:00:33",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  31,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-19T17:00:03",
                                                  "end":  "2026-11-19T17:13:33",
@@ -14475,15 +14493,6 @@
                                                  "end":  "2026-09-28T17:03:34",
                                                  "status":  "OK",
                                                  "duracaoSeg":  211,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-09-28T08:01:58",
-                                                 "end":  "2026-09-28T08:06:40",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  282,
                                                  "urls":  [
 
                                                           ]
@@ -14506,6 +14515,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-11-20T17:00:02",
+                                                 "end":  "2026-11-20T17:00:33",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  31,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-11-19T17:00:03",
                                                  "end":  "2026-11-19T17:13:33",
                                                  "status":  "OK",
@@ -15023,15 +15041,6 @@
                                                  "end":  "2026-09-28T17:03:34",
                                                  "status":  "OK",
                                                  "duracaoSeg":  211,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-09-28T08:01:58",
-                                                 "end":  "2026-09-28T08:06:40",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  282,
                                                  "urls":  [
 
                                                           ]
