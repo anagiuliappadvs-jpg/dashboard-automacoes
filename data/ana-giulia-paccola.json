@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-20T17:10:00-03:00",
+    "geradoEm":  "2026-11-21T15:30:20-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -3345,11 +3345,11 @@
                                           ],
                            "descricao":  "Coleta as metricas do Instagram e publica o snapshot no GitHub Pages (diario 11h, recupera se PC estava desligado, roda na bateria).",
                            "agendamento":  "Diariamente as 11:00",
-                           "proximaExecucao":  "2026-11-21T11:00:00",
+                           "proximaExecucao":  "2026-11-22T11:00:00",
                            "ultimaExecucaoWindows":  "2026-11-20T15:32:32",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
-                           "runsPerdidos":  0,
+                           "runsPerdidos":  1,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
@@ -6658,14 +6658,23 @@
                                           ],
                            "descricao":  "Recuperacao automatica do Relatorio Diario SDR: toda manha (08:40) confere os ultimos dias uteis e recria/sobe qualquer relatorio das 17h que tenha falhado (rede, upload, etc.). Pula fins de semana. Ver guardiao_sdr.py.",
                            "agendamento":  "Diariamente as 08:40",
-                           "proximaExecucao":  "2026-11-21T08:40:40",
-                           "ultimaExecucaoWindows":  "2026-11-20T08:40:40",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-11-22T08:40:40",
+                           "ultimaExecucaoWindows":  "2026-11-21T08:40:40",
+                           "ultimoResultadoCodigo":  1,
+                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-21T08:40:02",
+                                                 "end":  "2026-11-21T08:40:32",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  30,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-20T08:40:13",
                                                  "end":  "2026-11-20T08:40:13",
@@ -7829,14 +7838,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 08:50",
-                           "proximaExecucao":  "2026-11-20T17:20:20",
-                           "ultimaExecucaoWindows":  "2026-11-20T17:09:09",
+                           "proximaExecucao":  "2026-11-21T15:50:50",
+                           "ultimaExecucaoWindows":  "2026-11-21T15:29:29",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-21T15:29:37",
+                                                 "end":  "2026-11-21T15:29:37",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-20T17:09:32",
                                                  "end":  "2026-11-20T17:09:32",
@@ -13869,11 +13887,11 @@
                                           ],
                            "descricao":  "Relatorio mensal do tempo de reuniao-\u003efechamento e fechamento-\u003epagamento por vendedor (Julia, Felipe, Lindsey). Roda diariamente 09:00 mas so executa de verdade no 5o dia util do mes, gerando o relatorio do mes anterior. Publica Doc em Drive \u003e Gestao \u003e Relatorios semanais \u003e Comercial.",
                            "agendamento":  "Diariamente as 09:00",
-                           "proximaExecucao":  "2026-11-21T09:00:00",
+                           "proximaExecucao":  "2026-11-22T09:00:00",
                            "ultimaExecucaoWindows":  "2026-11-20T15:32:32",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
-                           "runsPerdidos":  0,
+                           "runsPerdidos":  1,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
@@ -13967,6 +13985,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-11-21T08:40:02",
+                                                 "end":  "2026-11-21T08:40:32",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  30,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-11-20T17:00:02",
                                                  "end":  "2026-11-20T17:00:33",
                                                  "status":  "OK",
@@ -14484,15 +14511,6 @@
                                                  "end":  "2026-09-29T17:06:37",
                                                  "status":  "OK",
                                                  "duracaoSeg":  395,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-09-28T17:00:03",
-                                                 "end":  "2026-09-28T17:03:34",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  211,
                                                  "urls":  [
 
                                                           ]
@@ -14506,14 +14524,23 @@
                                           ],
                            "descricao":  "Teste: acrescenta o dia na planilha TESTE ID NOVO (hashtag do cartão x tag). Não altera o relatório oficial. Parar: desativar esta tarefa.",
                            "agendamento":  "Diariamente as 17:10",
-                           "proximaExecucao":  "2026-11-20T17:10:10",
-                           "ultimaExecucaoWindows":  "2026-11-19T17:10:10",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-11-21T17:10:10",
+                           "ultimaExecucaoWindows":  "2026-11-20T17:10:10",
+                           "ultimoResultadoCodigo":  1,
+                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-21T08:40:02",
+                                                 "end":  "2026-11-21T08:40:32",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  30,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-20T17:00:02",
                                                  "end":  "2026-11-20T17:00:33",
@@ -15032,15 +15059,6 @@
                                                  "end":  "2026-09-29T17:06:37",
                                                  "status":  "OK",
                                                  "duracaoSeg":  395,
-                                                 "urls":  [
-
-                                                          ]
-                                             },
-                                             {
-                                                 "start":  "2026-09-28T17:00:03",
-                                                 "end":  "2026-09-28T17:03:34",
-                                                 "status":  "OK",
-                                                 "duracaoSeg":  211,
                                                  "urls":  [
 
                                                           ]
