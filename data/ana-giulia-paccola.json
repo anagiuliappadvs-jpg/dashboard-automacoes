@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-22T10:34:11-03:00",
+    "geradoEm":  "2026-11-22T11:00:58-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -3354,14 +3354,23 @@
                                           ],
                            "descricao":  "Coleta as metricas do Instagram e publica o snapshot no GitHub Pages (diario 11h, recupera se PC estava desligado, roda na bateria).",
                            "agendamento":  "Diariamente as 11:00",
-                           "proximaExecucao":  "2026-11-22T11:00:00",
-                           "ultimaExecucaoWindows":  "2026-11-21T15:32:32",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-11-23T11:00:00",
+                           "ultimaExecucaoWindows":  "2026-11-22T11:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-22T10:30:55",
+                                                 "end":  "2026-11-22T11:00:02",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  1747,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-21T15:32:33",
                                                  "end":  "2026-11-21T15:32:33",
@@ -4829,14 +4838,23 @@
                                           ],
                            "descricao":  "Renova o token de longa duracao do Instagram (mantem os ~60 dias sempre cheios).",
                            "agendamento":  "Dom as 10:30",
-                           "proximaExecucao":  "2026-11-22T10:30:30",
-                           "ultimaExecucaoWindows":  "2026-11-15T20:04:04",
+                           "proximaExecucao":  "2026-11-29T10:30:30",
+                           "ultimaExecucaoWindows":  "2026-11-22T10:30:30",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-22T10:30:55",
+                                                 "end":  "2026-11-22T11:00:02",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  1747,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-21T15:32:33",
                                                  "end":  "2026-11-21T15:32:33",
@@ -7539,6 +7557,15 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-11-22T10:52:39",
+                                                 "end":  "2026-11-22T10:59:01",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  382,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-11-16T08:30:12",
                                                  "end":  "2026-11-16T09:01:49",
                                                  "status":  "OK",
@@ -7874,8 +7901,8 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 08:50",
-                           "proximaExecucao":  "2026-11-22T10:50:50",
-                           "ultimaExecucaoWindows":  "2026-11-22T10:24:24",
+                           "proximaExecucao":  "2026-11-22T11:20:20",
+                           "ultimaExecucaoWindows":  "2026-11-22T10:50:50",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -7884,9 +7911,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-11-22T10:24:56",
-                                                 "end":  "2026-11-22T10:24:56",
+                                                 "end":  "2026-11-22T10:50:01",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  0,
+                                                 "duracaoSeg":  1505,
                                                  "urls":  [
 
                                                           ]
