@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-22T11:00:58-03:00",
+    "geradoEm":  "2026-11-22T17:01:09-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -806,11 +806,11 @@
                                           ],
                            "descricao":  null,
                            "agendamento":  "Diariamente as 15:30",
-                           "proximaExecucao":  "2026-11-22T15:30:30",
+                           "proximaExecucao":  "2026-11-23T15:30:30",
                            "ultimaExecucaoWindows":  "2026-11-21T15:30:30",
                            "ultimoResultadoCodigo":  1,
                            "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
-                           "runsPerdidos":  0,
+                           "runsPerdidos":  1,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
@@ -3356,17 +3356,17 @@
                            "agendamento":  "Diariamente as 11:00",
                            "proximaExecucao":  "2026-11-23T11:00:00",
                            "ultimaExecucaoWindows":  "2026-11-22T11:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-11-22T10:30:55",
-                                                 "end":  "2026-11-22T11:00:02",
+                                                 "end":  "2026-11-22T11:02:03",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  1747,
+                                                 "duracaoSeg":  1868,
                                                  "urls":  [
 
                                                           ]
@@ -4848,9 +4848,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-11-22T10:30:55",
-                                                 "end":  "2026-11-22T11:00:02",
+                                                 "end":  "2026-11-22T11:02:03",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  1747,
+                                                 "duracaoSeg":  1868,
                                                  "urls":  [
 
                                                           ]
@@ -7901,8 +7901,8 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 08:50",
-                           "proximaExecucao":  "2026-11-22T11:20:20",
-                           "ultimaExecucaoWindows":  "2026-11-22T10:50:50",
+                           "proximaExecucao":  "2026-11-22T17:20:20",
+                           "ultimaExecucaoWindows":  "2026-11-22T17:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -7910,10 +7910,19 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
-                                                 "start":  "2026-11-22T10:24:56",
-                                                 "end":  "2026-11-22T10:50:01",
+                                                 "start":  "2026-11-22T17:00:25",
+                                                 "end":  "2026-11-22T17:00:25",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  1505,
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-11-22T10:24:56",
+                                                 "end":  "2026-11-22T11:20:01",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  3305,
                                                  "urls":  [
 
                                                           ]
@@ -12422,6 +12431,22 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
+                                                 "start":  "2026-11-22T10:59:14",
+                                                 "end":  "2026-11-22T11:02:56",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  222,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://paccolaepelegrini.kommo.com/api/v4/leads",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/spreadsheets/d/13M__blTQNRew-yn1Nmghf1SLkmoNV88pP3nC4S8cVY4/edit?usp=drivesdk",
+                                                                  "tipo":  "sheet"
+                                                              }
+                                                          ]
+                                             },
+                                             {
                                                  "start":  "2026-11-16T09:00:05",
                                                  "end":  "2026-11-16T09:03:41",
                                                  "status":  "OK",
@@ -14057,10 +14082,10 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-11-22T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-11-21T17:00:00",
-                           "ultimoResultadoCodigo":  1,
-                           "ultimoResultadoTexto":  "Erro (script saiu com exit 1)",
+                           "proximaExecucao":  "2026-11-23T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-11-22T17:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
