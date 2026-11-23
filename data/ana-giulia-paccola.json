@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-23T18:57:11-03:00",
+    "geradoEm":  "2026-11-23T18:57:43-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -13509,8 +13509,8 @@
                            "agendamento":  "Seg as 09:20",
                            "proximaExecucao":  "2026-11-30T09:20:20",
                            "ultimaExecucaoWindows":  "2026-11-23T18:48:48",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
