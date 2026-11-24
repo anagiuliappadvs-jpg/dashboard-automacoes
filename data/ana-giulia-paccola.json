@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-24T10:54:17-03:00",
+    "geradoEm":  "2026-11-24T10:56:35-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -8002,10 +8002,10 @@
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 08:50",
                            "proximaExecucao":  "2026-11-24T11:20:20",
-                           "ultimaExecucaoWindows":  "2026-11-24T08:42:42",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
-                           "runsPerdidos":  5,
+                           "ultimaExecucaoWindows":  "2026-11-24T10:55:55",
+                           "ultimoResultadoCodigo":  2147946720,
+                           "ultimoResultadoTexto":  "Codigo 2147946720",
+                           "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
@@ -14140,10 +14140,10 @@
                            "descricao":  "Relatorio mensal do tempo de reuniao-\u003efechamento e fechamento-\u003epagamento por vendedor (Julia, Felipe, Lindsey). Roda diariamente 09:00 mas so executa de verdade no 5o dia util do mes, gerando o relatorio do mes anterior. Publica Doc em Drive \u003e Gestao \u003e Relatorios semanais \u003e Comercial.",
                            "agendamento":  "Diariamente as 09:00",
                            "proximaExecucao":  "2026-11-25T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-11-23T18:48:48",
+                           "ultimaExecucaoWindows":  "2026-11-24T10:55:55",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
-                           "runsPerdidos":  1,
+                           "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
