@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-24T14:00:46-03:00",
+    "geradoEm":  "2026-11-24T15:01:12-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -23,6 +23,30 @@
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-24T14:19:36",
+                                                 "end":  "2026-11-24T14:57:51",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  2295,
+                                                 "urls":  [
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/16cc-MaKwQJ0jujfQ8UP6rzikXGOSgwpKEOxACME0fCg/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/nR3spHCC",
+                                                                  "tipo":  "trello"
+                                                              },
+                                                              {
+                                                                  "url":  "https://docs.google.com/presentation/d/1HeWXmkG4R-KEEEtfiw_YAvkAUUPOGsKgleShs5_Z4OI/edit",
+                                                                  "tipo":  "link"
+                                                              },
+                                                              {
+                                                                  "url":  "https://trello.com/c/FTCX3faL",
+                                                                  "tipo":  "trello"
+                                                              }
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-23T18:54:57",
                                                  "end":  "2026-11-23T18:58:06",
@@ -6399,14 +6423,23 @@
                                           ],
                            "descricao":  "Rele KPI+CRM, reconstroi e publica toda segunda 14h",
                            "agendamento":  "Ter as 15:00",
-                           "proximaExecucao":  "2026-11-24T15:00:00",
-                           "ultimaExecucaoWindows":  "2026-11-17T15:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-12-01T15:00:00",
+                           "ultimaExecucaoWindows":  "2026-11-24T15:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-24T15:00:29",
+                                                 "end":  "2026-11-24T15:00:55",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  26,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-17T15:00:48",
                                                  "end":  "2026-11-17T15:01:16",
@@ -8019,8 +8052,8 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 08:50",
-                           "proximaExecucao":  "2026-11-24T14:20:20",
-                           "ultimaExecucaoWindows":  "2026-11-24T13:50:50",
+                           "proximaExecucao":  "2026-11-24T15:20:20",
+                           "ultimaExecucaoWindows":  "2026-11-24T14:50:50",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -8029,9 +8062,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-11-24T11:04:37",
-                                                 "end":  "2026-11-24T13:50:01",
+                                                 "end":  "2026-11-24T14:50:01",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  9924,
+                                                 "duracaoSeg":  13524,
                                                  "urls":  [
 
                                                           ]
