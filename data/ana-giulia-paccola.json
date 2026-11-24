@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-24T12:00:52-03:00",
+    "geradoEm":  "2026-11-24T13:00:46-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -7641,17 +7641,17 @@
                            "agendamento":  "Seg as 08:30",
                            "proximaExecucao":  "2026-11-30T08:30:30",
                            "ultimaExecucaoWindows":  "2026-11-24T11:47:47",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-11-24T10:52:56",
-                                                 "end":  "2026-11-24T11:59:11",
-                                                 "status":  "ERRO",
-                                                 "duracaoSeg":  3975,
+                                                 "end":  "2026-11-24T12:04:27",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  4291,
                                                  "urls":  [
 
                                                           ]
@@ -8019,8 +8019,8 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 08:50",
-                           "proximaExecucao":  "2026-11-24T12:20:20",
-                           "ultimaExecucaoWindows":  "2026-11-24T11:50:50",
+                           "proximaExecucao":  "2026-11-24T13:20:20",
+                           "ultimaExecucaoWindows":  "2026-11-24T12:50:50",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -8029,9 +8029,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-11-24T11:04:37",
-                                                 "end":  "2026-11-24T11:50:07",
-                                                 "status":  "ERRO",
-                                                 "duracaoSeg":  2730,
+                                                 "end":  "2026-11-24T12:50:01",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  6324,
                                                  "urls":  [
 
                                                           ]
