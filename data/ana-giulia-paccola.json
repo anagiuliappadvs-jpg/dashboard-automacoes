@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-24T16:01:27-03:00",
+    "geradoEm":  "2026-11-24T17:01:02-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -8064,8 +8064,8 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 08:50",
-                           "proximaExecucao":  "2026-11-24T16:20:20",
-                           "ultimaExecucaoWindows":  "2026-11-24T15:50:50",
+                           "proximaExecucao":  "2026-11-24T17:20:20",
+                           "ultimaExecucaoWindows":  "2026-11-24T16:50:50",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -8073,10 +8073,19 @@
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
-                                                 "start":  "2026-11-24T11:04:37",
-                                                 "end":  "2026-11-24T15:50:00",
+                                                 "start":  "2026-11-24T16:50:04",
+                                                 "end":  "2026-11-24T16:50:04",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  17123,
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
+                                             {
+                                                 "start":  "2026-11-24T11:04:37",
+                                                 "end":  "2026-11-24T16:20:00",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  18923,
                                                  "urls":  [
 
                                                           ]
@@ -14300,10 +14309,10 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-11-24T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-11-23T18:48:48",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-11-25T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-11-24T17:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
