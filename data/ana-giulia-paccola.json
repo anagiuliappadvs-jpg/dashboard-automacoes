@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-24T11:00:47-03:00",
+    "geradoEm":  "2026-11-24T12:00:52-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -3393,17 +3393,17 @@
                            "agendamento":  "Diariamente as 11:00",
                            "proximaExecucao":  "2026-11-25T11:00:00",
                            "ultimaExecucaoWindows":  "2026-11-24T11:00:00",
-                           "ultimoResultadoCodigo":  267009,
-                           "ultimoResultadoTexto":  "Em execucao",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-11-24T11:00:02",
-                                                 "end":  "2026-11-24T11:00:02",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  0,
+                                                 "end":  "2026-11-24T11:02:01",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  119,
                                                  "urls":  [
 
                                                           ]
@@ -4903,9 +4903,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-11-24T11:00:02",
-                                                 "end":  "2026-11-24T11:00:02",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  0,
+                                                 "end":  "2026-11-24T11:02:01",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  119,
                                                  "urls":  [
 
                                                           ]
@@ -7640,18 +7640,18 @@
                            "descricao":  "Atualiza o status da Planilha de KPI a partir dos Painéis do Kommo (Closer/Financeiro/Operacional/SDR). Roda 1x por semana, segunda às 08:30 (antes do relatório comercial das 09:00). Também preenche a coluna Campanha e regenera as abas ANÁLISE e BASE.",
                            "agendamento":  "Seg as 08:30",
                            "proximaExecucao":  "2026-11-30T08:30:30",
-                           "ultimaExecucaoWindows":  "2026-11-23T18:48:48",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "ultimaExecucaoWindows":  "2026-11-24T11:47:47",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  7,
                            "tipo":  "Agendada",
                            "historico":  [
                                              {
                                                  "start":  "2026-11-24T10:52:56",
-                                                 "end":  "2026-11-24T10:53:00",
-                                                 "status":  "Indeterminado",
-                                                 "duracaoSeg":  4,
+                                                 "end":  "2026-11-24T11:59:11",
+                                                 "status":  "ERRO",
+                                                 "duracaoSeg":  3975,
                                                  "urls":  [
 
                                                           ]
@@ -8019,14 +8019,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 08:50",
-                           "proximaExecucao":  "2026-11-24T11:20:20",
-                           "ultimaExecucaoWindows":  "2026-11-24T10:55:55",
-                           "ultimoResultadoCodigo":  2147946720,
-                           "ultimoResultadoTexto":  "Codigo 2147946720",
+                           "proximaExecucao":  "2026-11-24T12:20:20",
+                           "ultimaExecucaoWindows":  "2026-11-24T11:50:50",
+                           "ultimoResultadoCodigo":  0,
+                           "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-24T11:04:37",
+                                                 "end":  "2026-11-24T11:50:07",
+                                                 "status":  "ERRO",
+                                                 "duracaoSeg":  2730,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-24T08:39:38",
                                                  "end":  "2026-11-24T08:42:31",
