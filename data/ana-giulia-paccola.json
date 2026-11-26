@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-26T12:01:35-03:00",
+    "geradoEm":  "2026-11-26T13:00:46-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -8130,14 +8130,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 08:50",
-                           "proximaExecucao":  "2026-11-26T12:20:20",
-                           "ultimaExecucaoWindows":  "2026-11-26T11:50:50",
+                           "proximaExecucao":  "2026-11-26T13:20:20",
+                           "ultimaExecucaoWindows":  "2026-11-26T12:50:50",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-26T12:20:01",
+                                                 "end":  "2026-11-26T12:50:00",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  1799,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-26T09:50:01",
                                                  "end":  "2026-11-26T11:50:00",
