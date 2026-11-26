@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-26T08:44:09-03:00",
+    "geradoEm":  "2026-11-26T09:00:52-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -8112,8 +8112,8 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 08:50",
-                           "proximaExecucao":  "2026-11-26T08:50:50",
-                           "ultimaExecucaoWindows":  "2026-11-26T08:42:42",
+                           "proximaExecucao":  "2026-11-26T09:20:20",
+                           "ultimaExecucaoWindows":  "2026-11-26T08:50:50",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -8122,9 +8122,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-11-26T08:43:18",
-                                                 "end":  "2026-11-26T08:43:18",
+                                                 "end":  "2026-11-26T08:50:00",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  0,
+                                                 "duracaoSeg":  402,
                                                  "urls":  [
 
                                                           ]
@@ -14331,8 +14331,8 @@
                                           ],
                            "descricao":  "Relatorio mensal do tempo de reuniao-\u003efechamento e fechamento-\u003epagamento por vendedor (Julia, Felipe, Lindsey). Roda diariamente 09:00 mas so executa de verdade no 5o dia util do mes, gerando o relatorio do mes anterior. Publica Doc em Drive \u003e Gestao \u003e Relatorios semanais \u003e Comercial.",
                            "agendamento":  "Diariamente as 09:00",
-                           "proximaExecucao":  "2026-11-26T09:00:00",
-                           "ultimaExecucaoWindows":  "2026-11-25T09:00:00",
+                           "proximaExecucao":  "2026-11-27T09:00:00",
+                           "ultimaExecucaoWindows":  "2026-11-26T09:00:00",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
