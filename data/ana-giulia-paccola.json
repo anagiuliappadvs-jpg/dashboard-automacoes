@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-27T16:00:21-03:00",
+    "geradoEm":  "2026-11-27T17:00:22-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -8190,8 +8190,8 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 08:50",
-                           "proximaExecucao":  "2026-11-27T16:20:20",
-                           "ultimaExecucaoWindows":  "2026-11-27T15:50:50",
+                           "proximaExecucao":  "2026-11-27T17:20:20",
+                           "ultimaExecucaoWindows":  "2026-11-27T16:50:50",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
@@ -8200,9 +8200,9 @@
                            "historico":  [
                                              {
                                                  "start":  "2026-11-27T14:50:01",
-                                                 "end":  "2026-11-27T15:50:00",
+                                                 "end":  "2026-11-27T16:50:00",
                                                  "status":  "OK",
-                                                 "duracaoSeg":  3599,
+                                                 "duracaoSeg":  7199,
                                                  "urls":  [
 
                                                           ]
@@ -14552,10 +14552,10 @@
                                           ],
                            "descricao":  "Gera o Relatorio Diario de Leads (Kommo), envia para a pasta SDR do Drive e atualiza o dashboard. Diario 17h BRT.",
                            "agendamento":  "Diariamente as 17:00",
-                           "proximaExecucao":  "2026-11-27T17:00:00",
-                           "ultimaExecucaoWindows":  "2026-11-26T17:00:00",
-                           "ultimoResultadoCodigo":  0,
-                           "ultimoResultadoTexto":  "Sucesso",
+                           "proximaExecucao":  "2026-11-28T17:00:00",
+                           "ultimaExecucaoWindows":  "2026-11-27T17:00:00",
+                           "ultimoResultadoCodigo":  267009,
+                           "ultimoResultadoTexto":  "Em execucao",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
