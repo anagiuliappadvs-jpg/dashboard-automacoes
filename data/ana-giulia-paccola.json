@@ -2,7 +2,7 @@
     "pcId":  "ana-giulia-paccola",
     "pessoa":  "Ana Giulia Paccola",
     "sistemaOperacional":  "Windows",
-    "geradoEm":  "2026-11-27T21:00:20-03:00",
+    "geradoEm":  "2026-11-28T08:43:02-03:00",
     "automacoes":  [
                        {
                            "nome":  "Apresentação Semanal para as Sócias",
@@ -6920,14 +6920,23 @@
                                           ],
                            "descricao":  "Recuperacao automatica do Relatorio Diario SDR: toda manha (08:40) confere os ultimos dias uteis e recria/sobe qualquer relatorio das 17h que tenha falhado (rede, upload, etc.). Pula fins de semana. Ver guardiao_sdr.py.",
                            "agendamento":  "Diariamente as 08:40",
-                           "proximaExecucao":  "2026-11-28T08:40:40",
-                           "ultimaExecucaoWindows":  "2026-11-27T08:40:40",
+                           "proximaExecucao":  "2026-11-29T08:40:40",
+                           "ultimaExecucaoWindows":  "2026-11-28T08:40:40",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-28T08:40:11",
+                                                 "end":  "2026-11-28T08:40:11",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-27T08:40:02",
                                                  "end":  "2026-11-27T08:40:02",
@@ -8190,14 +8199,23 @@
                                           ],
                            "descricao":  "Rede de segurança do KPI: a cada 2 horas confere se a atualização de segunda deu certo. Se deu, não faz nada. Se não deu (internet fora, PC desligado, execução interrompida), dispara a atualização sozinho.",
                            "agendamento":  "Uma vez em 08:50",
-                           "proximaExecucao":  "2026-11-27T21:20:20",
-                           "ultimaExecucaoWindows":  "2026-11-27T20:50:50",
+                           "proximaExecucao":  "2026-11-28T08:50:50",
+                           "ultimaExecucaoWindows":  "2026-11-28T08:42:42",
                            "ultimoResultadoCodigo":  0,
                            "ultimoResultadoTexto":  "Sucesso",
                            "runsPerdidos":  0,
                            "diasIntervalo":  1,
                            "tipo":  "Agendada",
                            "historico":  [
+                                             {
+                                                 "start":  "2026-11-28T08:42:32",
+                                                 "end":  "2026-11-28T08:42:32",
+                                                 "status":  "OK",
+                                                 "duracaoSeg":  0,
+                                                 "urls":  [
+
+                                                          ]
+                                             },
                                              {
                                                  "start":  "2026-11-27T14:50:01",
                                                  "end":  "2026-11-27T20:50:00",
